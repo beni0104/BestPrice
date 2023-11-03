@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparam</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+        <style>
+        /* Custom CSS to adjust image size */
+        .navbar-img {
+            width: 40px; /* Adjust the width to your preference */
+            height: 40px; /* Adjust the height to your preference */
+            border-radius: 50%; /* Makes the image circular */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark p-3 navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BestPrice</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li> 
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Categories</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Phones.html">Phones</a></li>
+                  <li><a class="dropdown-item" href="Laptops.html">Laptops</a></li>
+                  <li><a class="dropdown-item" href="PCs.html">PCs</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex ml-auto">
+            <input class="form-control me-2" type="text" placeholder="What are you looking for?">
+            <button class="btn btn-primary" type="button">Search</button>
+        </form>
+
+        <ul class="navbar-nav ml-auto ms-4">
+            <li class="nav-item">
+              <a href="login.html"><img src="Pictures\PozaUser.jpg" alt="User" class="navbar-img"></a>
+            </li>
+        </ul>
+        </div>
+      </nav>
+
+    <div class = "row ms-4">
+
+        <div class = "col">
+            <h2 class = "pt-5">Bored of buying overpriced items?</h2>
+        </div>
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide col pt-5" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+        
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="C:\Users\rober\Desktop\ProiectTW\FirstTry\Pictures\PozaLaptop.jpg" alt="Los Angeles" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\rober\Desktop\ProiectTW\FirstTry\Pictures\PozaPC.jpg" alt="Chicago" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\rober\Desktop\ProiectTW\FirstTry\Pictures\PozaTelefon.jpg" alt="New York" class="d-block w-100">
+            </div>
+            </div>
+        
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <div class = "col">
+            <h2 class = "pt-5">Get the best prices now!</h2>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-3 pt-5 ms-4">
+        <h3>Lorem ipsum</h3>
+        <p>Donec sed tincidunt metus. Donec dignissim dolor metus, vel vulputate arcu auctor at. Nulla mattis tellus non nisl accumsan vestibulum. Vivamus sit amet nulla a orci ultrices consequat. Mauris at rhoncus odio. Sed pulvinar tempor elit blandit vulputate. Ut volutpat tortor in venenatis auctor. Suspendisse potenti.</p>
+      </div>
+
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter fa-stack-1x"></i
+            ></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+    <script src="js/bootstrap.bundle.js">   </script>
+</body>
+
+</html>
