@@ -1,0 +1,79 @@
+2023-11-12 15:18:53 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2023-11-12 15:18:53 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2023-11-12 15:18:53 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2023-11-12 15:18:53 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2023-11-12 15:19:00 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/apple.html> (referer: None)
+2023-11-12 15:19:00 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/apple/?modelType=Telefoane> (referer: None)
+2023-11-12 15:19:00 [scrapy] DEBUG: Forbidden by robots.txt: <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/apple/p/2.html>
+2023-11-12 15:19:01 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/> (referer: None)
+2023-11-12 15:19:01 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Black', 'price': '4.634', 'link': 'https://altex.ro/telefon-apple-iphone-15-5g-128gb-black/cpd/SMTIP151BK/'}
+2023-11-12 15:19:01 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Blue', 'price': '4.634', 'link': 'https://altex.ro/telefon-apple-iphone-15-5g-128gb-blue/cpd/SMTIP151BL/'}
+2023-11-12 15:19:01 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Pink', 'price': '4.689', 'link': 'https://altex.ro/telefon-apple-iphone-15-5g-128gb-pink/cpd/SMTIP151PK/'}
+2023-11-12 15:19:01 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Black', 'price': '5.349', 'link': 'https://altex.ro/telefon-apple-iphone-15-5g-256gb-black/cpd/SMTIP152BK/'}
+2023-11-12 15:19:01 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Pink', 'price': '5.349', 'link': 'https://altex.ro/telefon-apple-iphone-15-5g-256gb-pink/cpd/SMTIP152PK/'}
+2023-11-12 15:19:01 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Blue', 'price': '5.349', 'link': 'https://altex.ro/telefon-apple-iphone-15-5g-256gb-blue/cpd/SMTIP152BL/'}
+2023-11-12 15:19:01 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Green', 'price': '5.349', 'link': 'https://altex.ro/telefon-apple-iphone-15-5g-256gb-green/cpd/SMTIP152GR/'}
+2023-11-12 15:19:01 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Green', 'price': '4.699', 'link': 'https://altex.ro/telefon-apple-iphone-15-5g-128gb-green/cpd/SMTIP151GR/'}
+2023-11-12 15:19:01 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Yellow', 'price': '5.349', 'link': 'https://altex.ro/telefon-apple-iphone-15-5g-256gb-yellow/cpd/SMTIP152YL/'}
+2023-11-12 15:19:01 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Yellow', 'price': '4.689', 'link': 'https://altex.ro/telefon-apple-iphone-15-5g-128gb-yellow/cpd/SMTIP151YL/'}
+2023-11-12 15:19:03 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/> (referer: None)
+2023-11-12 15:19:03 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Black', 'price': '4.634', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-5g-128gb-black/cpd/SMTIP151BK/'}
+2023-11-12 15:19:03 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Pink', 'price': '4.689', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-5g-128gb-pink/cpd/SMTIP151PK/'}
+2023-11-12 15:19:03 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Blue', 'price': '4.634', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-5g-128gb-blue/cpd/SMTIP151BL/'}
+2023-11-12 15:19:03 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Black', 'price': '5.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-5g-256gb-black/cpd/SMTIP152BK/'}
+2023-11-12 15:19:03 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Green', 'price': '4.699', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-5g-128gb-green/cpd/SMTIP151GR/'}
+2023-11-12 15:19:03 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Green', 'price': '5.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-5g-256gb-green/cpd/SMTIP152GR/'}
+2023-11-12 15:19:03 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Yellow', 'price': '5.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-5g-256gb-yellow/cpd/SMTIP152YL/'}
+2023-11-12 15:19:03 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Pink', 'price': '5.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-5g-256gb-pink/cpd/SMTIP152PK/'}
+2023-11-12 15:19:03 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Blue', 'price': '5.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-5g-256gb-blue/cpd/SMTIP152BL/'}
+2023-11-12 15:19:03 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/model-8071/iphone-15/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Yellow', 'price': '4.689', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-5g-128gb-yellow/cpd/SMTIP151YL/'}
+2023-11-12 15:19:03 [scrapy] INFO: Closing spider (finished)
+2023-11-12 15:19:03 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/scrapy.exceptions.IgnoreRequest': 1,
+ 'downloader/request_bytes': 1978,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 393776,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 8,
+ 'elapsed_time_seconds': 9.585966,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 11, 12, 13, 19, 3, 183299, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 3095289,
+ 'httpcompression/response_count': 7,
+ 'item_scraped_count': 20,
+ 'log_count/DEBUG': 29,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 8,
+ 'robotstxt/forbidden': 1,
+ 'robotstxt/request_count': 4,
+ 'robotstxt/response_count': 4,
+ 'robotstxt/response_status_count/200': 4,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2023, 11, 12, 13, 18, 53, 597333, tzinfo=datetime.timezone.utc)}
+2023-11-12 15:19:03 [scrapy] INFO: Spider closed (finished)
