@@ -1,0 +1,287 @@
+2023-11-08 19:42:03 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2023-11-08 19:42:11 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/> (referer: None)
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Midnight', 'price': '3.949', 'link': '/telefon-apple-iphone-14-5g-128gb-midnight/cpd/SMTIP141MN/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Black', 'price': '4.634', 'link': '/telefon-apple-iphone-15-5g-128gb-black/cpd/SMTIP151BK/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 128GB, Space Black', 'price': '5.399', 'link': '/telefon-apple-iphone-14-pro-5g-128gb-space-black/cpd/SMTIP14PR1BK/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 13 5G, 128GB, Midnight', 'price': '3.599', 'link': '/telefon-apple-iphone-13-5g-128gb-midnight/cpd/SMTIP131MN/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 11, 128GB, Black ', 'price': '2.599', 'link': '/telefon-apple-iphone-11-128gb-black/cpd/SMTMWM02RMA/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Starlight', 'price': '3.949', 'link': '/telefon-apple-iphone-14-5g-128gb-starlight/cpd/SMTIP141ST/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 128GB, Deep Purple', 'price': '5.299', 'link': '/telefon-apple-iphone-14-pro-5g-128gb-deep-purple/cpd/SMTIP14PR1PP/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 13 5G, 128GB, Green', 'price': '3.499', 'link': '/telefon-apple-iphone-13-5g-128gb-green/cpd/SMTIP131AG/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Blue', 'price': '4.634', 'link': '/telefon-apple-iphone-15-5g-128gb-blue/cpd/SMTIP151BL/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Purple', 'price': '3.949', 'link': '/telefon-apple-iphone-14-5g-128gb-purple/cpd/SMTIP141PP/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 11, 64GB, Black ', 'price': '2.389', 'link': '/telefon-apple-iphone-11-64gb-black/cpd/SMTMWLT2RMA/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Blue', 'price': '3.949', 'link': '/telefon-apple-iphone-14-5g-128gb-blue/cpd/SMTIP141BL/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Pink', 'price': '4.689', 'link': '/telefon-apple-iphone-15-5g-128gb-pink/cpd/SMTIP151PK/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 11, 128GB, White ', 'price': '2.599', 'link': '/telefon-apple-iphone-11-128gb-white/cpd/SMTMWM22RMA/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 13 5G, 128GB, Blue', 'price': '3.599', 'link': '/telefon-apple-iphone-13-5g-128gb-blue/cpd/SMTIP131BL/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 12 5G, 128GB, Black', 'price': '3.399', 'link': None}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 11, 64GB, White ', 'price': '2.399', 'link': '/telefon-apple-iphone-11-64gb-white/cpd/SMTMWLU2RMA/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Midnight', 'price': '4.448', 'link': '/telefon-apple-iphone-14-plus-5g-128gb-midnight/cpd/SMTIP14P1MN/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Pro Max 5G, 512GB, Deep Purple', 'price': '7.199', 'link': '/telefon-apple-iphone-14-pro-max-5g-512gb-deep-purple/cpd/SMTIP14PM5PP/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 256GB, Space Black', 'price': '5.980', 'link': '/telefon-apple-iphone-14-pro-5g-256gb-space-black/cpd/SMTIP14PR2BK/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 128GB, Blue', 'price': '5.299', 'link': '/telefon-apple-iphone-15-plus-5g-128gb-blue/cpd/SMTIP15P1BL/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Purple', 'price': '4.499', 'link': '/telefon-apple-iphone-14-plus-5g-128gb-purple/cpd/SMTIP14P1PP/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 12 5G, 64GB, Black', 'price': '3.179', 'link': None}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Black', 'price': '5.349', 'link': '/telefon-apple-iphone-15-5g-256gb-black/cpd/SMTIP152BK/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB (PRODUCT) Red', 'price': '3.949', 'link': '/telefon-apple-iphone-14-5g-128gb-product-red/cpd/SMTIP141RD/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 128GB, Black', 'price': '5.449', 'link': '/telefon-apple-iphone-15-plus-5g-128gb-black/cpd/SMTIP15P1BK/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 128GB, Pink', 'price': '5.389', 'link': '/telefon-apple-iphone-15-plus-5g-128gb-pink/cpd/SMTIP15P1PK/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Pink', 'price': '5.349', 'link': '/telefon-apple-iphone-15-5g-256gb-pink/cpd/SMTIP152PK/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Midnight', 'price': '4.599', 'link': '/telefon-apple-iphone-14-5g-256gb-midnight/cpd/SMTIP142MN/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 13 5G, 128GB, (PRODUCT)RED', 'price': '3.599', 'link': '/telefon-apple-iphone-13-5g-128gb-productred/cpd/SMTIP131RD/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Blue', 'price': '4.579', 'link': '/telefon-apple-iphone-14-5g-256gb-blue/cpd/SMTIP142BL/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 256GB, Black', 'price': '6.099', 'link': '/telefon-apple-iphone-15-plus-5g-256gb-black/cpd/SMTIP15P2BK/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 256GB, Gold', 'price': '5.948', 'link': '/telefon-apple-iphone-14-pro-5g-256gb-gold/cpd/SMTIP14PR2GD/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 128GB, Green', 'price': '5.449', 'link': '/telefon-apple-iphone-15-plus-5g-128gb-green/cpd/SMTIP15P1GR/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Blue', 'price': '5.349', 'link': '/telefon-apple-iphone-15-5g-256gb-blue/cpd/SMTIP152BL/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Starlight', 'price': '4.599', 'link': '/telefon-apple-iphone-14-plus-5g-128gb-starlight/cpd/SMTIP14P1ST/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 13 5G, 256GB, Blue', 'price': '4.199', 'link': '/telefon-apple-iphone-13-5g-256gb-blue/cpd/SMTIP132BL/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 13 5G, 256GB, Midnight', 'price': '4.149', 'link': '/telefon-apple-iphone-13-5g-256gb-midnight/cpd/SMTIP132MN/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone SE 5G, 64GB, Midnight', 'price': '2.254', 'link': '/telefon-apple-iphone-se-5g-64gb-midnight/cpd/SMTIPSE36MN/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, Natural Titanium', 'price': '9.099', 'link': '/telefon-apple-iphone-15-pro-5g-1tb-natural-titanium/cpd/SMTIP15PR1TNT/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, White Titanium', 'price': '9.059', 'link': '/telefon-apple-iphone-15-pro-5g-1tb-white-titanium/cpd/SMTIP15PR1TWH/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 1TB, Silver', 'price': '7.699', 'link': '/telefon-apple-iphone-14-pro-5g-1tb-silver/cpd/SMTIP14PR1TSV/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Pro Max 5G, 512GB, Gold', 'price': '7.699', 'link': '/telefon-apple-iphone-14-pro-max-5g-512gb-gold/cpd/SMTIP14PM5GD/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 256GB, Silver', 'price': '6.750', 'link': None}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 256GB, Yellow', 'price': '6.099', 'link': '/telefon-apple-iphone-15-plus-5g-256gb-yellow/cpd/SMTIP15P2YL/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, (PRODUCT) Red', 'price': '5.299', 'link': '/telefon-apple-iphone-14-plus-5g-256gb-product-red/cpd/SMTIP14P2RD/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, Midnight', 'price': '5.299', 'link': '/telefon-apple-iphone-14-plus-5g-256gb-midnight/cpd/SMTIP14P2MN/'}
+2023-11-08 19:42:11 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, Yellow', 'price': '4.898', 'link': '/telefon-apple-iphone-14-plus-5g-256gb-yellow/cpd/SMTIP14P2YL/'}
+2023-11-08 19:42:12 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/)
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Green', 'price': '4.699', 'link': '/telefon-apple-iphone-15-5g-128gb-green/cpd/SMTIP151GR/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Blue', 'price': '4.599', 'link': '/telefon-apple-iphone-14-plus-5g-128gb-blue/cpd/SMTIP14P1BL/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, (PRODUCT) Red', 'price': '4.578', 'link': '/telefon-apple-iphone-14-5g-256gb-product-red/cpd/SMTIP142RD/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Purple', 'price': '4.549', 'link': '/telefon-apple-iphone-14-5g-256gb-purple/cpd/SMTIP142PP/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 1TB, Gold', 'price': '9.399', 'link': None}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, Blue Titanium', 'price': '9.099', 'link': '/telefon-apple-iphone-15-pro-5g-1tb-blue-titanium/cpd/SMTIP15PR1TBL/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 1TB, Space Black', 'price': '8.699', 'link': '/telefon-apple-iphone-14-pro-5g-1tb-space-black/cpd/SMTIP14PR1TBK/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Pro Max 5G, 512GB, Silver', 'price': '7.999', 'link': '/telefon-apple-iphone-14-pro-max-5g-512gb-silver/cpd/SMTIP14PM5SV/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 512GB, Silver', 'price': '7.599', 'link': None}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 512GB, Space Black', 'price': '7.199', 'link': '/telefon-apple-iphone-14-pro-5g-512gb-space-black/cpd/SMTIP14PR5BK/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 512GB, Gold', 'price': '7.199', 'link': '/telefon-apple-iphone-14-pro-5g-512gb-gold/cpd/SMTIP14PR5GD/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 512GB, Deep Purple', 'price': '7.199', 'link': '/telefon-apple-iphone-14-pro-5g-512gb-deep-purple/cpd/SMTIP14PR5PP/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB, Midnight', 'price': '6.779', 'link': None}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB, Blue', 'price': '6.250', 'link': None}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 256GB, Green', 'price': '6.099', 'link': '/telefon-apple-iphone-15-plus-5g-256gb-green/cpd/SMTIP15P2GR/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 256GB, Blue', 'price': '6.099', 'link': '/telefon-apple-iphone-15-plus-5g-256gb-blue/cpd/SMTIP15P2BL/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB, Purple', 'price': '5.999', 'link': '/telefon-apple-iphone-14-5g-512gb-purple/cpd/SMTIP145PP/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 128GB, Yellow', 'price': '5.439', 'link': '/telefon-apple-iphone-15-plus-5g-128gb-yellow/cpd/SMTIP15P1YL/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB (PRODUCT) Red', 'price': '5.388', 'link': '/telefon-apple-iphone-14-5g-512gb-product-red/cpd/SMTIP145RD/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Green', 'price': '5.349', 'link': '/telefon-apple-iphone-15-5g-256gb-green/cpd/SMTIP152GR/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Yellow', 'price': '5.349', 'link': '/telefon-apple-iphone-15-5g-256gb-yellow/cpd/SMTIP152YL/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, Blue', 'price': '5.299', 'link': '/telefon-apple-iphone-14-plus-5g-256gb-blue/cpd/SMTIP14P2BL/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, Purple', 'price': '5.289', 'link': '/telefon-apple-iphone-14-plus-5g-256gb-purple/cpd/SMTIP14P2PP/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, Starlight', 'price': '5.199', 'link': '/telefon-apple-iphone-14-plus-5g-256gb-starlight/cpd/SMTIP14P2ST/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Yellow', 'price': '4.864', 'link': '/telefon-apple-iphone-14-5g-256gb-yellow/cpd/SMTIP142YL/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Yellow', 'price': '4.699', 'link': '/telefon-apple-iphone-14-plus-5g-128gb-yellow/cpd/SMTIP14P1YL/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Yellow', 'price': '4.689', 'link': '/telefon-apple-iphone-15-5g-128gb-yellow/cpd/SMTIP151YL/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Starlight', 'price': '4.599', 'link': '/telefon-apple-iphone-14-5g-256gb-starlight/cpd/SMTIP142ST/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, (PRODUCT) Red', 'price': '4.499', 'link': '/telefon-apple-iphone-14-plus-5g-128gb-product-red/cpd/SMTIP14P1RD/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Yellow', 'price': '3.999', 'link': '/telefon-apple-iphone-14-5g-128gb-yellow/cpd/SMTIP141YL/'}
+2023-11-08 19:42:13 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 12 5G, 64GB, Blue', 'price': '3.179', 'link': None}
+2023-11-08 19:42:14 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/)
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Midnight', 'price': '3.949', 'link': '/telefon-apple-iphone-14-5g-128gb-midnight/cpd/SMTIP141MN/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Black', 'price': '4.634', 'link': '/telefon-apple-iphone-15-5g-128gb-black/cpd/SMTIP151BK/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 128GB, Space Black', 'price': '5.399', 'link': '/telefon-apple-iphone-14-pro-5g-128gb-space-black/cpd/SMTIP14PR1BK/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 13 5G, 128GB, Midnight', 'price': '3.599', 'link': '/telefon-apple-iphone-13-5g-128gb-midnight/cpd/SMTIP131MN/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 11, 128GB, Black ', 'price': '2.599', 'link': '/telefon-apple-iphone-11-128gb-black/cpd/SMTMWM02RMA/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Starlight', 'price': '3.949', 'link': '/telefon-apple-iphone-14-5g-128gb-starlight/cpd/SMTIP141ST/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 128GB, Deep Purple', 'price': '5.299', 'link': '/telefon-apple-iphone-14-pro-5g-128gb-deep-purple/cpd/SMTIP14PR1PP/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 13 5G, 128GB, Green', 'price': '3.499', 'link': '/telefon-apple-iphone-13-5g-128gb-green/cpd/SMTIP131AG/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Blue', 'price': '4.634', 'link': '/telefon-apple-iphone-15-5g-128gb-blue/cpd/SMTIP151BL/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Purple', 'price': '3.949', 'link': '/telefon-apple-iphone-14-5g-128gb-purple/cpd/SMTIP141PP/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 11, 64GB, Black ', 'price': '2.389', 'link': '/telefon-apple-iphone-11-64gb-black/cpd/SMTMWLT2RMA/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Blue', 'price': '3.949', 'link': '/telefon-apple-iphone-14-5g-128gb-blue/cpd/SMTIP141BL/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 5G, 128GB, Pink', 'price': '4.689', 'link': '/telefon-apple-iphone-15-5g-128gb-pink/cpd/SMTIP151PK/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 256GB, Deep Purple', 'price': '5.937', 'link': '/telefon-apple-iphone-14-pro-5g-256gb-deep-purple/cpd/SMTIP14PR2PP/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 11, 128GB, White ', 'price': '2.599', 'link': '/telefon-apple-iphone-11-128gb-white/cpd/SMTMWM22RMA/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 13 5G, 128GB, Blue', 'price': '3.599', 'link': '/telefon-apple-iphone-13-5g-128gb-blue/cpd/SMTIP131BL/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 12 5G, 128GB, Black', 'price': '3.399', 'link': None}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 11, 64GB, White ', 'price': '2.399', 'link': '/telefon-apple-iphone-11-64gb-white/cpd/SMTMWLU2RMA/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Midnight', 'price': '4.448', 'link': '/telefon-apple-iphone-14-plus-5g-128gb-midnight/cpd/SMTIP14P1MN/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Pro Max 5G, 512GB, Deep Purple', 'price': '7.199', 'link': '/telefon-apple-iphone-14-pro-max-5g-512gb-deep-purple/cpd/SMTIP14PM5PP/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 256GB, Space Black', 'price': '5.980', 'link': '/telefon-apple-iphone-14-pro-5g-256gb-space-black/cpd/SMTIP14PR2BK/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 128GB, Blue', 'price': '5.299', 'link': '/telefon-apple-iphone-15-plus-5g-128gb-blue/cpd/SMTIP15P1BL/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Purple', 'price': '4.499', 'link': '/telefon-apple-iphone-14-plus-5g-128gb-purple/cpd/SMTIP14P1PP/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 12 5G, 64GB, Black', 'price': '3.179', 'link': None}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Black', 'price': '5.349', 'link': '/telefon-apple-iphone-15-5g-256gb-black/cpd/SMTIP152BK/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB (PRODUCT) Red', 'price': '3.949', 'link': '/telefon-apple-iphone-14-5g-128gb-product-red/cpd/SMTIP141RD/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 128GB, Black', 'price': '5.449', 'link': '/telefon-apple-iphone-15-plus-5g-128gb-black/cpd/SMTIP15P1BK/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 128GB, Pink', 'price': '5.389', 'link': '/telefon-apple-iphone-15-plus-5g-128gb-pink/cpd/SMTIP15P1PK/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Pink', 'price': '5.349', 'link': '/telefon-apple-iphone-15-5g-256gb-pink/cpd/SMTIP152PK/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Midnight', 'price': '4.599', 'link': '/telefon-apple-iphone-14-5g-256gb-midnight/cpd/SMTIP142MN/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 13 5G, 128GB, (PRODUCT)RED', 'price': '3.599', 'link': '/telefon-apple-iphone-13-5g-128gb-productred/cpd/SMTIP131RD/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Blue', 'price': '4.579', 'link': '/telefon-apple-iphone-14-5g-256gb-blue/cpd/SMTIP142BL/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 256GB, Black', 'price': '6.099', 'link': '/telefon-apple-iphone-15-plus-5g-256gb-black/cpd/SMTIP15P2BK/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 256GB, Gold', 'price': '5.948', 'link': '/telefon-apple-iphone-14-pro-5g-256gb-gold/cpd/SMTIP14PR2GD/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 128GB, Green', 'price': '5.449', 'link': '/telefon-apple-iphone-15-plus-5g-128gb-green/cpd/SMTIP15P1GR/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 5G, 256GB, Blue', 'price': '5.349', 'link': '/telefon-apple-iphone-15-5g-256gb-blue/cpd/SMTIP152BL/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Starlight', 'price': '4.599', 'link': '/telefon-apple-iphone-14-plus-5g-128gb-starlight/cpd/SMTIP14P1ST/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 13 5G, 256GB, Blue', 'price': '4.199', 'link': '/telefon-apple-iphone-13-5g-256gb-blue/cpd/SMTIP132BL/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 13 5G, 256GB, Midnight', 'price': '4.149', 'link': '/telefon-apple-iphone-13-5g-256gb-midnight/cpd/SMTIP132MN/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone SE 5G, 64GB, Midnight', 'price': '2.254', 'link': '/telefon-apple-iphone-se-5g-64gb-midnight/cpd/SMTIPSE36MN/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, Natural Titanium', 'price': '9.099', 'link': '/telefon-apple-iphone-15-pro-5g-1tb-natural-titanium/cpd/SMTIP15PR1TNT/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, White Titanium', 'price': '9.059', 'link': '/telefon-apple-iphone-15-pro-5g-1tb-white-titanium/cpd/SMTIP15PR1TWH/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 1TB, Silver', 'price': '7.699', 'link': '/telefon-apple-iphone-14-pro-5g-1tb-silver/cpd/SMTIP14PR1TSV/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Pro Max 5G, 512GB, Gold', 'price': '7.699', 'link': '/telefon-apple-iphone-14-pro-max-5g-512gb-gold/cpd/SMTIP14PM5GD/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Pro 5G, 256GB, Silver', 'price': '6.750', 'link': None}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Plus 5G, 256GB, Yellow', 'price': '6.099', 'link': '/telefon-apple-iphone-15-plus-5g-256gb-yellow/cpd/SMTIP15P2YL/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, (PRODUCT) Red', 'price': '5.299', 'link': '/telefon-apple-iphone-14-plus-5g-256gb-product-red/cpd/SMTIP14P2RD/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, Midnight', 'price': '5.299', 'link': '/telefon-apple-iphone-14-plus-5g-256gb-midnight/cpd/SMTIP14P2MN/'}
+2023-11-08 19:42:14 [scrapy] DEBUG: Filtered duplicate request: <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2023-11-08 19:42:14 [scrapy] INFO: Closing spider (finished)
+2023-11-08 19:42:14 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2789,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 342452,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'dupefilter/filtered': 1,
+ 'elapsed_time_seconds': 10.924409,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 11, 8, 17, 42, 14, 794507, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 3340534,
+ 'httpcompression/response_count': 4,
+ 'item_scraped_count': 127,
+ 'log_count/DEBUG': 132,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 3,
+ 'response_received_count': 4,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2023, 11, 8, 17, 42, 3, 870098, tzinfo=datetime.timezone.utc)}
+2023-11-08 19:42:14 [scrapy] INFO: Spider closed (finished)
