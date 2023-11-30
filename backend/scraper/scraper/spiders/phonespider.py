@@ -11,24 +11,27 @@ class PhoneSpider(scrapy.Spider):
     }
 
     def start_requests(self):
-        # urls = [
-        #     f'https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/{self.brand}.html',
-        #     f'https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/{self.brand}/',
-        #     f'https://flip.ro/magazin/{self.brand}/?modelType=Telefoane',
-        #     f'https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/{self.brand}/model-8071/{self.model}/',
-        #     f'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/{self.brand}/'
-        # ]
-        #
-        # for url in urls:
-        #     if "altex.ro" in url:
-        #         yield scrapy.Request(url=url, callback=self.parse_altex)
-        #     elif "flanco.ro" in url:
-        #         yield scrapy.Request(url=url, callback=self.parse_flanco)
-        #     elif "flip.ro" in url:
-        #         yield scrapy.Request(url=url, callback=self.parse_flip)
-        #     elif "mediagalaxy.ro" in url:
-        #         yield scrapy.Request(url=url, callback=self.parse_mediagalaxy)
-        yield scrapy.Request(url=f'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/{self.brand}/', callback=self.parse_evomag)
+        urls = [
+            f'https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/{self.brand}.html',
+            f'https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/{self.brand}/model-8071/{self.model}/',
+            f'https://flip.ro/magazin/{self.brand}/?modelType=Telefoane',
+            f'https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/{self.brand}/model-8071/{self.model}/',
+            f'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/{self.brand}/'
+        ]
+
+        for url in urls:
+            if "altex.ro" in url:
+                yield scrapy.Request(url=url, callback=self.parse_altex)
+            elif "flanco.ro" in url:
+                yield scrapy.Request(url=url, callback=self.parse_flanco)
+            elif "flip.ro" in url:
+                yield scrapy.Request(url=url, callback=self.parse_flip)
+            elif "mediagalaxy.ro" in url:
+                yield scrapy.Request(url=url, callback=self.parse_mediagalaxy)
+            elif "evomag.ro" in url:
+                yield scrapy.Request(url=url, callback=self.parse_evomag)
+
+        #yield scrapy.Request(url=f'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/{self.brand}/', callback=self.parse_evomag)
 
     def parse_altex(self, response):
         found = False
@@ -88,24 +91,27 @@ class PhoneSpider(scrapy.Spider):
         model = self.model.replace("-", " ")
         brand = self.brand.capitalize()
 
-        for products in response.css("div.card-phone-new.position-relative.d-flex.flex-md-column"):
-            name = re.sub('\s{2,}', ' ', products.css("div.phone-title a::text").get())
+        for product in response.css("div.card-phone-new.position-relative.d-flex.flex-md-column"):
+            name = re.sub('\s{2,}', ' ', product.css("div.phone-title a::text").get())
             if model in name.lower():
                 yield {
                     "name": brand + name,
-                    "price": response.css("div.real-price.font-bold span::text").get(),
-                    "link": "https://flip.ro" + response.css("div.phone-cont a::attr(href)").get()
+                    "price": product.css("div.real-price.font-bold span::text").get(),
+                    "link": "https://flip.ro" + product.css("div.phone-cont a::attr(href)").get()
                 }
 
     def parse_evomag(self, response):
+        model = self.model.replace("-", " ")
 
         for product in response.css("div.nice_product_container"):
             link = product.css("div.npi_image a::attr(href)").get()
             title = product.css("div.npi_image a::attr(title)").get()
-            if self.model in link:
+            price = product.css("span.real_price::text").get()
+            if model in title.lower():
                 yield {
                     "title": title,
-                    "link": link
+                    "link": "https://www.evomag.ro" + link,
+                    "price": price
                 }
 
 
