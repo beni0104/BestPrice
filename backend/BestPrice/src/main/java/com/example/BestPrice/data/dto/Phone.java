@@ -6,6 +6,7 @@ import lombok.Data;
 public class Phone {
 
     private String name;
+    private String title;
     private String price;
     private String link;
 }

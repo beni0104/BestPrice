@@ -1,0 +1,190 @@
+2023-12-02 18:42:22 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2023-12-02 18:42:22 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2023-12-02 18:42:22 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2023-12-02 18:42:22 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2023-12-02 18:42:22 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2023-12-02 18:42:29 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/> (referer: None)
+2023-12-02 18:42:29 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Midnight', 'price': '3.899', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-midnight/cpd/SMTIP141MN/'}
+2023-12-02 18:42:29 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Starlight', 'price': '3.920', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-starlight/cpd/SMTIP141ST/'}
+2023-12-02 18:42:29 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Purple', 'price': '3.899', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-purple/cpd/SMTIP141PP/'}
+2023-12-02 18:42:29 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Blue', 'price': '3.949', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-blue/cpd/SMTIP141BL/'}
+2023-12-02 18:42:29 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Starlight', 'price': '4.599', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-256gb-starlight/cpd/SMTIP142ST/'}
+2023-12-02 18:42:29 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Midnight', 'price': '4.499', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-256gb-midnight/cpd/SMTIP142MN/'}
+2023-12-02 18:42:29 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Yellow', 'price': '4.599', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-256gb-yellow/cpd/SMTIP142YL/'}
+2023-12-02 18:42:29 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Blue', 'price': '4.579', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-256gb-blue/cpd/SMTIP142BL/'}
+2023-12-02 18:42:29 [scrapy] ERROR: Spider error processing <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\rober\Desktop\BestPrice - 30.11\BestPrice\backend\scraper\scraper\spiders\phonespider.py", line 123, in parse_mediagalaxy
+    "price": products.css(".Price-int::text")[1].get(),
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\parsel\selector.py", line 143, in __getitem__
+    o = super().__getitem__(pos)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+          ^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\Desktop\BestPrice - 30.11\BestPrice\backend\scraper\scraper\spiders\phonespider.py", line 130, in parse_mediagalaxy
+    "link": "https://mediagalaxy.ro" + products.css("a.title::attr(href)").get()
+            ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+2023-12-02 18:42:29 [scrapy] DEBUG: Crawled (803) <GET https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/iphone/> (referer: None)
+2023-12-02 18:42:30 [scrapy] INFO: Ignoring response <803 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/iphone/>: HTTP status code is not handled or not allowed
+2023-12-02 18:42:30 [scrapy] DEBUG: Redirecting (301) to <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre.html> from <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/iphone.html>
+2023-12-02 18:42:30 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/> (referer: None)
+2023-12-02 18:42:30 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/iphone/?modelType=Telefoane> (referer: None)
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Midnight', 'price': '3.899', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-midnight/cpd/SMTIP141MN/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Purple', 'price': '3.899', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-purple/cpd/SMTIP141PP/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Blue', 'price': '3.949', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-blue/cpd/SMTIP141BL/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Starlight', 'price': '3.920', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-starlight/cpd/SMTIP141ST/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB (PRODUCT) Red', 'price': '4.099', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-product-red/cpd/SMTIP141RD/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB, Purple', 'price': '5.999', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-512gb-purple/cpd/SMTIP145PP/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Starlight', 'price': '4.599', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-starlight/cpd/SMTIP142ST/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Blue', 'price': '4.579', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-blue/cpd/SMTIP142BL/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Purple', 'price': '4.549', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-purple/cpd/SMTIP142PP/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB, Midnight', 'price': '5.299', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-512gb-midnight/cpd/SMTIP145MN/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Yellow', 'price': '4.599', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-yellow/cpd/SMTIP142YL/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, (PRODUCT) Red', 'price': '4.579', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-product-red/cpd/SMTIP142RD/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Midnight', 'price': '4.499', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-midnight/cpd/SMTIP142MN/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB, Blue', 'price': '6.250', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-512gb-blue/cpd/SMTIP145BL/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB (PRODUCT) Red', 'price': '5.541', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-512gb-product-red/cpd/SMTIP145RD/'}
+2023-12-02 18:42:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/iphone/model-8071/iphone-14/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Yellow', 'price': '3.999', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-yellow/cpd/SMTIP141YL/'}
+2023-12-02 18:42:36 [scrapy] DEBUG: Redirecting (301) to <GET https://www.flanco.ro/telefoane-tablete/smartphone.html> from <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre.html>
+2023-12-02 18:42:41 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone.html> (referer: None)
+2023-12-02 18:42:47 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/2.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone.html)
+2023-12-02 18:42:48 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/2.html>
+{'name': 'Telefon mobil Apple iPhone 14 5G, 128GB, Midnight', 'price': '4.899,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-128gb-midnight.html'}
+2023-12-02 18:42:53 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/3.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone/p/2.html)
+2023-12-02 18:43:01 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/4.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone/p/3.html)
+2023-12-02 18:43:01 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/4.html>
+{'name': 'Telefon mobil Apple iPhone 14 5G, 128GB, Starlight', 'price': '4.899,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-128gb-starlight.html'}
+2023-12-02 18:43:07 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/5.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone/p/4.html)
+2023-12-02 18:43:07 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/5.html>
+{'name': 'Telefon mobil Apple iPhone 14 5G, 128GB, Blue', 'price': '4.899,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-128gb-blue.html'}
+2023-12-02 18:43:13 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/6.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone/p/5.html)
+2023-12-02 18:43:18 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/7.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone/p/6.html)
+2023-12-02 18:43:25 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/8.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone/p/7.html)
+2023-12-02 18:43:26 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/8.html>
+{'name': 'Telefon mobil Apple iPhone 14 Pro 5G, 512GB, Silver', 'price': '8.249,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-pro-5g-512gb-silver.html'}
+2023-12-02 18:43:32 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/9.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone/p/8.html)
+2023-12-02 18:43:32 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/9.html>
+{'name': 'Telefon mobil Apple iPhone 14 5G, 128GB, Purple', 'price': '4.899,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-128gb-purple.html'}
+2023-12-02 18:43:32 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/9.html>
+{'name': 'Telefon mobil Apple iPhone 14 Pro Max 5G, 128GB, Space Black', 'price': '7.099,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-pro-max-5g-128gb-space-black.html'}
+2023-12-02 18:43:39 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/10.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone/p/9.html)
+2023-12-02 18:43:39 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/10.html>
+{'name': 'Telefon mobil Apple iPhone 14 Plus 5G, 128GB, Starlight', 'price': '5.599,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-plus-5g-128gb-starlight.html'}
+2023-12-02 18:43:39 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/10.html>
+{'name': 'Telefon mobil Apple iPhone 14 5G, 128GB, Product Red', 'price': '4.099,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-128gb-product-red.html'}
+2023-12-02 18:43:39 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/10.html>
+{'name': 'Telefon mobil Apple iPhone 14 5G, 256GB, Starlight', 'price': '5.599,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-256gb-starlight.html'}
+2023-12-02 18:43:39 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/10.html>
+{'name': 'Telefon mobil Apple iPhone 14 5G, 128GB, Yellow', 'price': '3.979,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-128gb-yellow.html'}
+2023-12-02 18:43:48 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/11.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone/p/10.html)
+2023-12-02 18:43:53 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/12.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone/p/11.html)
+2023-12-02 18:43:53 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/12.html>
+{'name': 'Telefon mobil Apple iPhone 14 5G, 512GB, Starlight', 'price': '6.799,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-512gb-starlight.html'}
+2023-12-02 18:43:53 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/12.html>
+{'name': 'Telefon mobil Apple iPhone 14 Plus 5G, 128GB, Purple', 'price': '5.599,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-plus-5g-128gb-purple.html'}
+2023-12-02 18:43:53 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/12.html>
+{'name': 'Telefon mobil Apple iPhone 14 Plus 5G, 512GB, Midnight', 'price': '7.549,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-plus-5g-512gb-midnight.html'}
+2023-12-02 18:43:53 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/12.html>
+{'name': 'Telefon mobil Apple iPhone 14 Plus 5G, 512GB, Purple', 'price': '7.549,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-plus-5g-512gb-purple.html'}
+2023-12-02 18:43:53 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/12.html>
+{'name': 'Telefon mobil Apple iPhone 14 Pro 5G, 128GB, Silver', 'price': '6.349,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-pro-5g-128gb-silver.html'}
+2023-12-02 18:43:53 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/12.html>
+{'name': 'Telefon mobil Apple iPhone 14 Pro 5G, 128GB, Gold', 'price': '6.339,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-pro-5g-128gb-gold.html'}
+2023-12-02 18:43:53 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/p/12.html>
+{'name': 'Telefon mobil Apple iPhone 14 Pro 5G, 1TB, Deep Purple', 'price': '9.549,', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-pro-5g-1tb-deep-purple.html'}
+2023-12-02 18:43:57 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/13.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone/p/12.html)
+2023-12-02 18:44:03 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/p/14.html> (referer: https://www.flanco.ro/telefoane-tablete/smartphone/p/13.html)
+2023-12-02 18:44:04 [scrapy] INFO: Closing spider (finished)
+2023-12-02 18:44:04 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 7864,
+ 'downloader/request_count': 25,
+ 'downloader/request_method_count/GET': 25,
+ 'downloader/response_bytes': 1356092,
+ 'downloader/response_count': 25,
+ 'downloader/response_status_count/200': 22,
+ 'downloader/response_status_count/301': 2,
+ 'downloader/response_status_count/803': 1,
+ 'elapsed_time_seconds': 101.357157,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 12, 2, 16, 44, 4, 64217, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 14970915,
+ 'httpcompression/response_count': 21,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/803': 1,
+ 'item_scraped_count': 41,
+ 'log_count/DEBUG': 186,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 22,
+ 'log_count/WARNING': 2,
+ 'request_depth_max': 13,
+ 'response_received_count': 23,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 20,
+ 'scheduler/dequeued/memory': 20,
+ 'scheduler/enqueued': 20,
+ 'scheduler/enqueued/memory': 20,
+ 'spider_exceptions/TypeError': 1,
+ 'start_time': datetime.datetime(2023, 12, 2, 16, 42, 22, 707060, tzinfo=datetime.timezone.utc)}
+2023-12-02 18:44:04 [scrapy] INFO: Spider closed (finished)
