@@ -254,21 +254,30 @@
                     link.href = item.link;
                     link.classList.add('btn', 'btn-primary');
                     link.textContent = 'Go to Website!';
+                    link.style.margin = "auto";
+                    link.target = "_blank";
 
                     var cardImage = document.createElement('img');
                     cardImage.classList.add('img-fluid');
+                    cardImage.src = item.photo;
+
+                    var cardStoreImage = document.createElement('img');
+                    cardStoreImage.style.margin = "50px";
+                    cardStoreImage.style.height = "50px"
+                    cardStoreImage.style.width = "auto";
+                    
 
                     // Check if the link contains "mediagalaxy" or "altex" and set the image source accordingly
                     if (item.link.includes('mediagalaxy')) {
-                        cardImage.src = 'Pictures/mediagalaxy.png'; // Replace with the actual path to your image
+                      cardStoreImage.src = 'Pictures/mediagalaxy.png'; // Replace with the actual path to your image
                     } else if (item.link.includes('altex')) {
-                        cardImage.src = 'Pictures/altex.png'; // Replace with the actual path to your image
+                      cardStoreImage.src = 'Pictures/altex.png'; // Replace with the actual path to your image 
                     } else if (item.link.includes('evomag')) {
-                        cardImage.src = 'Pictures/evomag.png';
+                      cardStoreImage.src = 'Pictures/evomag.png';
                     } else if (item.link.includes('flip')) {
-                        cardImage.src = 'Pictures/flip.png';
+                      cardStoreImage.src = 'Pictures/flip.png';
                     } else if (item.link.includes('flanco')) {
-                        cardImage.src = 'Pictures/flanco.png';
+                      cardStoreImage.src = 'Pictures/flanco.png';
                     }
 
                     colImg.appendChild(cardImage);
@@ -277,7 +286,12 @@
                     row.appendChild(colInfo);
                     cardBody.appendChild(title);
                     cardBody.appendChild(priceColor);
-                    cardBody.appendChild(link);
+                    var linkAndStoreImg = document.createElement('div');
+                    linkAndStoreImg.appendChild(link);
+                    linkAndStoreImg.appendChild(cardStoreImage);
+                    // cardBody.appendChild(link);
+                    // cardBody.appendChild(cardStoreImage);
+                    cardBody.appendChild(linkAndStoreImg);
                     card.appendChild(row);
                     cardDiv.appendChild(card);
                     container.appendChild(cardDiv);

@@ -9,4 +9,5 @@ public class Phone {
     private String title;
     private String price;
     private String link;
+    private String photo;
 }
