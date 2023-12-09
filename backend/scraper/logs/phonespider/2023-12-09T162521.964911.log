@@ -1,0 +1,60 @@
+2023-12-09 16:25:22 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2023-12-09 16:25:22 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2023-12-09 16:25:22 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2023-12-09 16:25:22 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2023-12-09 16:25:22 [scrapy] DEBUG: Crawled (803) <GET https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/> (referer: None)
+2023-12-09 16:25:22 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2023-12-09 16:25:22 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html> (referer: None)
+2023-12-09 16:25:22 [scrapy] INFO: Ignoring response <803 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/>: HTTP status code is not handled or not allowed
+2023-12-09 16:25:22 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html>
+{'name': 'Telefon mobil Huawei nova 10, 128 GB, 8 GB RAM, Starry Silver', 'price': '2.299', 'link': 'https://www.flanco.ro/telefon-mobil-huawei-nova-10-128-gb-8-gb-ram-starry-silver.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/h/u/huawei_nova10_51097eul_watermark_1.jpg'}
+2023-12-09 16:25:22 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html>
+{'name': 'Telefon mobil Huawei nova 10, 128 GB, 8 GB RAM, Starry Black', 'price': '2.299', 'link': 'https://www.flanco.ro/telefon-mobil-huawei-nova-10-128-gb-8-gb-ram-starry-black.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/n/o/nova_10_black_1.jpg'}
+2023-12-09 16:25:22 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html>
+{'name': 'Telefon mobil Huawei nova 10 SE, 128GB, 8GB RAM, Starry Black', 'price': '1.449', 'link': 'https://www.flanco.ro/telefon-mobil-huawei-nova-10-se-128gb-8gb-ram-starry-black.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/n/o/nova_10_se_starry_black_fata_spate.jpg'}
+2023-12-09 16:25:22 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html>
+{'name': 'Telefon mobil Huawei nova 10 Pro, 256 GB, 8 GB RAM, Starry Black', 'price': '2.799', 'link': 'https://www.flanco.ro/telefon-mobil-huawei-nova-10-pro-256-gb-8-gb-ram-starry-black.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/n/o/nova_10_pro_black.jpg'}
+2023-12-09 16:25:22 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html>
+{'name': 'Telefon mobil Huawei nova 10 SE, 128GB, 8GB RAM, Starry Silver', 'price': '1.499', 'link': 'https://www.flanco.ro/telefon-mobil-huawei-nova-10-se-128gb-8gb-ram-starry-silver.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/n/o/nova_10_se_starry_silver_fata_spate.jpg'}
+2023-12-09 16:25:22 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html>
+{'name': 'Telefon mobil Huawei nova 10 SE, 128GB, 8GB RAM, Mint Green', 'price': '1.449', 'link': 'https://www.flanco.ro/telefon-mobil-huawei-nova-10-se-128gb-8gb-ram-mint-green.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/n/o/nova_10_se_mintgreen_fata_spate.jpg'}
+2023-12-09 16:25:22 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/> (referer: None)
+2023-12-09 16:25:22 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/> (referer: None)
+2023-12-09 16:25:22 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/>
+{'name': 'Telefon HUAWEI nova 10 SE, 128GB, 8GB RAM, Dual SIM, Mint Green', 'price': '1.099', 'link': 'https://mediagalaxy.ro/telefon-huawei-nova-10-se-128gb-8gb-ram-dual-sim-mint-green/cpd/SMTNOVA10SEGR/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_huawei_nova_10_se_mint_green_01_dee2c55d.jpg'}
+2023-12-09 16:25:22 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/>
+{'name': 'Telefon HUAWEI nova 10 SE, 128GB, 8GB RAM, Dual SIM, Mint Green', 'price': '1.099', 'link': 'https://altex.ro/telefon-huawei-nova-10-se-128gb-8gb-ram-dual-sim-mint-green/cpd/SMTNOVA10SEGR/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_huawei_nova_10_se_mint_green_01_dee2c55d.jpg'}
+2023-12-09 16:25:23 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/huawei/?modelType=Telefoane> (referer: None)
+2023-12-09 16:25:23 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei Nova 10 SE Dual Sim, 128 GB, Starry Silver ', 'price': '999', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-nova-10-se-dual-sim-128gb-starry-silver/75267994/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/huawei_nova-10-se-dual-sim_starry-silver_sell_mip@_320.jpg'}
+2023-12-09 16:25:23 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei Nova 10 SE Dual Sim, 128 GB, Starry Black ', 'price': '999', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-nova-10-se-dual-sim-128gb-starry-black/75268000/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/huawei_nova-10-se-dual-sim_starry-black_sell_mip@_320.jpg'}
+2023-12-09 16:25:23 [scrapy] INFO: Closing spider (finished)
+2023-12-09 16:25:23 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2423,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 401888,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 9,
+ 'downloader/response_status_count/803': 1,
+ 'elapsed_time_seconds': 1.150115,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 12, 9, 14, 25, 23, 131334, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 2932109,
+ 'httpcompression/response_count': 8,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/803': 1,
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 20,
+ 'log_count/INFO': 8,
+ 'response_received_count': 10,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2023, 12, 9, 14, 25, 21, 981219, tzinfo=datetime.timezone.utc)}
+2023-12-09 16:25:23 [scrapy] INFO: Spider closed (finished)

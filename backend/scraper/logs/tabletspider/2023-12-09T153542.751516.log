@@ -1,0 +1,39 @@
+2023-12-09 15:35:42 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2023-12-09 15:35:42 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2023-12-09 15:35:42 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2023-12-09 15:35:42 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2023-12-09 15:35:42 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2023-12-09 15:35:42 [scrapy] DEBUG: Crawled (803) <GET https://www.evomag.ro/telefoane-tablete-accesorii-tablete-si-accesorii-tablete/nokia> (referer: None)
+2023-12-09 15:35:42 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/tablete-si-accesorii/tablete-android/filtre/brand/nokia.html> (referer: None)
+2023-12-09 15:35:42 [scrapy] INFO: Ignoring response <803 https://www.evomag.ro/telefoane-tablete-accesorii-tablete-si-accesorii-tablete/nokia>: HTTP status code is not handled or not allowed
+2023-12-09 15:35:43 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/nokia/> (referer: None)
+2023-12-09 15:35:43 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/nokia/> (referer: None)
+2023-12-09 15:35:43 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/nokia/?modelType=Tablete> (referer: None)
+2023-12-09 15:35:43 [scrapy] INFO: Closing spider (finished)
+2023-12-09 15:35:43 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2456,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 370067,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 9,
+ 'downloader/response_status_count/803': 1,
+ 'elapsed_time_seconds': 0.856204,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 12, 9, 13, 35, 43, 614732, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 2331533,
+ 'httpcompression/response_count': 8,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/803': 1,
+ 'log_count/DEBUG': 10,
+ 'log_count/INFO': 8,
+ 'response_received_count': 10,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2023, 12, 9, 13, 35, 42, 758528, tzinfo=datetime.timezone.utc)}
+2023-12-09 15:35:43 [scrapy] INFO: Spider closed (finished)

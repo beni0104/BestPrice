@@ -159,18 +159,19 @@
     var defaultManufacturer = 'defaultManufacturer'; // Change this to your actual default manufacturer
 
     // Construct the URL for the web scraper
-    var scraperUrl = 'http://localhost:8080/phone/';
+    var scraperUrl = 'http://localhost:8080/devices/phone/';
 
     var inputParts = userInput.split(' ');
 
     // Construct the URL for the web scraper
-    if (userInput.toLowerCase().includes('samsung')) {
-        scraperUrl += inputParts[0] + '/' + inputParts.slice(1).join('-');
-    } else if ((userInput.toLowerCase().includes('iphone'))) {
+    if ((userInput.toLowerCase().includes('iphone'))) {
         scraperUrl +=  'apple' + '/' + inputParts.join('-');
+    // } else if (userInput.toLowerCase().includes('iphone')) {
+    //   scraperUrl +=  'apple' + '/' + inputParts.join('-');
     } else {
-      document.getElementById('resultContainer').innerHTML = "<h2>We're sorry, Unfortunately we cannot search for the desired item. Please check the list from the left panel</h2>";
-      return;
+      scraperUrl += inputParts[0] + '/' + inputParts.slice(1).join('-');
+      // document.getElementById('resultContainer').innerHTML = "<h2>We're sorry, Unfortunately we cannot search for the desired item. Please check the list from the left panel</h2>";
+      // return;
     }
     console.log(scraperUrl);
 
@@ -197,7 +198,8 @@
             // Process the data returned by the web scraper
             console.log('Data received:', data);
 
-            data.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
+            //No need for sorting because backend sends it already sorted
+            //data.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
 
             // Create HTML elements dynamically for each item in the data
             var container = document.getElementById('resultContainer');

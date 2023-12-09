@@ -1,0 +1,69 @@
+2023-12-09 15:26:21 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2023-12-09 15:26:21 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2023-12-09 15:26:21 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2023-12-09 15:26:21 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/samsung.html> (referer: None)
+2023-12-09 15:26:21 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2023-12-09 15:26:21 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2023-12-09 15:26:21 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/samsung/> (referer: None)
+2023-12-09 15:26:21 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/samsung/>
+{'title': 'Telefon Mobil Samsung Galaxy S23 Ultra, Procesor Qualcomm SM8550 Snapdragon 8 Gen 2 Octa-Core, Dynamic AMOLED 2X 6.8, 8GB RAM, 256GB Flash, Camera Quad 200 + 10 + 10 + 12 MP, Wi-Fi, 5G, Dual SIM, Android (Negru)', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/samsung-telefon-mobil-samsung-galaxy-s23-ultra-procesor-qualcomm-sm8550-snapdragon-8-gen-2-octa-core-dynamic-amoled-2x-6.8-8gb-ram-256gb-flash-camera-quad-200-10-10-12-mp-wi-fi-5g-dual-sim-android-negru-4076498.html', 'price': '4.799,99 Lei', 'photo': 'https://static3.evomag.ro/img?file=products%2F4096%2F4096381%2Fcartela-sim-prepay-vodafone-646dd58bd0f50.JPG&width=90&extend=white'}
+2023-12-09 15:26:21 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/samsung/>
+{'title': 'Telefon Mobil Samsung Galaxy S23 Ultra, Procesor Qualcomm SM8550 Snapdragon 8 Gen 2 Octa-Core, Dynamic AMOLED 2X 6.8, 8GB RAM, 256GB Flash, Camera Quad 200 + 10 + 10 + 12 MP, Wi-Fi, 5G, Dual SIM, Android (Verde)', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/samsung-telefon-mobil-samsung-galaxy-s23-ultra-procesor-qualcomm-sm8550-snapdragon-8-gen-2-octa-core-dynamic-amoled-2x-6.8-8gb-ram-256gb-flash-camera-quad-200-10-10-12-mp-wi-fi-5g-dual-sim-android-verde-4076497.html', 'price': '4.999,99 Lei', 'photo': 'https://static3.evomag.ro/img?file=products%2F4096%2F4096381%2Fcartela-sim-prepay-vodafone-646dd58bd0f50.JPG&width=90&extend=white'}
+2023-12-09 15:26:22 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/model-8071/galaxy-s23-ultra/> (referer: None)
+2023-12-09 15:26:22 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/samsung/?modelType=Telefoane> (referer: None)
+2023-12-09 15:26:22 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/model-8071/galaxy-s23-ultra/>
+{'name': 'Telefon SAMSUNG Galaxy S23 Ultra 5G, 256GB, 8GB RAM, Dual SIM, Phantom Black', 'price': '5.099', 'link': 'https://mediagalaxy.ro/telefon-samsung-galaxy-s23-ultra-5g-256gb-8gb-ram-dual-sim-phantom-black/cpd/SMTS23U2BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_samsung_galaxy_s23_ultra_phantom_black_01_d653fc35.jpg'}
+2023-12-09 15:26:22 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/model-8071/galaxy-s23-ultra/>
+{'name': 'Telefon SAMSUNG Galaxy S23 Ultra 5G, 256GB, 8GB RAM, Dual SIM, Green', 'price': '5.179', 'link': 'https://mediagalaxy.ro/telefon-samsung-galaxy-s23-ultra-5g-256gb-8gb-ram-dual-sim-green/cpd/SMTS23U2GR/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_samsung_galaxy_s23_ultra_green_01_971ddec7.jpg'}
+2023-12-09 15:26:22 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/model-8071/galaxy-s23-ultra/>
+{'name': 'Telefon SAMSUNG Galaxy S23 Ultra 5G, 1TB, 12GB RAM, Dual SIM, Phantom Black', 'price': '7.099', 'link': 'https://mediagalaxy.ro/telefon-samsung-galaxy-s23-ultra-5g-1tb-12gb-ram-dual-sim-phantom-black/cpd/SMTS23U1TBBK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_samsung_galaxy_s23_ultra_phantom_black_01_d653fc35.jpg'}
+2023-12-09 15:26:22 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/model-8071/galaxy-s23-ultra/>
+{'name': 'Telefon SAMSUNG Galaxy S23 Ultra 5G, 512GB, 12GB RAM, Dual SIM, Phantom Black', 'price': '6.199', 'link': 'https://mediagalaxy.ro/telefon-samsung-galaxy-s23-ultra-5g-512gb-12gb-ram-dual-sim-phantom-black/cpd/SMTS23U5BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_samsung_galaxy_s23_ultra_phantom_black_01_d653fc35.jpg'}
+2023-12-09 15:26:23 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/> (referer: None)
+2023-12-09 15:26:23 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/>
+{'name': 'Telefon SAMSUNG Galaxy S23 Ultra 5G, 256GB, 8GB RAM, Dual SIM, Phantom Black', 'price': '6.949', 'link': 'https://altex.ro/telefon-samsung-galaxy-s23-ultra-5g-256gb-8gb-ram-dual-sim-phantom-black/cpd/SMTS23U2BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_samsung_galaxy_s23_ultra_phantom_black_01_d653fc35.jpg'}
+2023-12-09 15:26:23 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/>
+{'name': 'Telefon SAMSUNG Galaxy S23 Ultra 5G, 512GB, 12GB RAM, Dual SIM, Phantom Black', 'price': '7.799', 'link': 'https://altex.ro/telefon-samsung-galaxy-s23-ultra-5g-512gb-12gb-ram-dual-sim-phantom-black/cpd/SMTS23U5BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_samsung_galaxy_s23_ultra_phantom_black_01_d653fc35.jpg'}
+2023-12-09 15:26:23 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/>
+{'name': 'Telefon SAMSUNG Galaxy S23 Ultra 5G, 256GB, 8GB RAM, Dual SIM, Green', 'price': '6.949', 'link': 'https://altex.ro/telefon-samsung-galaxy-s23-ultra-5g-256gb-8gb-ram-dual-sim-green/cpd/SMTS23U2GR/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_samsung_galaxy_s23_ultra_green_01_971ddec7.jpg'}
+2023-12-09 15:26:23 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/>
+{'name': 'Telefon SAMSUNG Galaxy S23 Ultra 5G, 1TB, 12GB RAM, Dual SIM, Phantom Black', 'price': '8.999', 'link': 'https://altex.ro/telefon-samsung-galaxy-s23-ultra-5g-1tb-12gb-ram-dual-sim-phantom-black/cpd/SMTS23U1TBBK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_samsung_galaxy_s23_ultra_phantom_black_01_d653fc35.jpg'}
+2023-12-09 15:26:29 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/p/2/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/)
+2023-12-09 15:26:30 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/p/1/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/p/2/)
+2023-12-09 15:26:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/p/1/>
+{'name': 'Telefon SAMSUNG Galaxy S23 Ultra 5G, 256GB, 8GB RAM, Dual SIM, Phantom Black', 'price': '6.949', 'link': 'https://altex.ro/telefon-samsung-galaxy-s23-ultra-5g-256gb-8gb-ram-dual-sim-phantom-black/cpd/SMTS23U2BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_samsung_galaxy_s23_ultra_phantom_black_01_d653fc35.jpg'}
+2023-12-09 15:26:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/p/1/>
+{'name': 'Telefon SAMSUNG Galaxy S23 Ultra 5G, 512GB, 12GB RAM, Dual SIM, Phantom Black', 'price': '7.799', 'link': 'https://altex.ro/telefon-samsung-galaxy-s23-ultra-5g-512gb-12gb-ram-dual-sim-phantom-black/cpd/SMTS23U5BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_samsung_galaxy_s23_ultra_phantom_black_01_d653fc35.jpg'}
+2023-12-09 15:26:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/p/1/>
+{'name': 'Telefon SAMSUNG Galaxy S23 Ultra 5G, 256GB, 8GB RAM, Dual SIM, Green', 'price': '6.949', 'link': 'https://altex.ro/telefon-samsung-galaxy-s23-ultra-5g-256gb-8gb-ram-dual-sim-green/cpd/SMTS23U2GR/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_samsung_galaxy_s23_ultra_green_01_971ddec7.jpg'}
+2023-12-09 15:26:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/p/1/>
+{'name': 'Telefon SAMSUNG Galaxy S23 Ultra 5G, 1TB, 12GB RAM, Dual SIM, Phantom Black', 'price': '8.999', 'link': 'https://altex.ro/telefon-samsung-galaxy-s23-ultra-5g-1tb-12gb-ram-dual-sim-phantom-black/cpd/SMTS23U1TBBK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_samsung_galaxy_s23_ultra_phantom_black_01_d653fc35.jpg'}
+2023-12-09 15:26:30 [scrapy] DEBUG: Filtered duplicate request: <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/samsung/p/2/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2023-12-09 15:26:30 [scrapy] INFO: Closing spider (finished)
+2023-12-09 15:26:30 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4766,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 708670,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'dupefilter/filtered': 1,
+ 'elapsed_time_seconds': 9.537583,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 12, 9, 13, 26, 30, 946092, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 5968656,
+ 'httpcompression/response_count': 11,
+ 'item_scraped_count': 14,
+ 'log_count/DEBUG': 27,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 3,
+ 'response_received_count': 12,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2023, 12, 9, 13, 26, 21, 408509, tzinfo=datetime.timezone.utc)}
+2023-12-09 15:26:30 [scrapy] INFO: Spider closed (finished)

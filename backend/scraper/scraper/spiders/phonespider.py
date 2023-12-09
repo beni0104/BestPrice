@@ -4,7 +4,6 @@ import re
 
 class PhoneSpider(scrapy.Spider):
     name = 'phonespider'
-    allowed_domains = ['altex.ro', 'flanco.ro']
 
     # custom_settings = {
     #     'DOWNLOAD_DELAY': 5
@@ -13,9 +12,9 @@ class PhoneSpider(scrapy.Spider):
     def start_requests(self):
         urls = [
             f'https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/{self.brand}.html',
-            f'https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/{self.brand}/model-8071/{self.model}/',
+            f'https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/{self.brand}/',
             f'https://flip.ro/magazin/{self.brand}/?modelType=Telefoane',
-            f'https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/{self.brand}/model-8071/{self.model}/',
+            f'https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/{self.brand}/',
             f'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/{self.brand}/'
         ]
 
@@ -31,51 +30,48 @@ class PhoneSpider(scrapy.Spider):
             elif "evomag.ro" in url:
                 yield scrapy.Request(url=url, callback=self.parse_evomag)
 
-        # yield scrapy.Request(url=f'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/{self.brand}/', callback=self.parse_evomag)
-
     def parse_altex(self, response):
-        found = False
+        model = self.model.replace("-", " ").lower()
+
         for products in response.css("li.Products-item"):
             try:
                 name = products.css("span.Product-name::text").get()
-                price = products.css(".Price-int::text")[1].get()
-                link = products.css("a::attr(href)").get()
-                photo = products.css("div.Product-photoWrapper img::attr(src)").get()
-                if "s23" in name.lower():
-                    found = True
-                yield {
-                    "name": name,
-                    "price": price,
-                    "link": "https://altex.ro" + link,
-                    "photo": photo
-                }
+
+                if model in name.lower():
+
+                    yield {
+                        "name": name,
+                        "price": re.search("[0-9]*[.,]?[0-9]+",
+                                           products.css(".Price-int::text")[1].get())[0],
+                        "link": "https://altex.ro" + products.css("a::attr(href)").get(),
+                        "photo": products.css("div.Product-photoWrapper img::attr(src)").get()
+                    }
             except:
                 name = products.css("span.Product-name::text").get()
-                price = products.css(".Price-int::text").get()
-                link = products.css("a::attr(href)").get()
-                photo = products.css("div.Product-photoWrapper img::attr(src)").get()
-                yield {
-                    "name": name,
-                    "price": price,
-                    "link": "https://altex.ro" + link,
-                    "photo": photo
-                }
 
-        if not found:
-            try:
-                next_page = response.css(
-                    'a[class^="inline-block py-1 px-2 mx-0.5 sm:mx-1 text-sm border border-gray-1100 rounded-md '
-                    'items-center text-center bg-white"] ::attr(href)')[
-                    1].get()
-            except:
-                next_page = response.css(
-                    'a[class^="inline-block py-1 px-2 mx-0.5 sm:mx-1 text-sm border border-gray-1100 rounded-md '
-                    'items-center text-center bg-white"] ::attr(href)').get()
-            if next_page is not None:
-                yield response.follow(next_page, callback=self.parse_altex)
+                if model in name.lower():
+                    yield {
+                        "name": name,
+                        "price": re.search("[0-9]*[.,]?[0-9]+",
+                                           products.css(".Price-int::text")[0].get())[0],
+                        "link": "https://altex.ro" + products.css("a::attr(href)").get(),
+                        "photo": products.css("div.Product-photoWrapper img::attr(src)").get()
+                    }
+
+        try:
+            next_page = response.css(
+                'a[class^="inline-block py-1 px-2 mx-0.5 sm:mx-1 text-sm border border-gray-1100 rounded-md '
+                'items-center text-center bg-white"] ::attr(href)')[
+                1].get()
+        except:
+            next_page = response.css(
+                'a[class^="inline-block py-1 px-2 mx-0.5 sm:mx-1 text-sm border border-gray-1100 rounded-md '
+                'items-center text-center bg-white"] ::attr(href)').get()
+        if next_page is not None:
+            yield response.follow(next_page, callback=self.parse_altex)
 
     def parse_flanco(self, response):
-        model = self.model.replace("-", " ")
+        model = self.model.replace("-", " ").lower()
 
         for products in response.css("li.item.product"):
             name = products.css("a.product-item-link h2::text").get()
@@ -84,17 +80,19 @@ class PhoneSpider(scrapy.Spider):
                 photo = re.sub('.*http', 'http', products.css("a.product.photo.product-item-photo img::attr(src)").get())
                 yield {
                     "name": name,
-                    "price": products.css("span.special-price span.price::text").get(),
+                    "price": re.search("[0-9]*[.,]?[0-9]+",
+                                       products.css("span.special-price span.price::text").get())[0],
                     "link": products.css("a.product-item-link::attr(href)").get(),
                     "photo": photo
                 }
 
+    # Flanco forbids to acces other pages =(
         # next_page = response.css("li.item.pages-item-next a.action::attr(href)").get()
         # if next_page is not None:
         #     yield response.follow(next_page, callback=self.parse_flanco)
 
     def parse_flip(self, response):
-        model = self.model.replace("-", " ")
+        model = self.model.replace("-", " ").lower()
         brand = self.brand.capitalize()
 
         for product in response.css("div.card-phone-new.position-relative.d-flex.flex-md-column"):
@@ -102,43 +100,52 @@ class PhoneSpider(scrapy.Spider):
             if model in name.lower():
                 yield {
                     "name": brand + name,
-                    "price": product.css("div.real-price.font-bold span::text").get(),
+                    "price": re.search("[0-9]*[.,]?[0-9]+",
+                                       product.css("div.real-price.font-bold span::text").get())[0],
                     "link": "https://flip.ro" + product.css("div.phone-cont a::attr(href)").get(),
                     "photo": product.css("img::attr(src)").get()
                 }
 
     def parse_evomag(self, response):
-        model = self.model.replace("-", " ")
+        model = self.model.replace("-", " ").lower()
 
         for product in response.css("div.nice_product_container"):
-            link = product.css("div.npi_image a::attr(href)").get()
             title = product.css("div.npi_image a::attr(title)").get()
-            price = product.css("span.real_price::text").get()
-            photo = product.css("img::attr(src)").get()
+            photo = product.css(f"img[alt='{title}']::attr(src)").get()
+
             if model in title.lower():
                 yield {
-                    "title": title,
-                    "link": "https://www.evomag.ro" + link,
-                    "price": price,
+                    "title": title.replace(" (", ", ").replace(")", ""),
+                    "link": "https://www.evomag.ro" + product.css("div.npi_image a::attr(href)").get(),
+                    "price": re.search("[0-9]*[.,]?[0-9]+",
+                                       product.css("span.real_price::text").get())[0],
                     "photo": photo
                 }
 
     def parse_mediagalaxy(self, response):
+        model = self.model.replace("-", " ").lower()
+
         for products in response.css("li.Products-item"):
             try:
-                yield {
-                    "name": products.css("span.Product-name::text").get(),
-                    "price": products.css(".Price-int::text")[1].get(),
-                    "link": "https://mediagalaxy.ro" + products.css("a::attr(href)").get(),
-                    "photo": products.css("div.Product-photoWrapper img::attr(src)").get()
-                }
+                name = products.css("span.Product-name::text").get()
+                if model in name.lower():
+                    yield {
+                        "name": name,
+                        "price": re.search("[0-9]*[.,]?[0-9]+",
+                                           products.css(".Price-int::text")[1].get())[0],
+                        "link": "https://mediagalaxy.ro" + products.css("a::attr(href)").get(),
+                        "photo": products.css("div.Product-photoWrapper img::attr(src)").get()
+                    }
             except:
-                yield {
-                    "name": products.css("span.Product-name::text").get(),
-                    "price": products.css(".Price-int::text").get(),
-                    "link": "https://mediagalaxy.ro" + products.css("a::attr(href)").get(),
-                    "photo": products.css("div.Product-photoWrapper img::attr(src)").get()
-                }
+                name = products.css("span.Product-name::text").get()
+                if model in name.lower():
+                    yield {
+                        "name": name,
+                        "price": re.search("[0-9]*[.,]?[0-9]+",
+                                           products.css(".Price-int::text").get())[0],
+                        "link": "https://mediagalaxy.ro" + products.css("a::attr(href)").get(),
+                        "photo": products.css("div.Product-photoWrapper img::attr(src)").get()
+                    }
 
         try:
             next_page = response.css(

@@ -11,21 +11,25 @@ import org.springframework.web.bind.annotation.*;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 @RestController
 @CrossOrigin(origins = "http://192.168.0.147:5500/")
-@RequestMapping("/phone")
+@RequestMapping("/devices")
 public class PhoneController {
 
 
-    @GetMapping("/{brand}/{model}")
-    public List<Phone> getPhones(@PathVariable String brand, @PathVariable String model) {
+    @GetMapping("/{devicetype}/{brand}/{model}")
+    public List<Phone> getPhones(@PathVariable String devicetype, @PathVariable String brand, @PathVariable String model) {
 
         try {
-            URL url = new URL(String.format("http://localhost:9081/crawl.json?spider_name=phonespider&start_requests=true&crawl_args={\"brand\":\"%s\",\"model\":\"%s\"}", brand, model));
+            URL url = null;
+
+            if(Objects.equals(devicetype, "phone"))
+                url = new URL(String.format("http://localhost:9081/crawl.json?spider_name=phonespider&start_requests=true&crawl_args={\"brand\":\"%s\",\"model\":\"%s\"}", brand, model));
+            else if (Objects.equals(devicetype, "tablet")) {
+                url = new URL(String.format("http://localhost:9081/crawl.json?spider_name=tabletspider&start_requests=true&crawl_args={\"brand\":\"%s\",\"model\":\"%s\"}", brand, model));
+            }
 
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
@@ -63,6 +67,14 @@ public class PhoneController {
                     listPhones.add(mapper.readValue(phone.toJSONString(), new TypeReference<Phone>() {
                     }));
                 }
+
+                for(Phone p: listPhones)
+                    System.out.println(p.toString());
+
+                listPhones.sort((o1, o2) ->
+                        Float.valueOf(o1.getPrice().replace(".", ""))
+                        .compareTo(Float.valueOf(o2.getPrice().replace(".", ""))));
+
                 return listPhones;
             }
         } catch (Exception e) {
