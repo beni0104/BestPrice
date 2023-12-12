@@ -1,0 +1,48 @@
+2023-12-11 16:22:16 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2023-12-11 16:22:16 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2023-12-11 16:22:16 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2023-12-11 16:22:16 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2023-12-11 16:22:17 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2023-12-11 16:22:17 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/> (referer: None)
+2023-12-11 16:22:18 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/> (referer: None)
+2023-12-11 16:22:18 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/huawei/?modelType=Telefoane> (referer: None)
+2023-12-11 16:22:18 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei P30 Dual Sim, 128 GB, Aurora Blue ', 'price': '1.049', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-p30-dual-sim-128gb-aurora-blue/858/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/huawei_p30-dual-sim_aurora-blue_sell_mip@_320.jpg'}
+2023-12-11 16:22:18 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei P30 Dual Sim, 128 GB, Amber Sunrise ', 'price': '939', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-p30-dual-sim-128gb-amber-sunrise/859/?shape=Foarte%20bun', 'photo': 'https://cdn.flip.ro/device-images/huawei_p30-dual-sim_amber-sunrise_sell_mip@_320.jpg'}
+2023-12-11 16:22:18 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei P30 Dual Sim, 128 GB, Black ', 'price': '849', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-p30-dual-sim-128gb-black/861/?shape=Bun', 'photo': 'https://cdn.flip.ro/device-images/huawei_p30-dual-sim_black_sell_mip@_320.jpg'}
+2023-12-11 16:22:18 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei P30 Pro Dual Sim, 128 GB, Aurora Blue ', 'price': '1.029', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-p30-pro-dual-sim-128gb-aurora-blue/883/?shape=Foarte%20bun', 'photo': 'https://cdn.flip.ro/device-images/huawei_p30-pro-dual-sim_aurora-blue_sell_mip@_320.jpg'}
+2023-12-11 16:22:18 [scrapy] DEBUG: Crawled (803) <GET https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/> (referer: None)
+2023-12-11 16:22:18 [scrapy] INFO: Ignoring response <803 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/>: HTTP status code is not handled or not allowed
+2023-12-11 16:22:19 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html> (referer: None)
+2023-12-11 16:22:19 [scrapy] INFO: Closing spider (finished)
+2023-12-11 16:22:19 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2423,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 396324,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 9,
+ 'downloader/response_status_count/803': 1,
+ 'elapsed_time_seconds': 4.707538,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 12, 11, 14, 22, 19, 719228, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 2863923,
+ 'httpcompression/response_count': 8,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/803': 1,
+ 'item_scraped_count': 4,
+ 'log_count/DEBUG': 14,
+ 'log_count/INFO': 8,
+ 'response_received_count': 10,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2023, 12, 11, 14, 22, 15, 11690, tzinfo=datetime.timezone.utc)}
+2023-12-11 16:22:19 [scrapy] INFO: Spider closed (finished)

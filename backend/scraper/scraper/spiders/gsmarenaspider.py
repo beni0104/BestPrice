@@ -3,7 +3,7 @@ import scrapy
 
 class GSMArenaSpider(scrapy.Spider):
     name = "gsmarenaspider"
-    #allowed_domains = ['gsmarena.com']
+    # allowed_domains = ['gsmarena.com']
 
     custom_settings = {
         'DOWNLOAD_DELAY': 10
@@ -36,12 +36,13 @@ class GSMArenaSpider(scrapy.Spider):
     #         }
 
     def parse_find_model(self, response):
-        model = self.model.replace("-", "_")
+        model = self.model.replace("-", "_").lower()
         found = False
 
         for product in response.css("div.makers li"):
             link = product.css("a::attr(href)").get()
-            if model in link:
+            name = product.css(f"a[href='{link}'] span::text").get().lower()
+            if model == name:
                 found = True
                 yield response.follow(link, callback=self.parse_extract_data)
                 break
@@ -49,33 +50,23 @@ class GSMArenaSpider(scrapy.Spider):
         if not found:
             next_page = response.css("a[class='pages-next']::attr(href)").get()
             if next_page is not None:
-                yield response.follow(next_page, callback=self.parse_item)
+                yield response.follow(next_page, callback=self.parse_find_model)
 
     def parse_extract_data(self, response):
         yield {
+            "deviceName": response.css("h1[class='specs-phone-name-title']::text").get(),
             "released": response.css("td[data-spec='status']::text").get(),
-            "display": {
-                "type": response.css("td[data-spec='displaytype']::text").get(),
-                "size": response.css("td[data-spec='displaysize']::text").get(),
-                "resolution": response.css("td[data-spec='displayresolution']::text").get(),
-            },
-            "platform": {
-                "operating sistem": response.css("td[data-spec='os']::text").get(),
-                "chipset": response.css("td[data-spec='chipset']::text").get(),
-                "cpu": response.css("td[data-spec='cpu']::text").get(),
-                "gpu": response.css("td[data-spec='gpu']::text").get()
-            },
-            "camera": {
-                "front": ' '.join(response.css("td[data-spec='cam1modules']::text").extract()),
-                "back": response.css("td[data-spec='cam2modules']::text").get(),
-            },
-            "comms": {
-                "wlan": response.css("td[data-spec='wlan']::text").get(),
-                "bluetooth": response.css("td[data-spec='bluetooth']::text").get(),
-            },
+            "displayType": response.css("td[data-spec='displaytype']::text").get(),
+            "displaySize": response.css("td[data-spec='displaysize']::text").get(),
+            "displayResolution": response.css("td[data-spec='displayresolution']::text").get(),
+            "operatingSystem": response.css("td[data-spec='os']::text").get(),
+            "chipset": response.css("td[data-spec='chipset']::text").get(),
+            "cpu": response.css("td[data-spec='cpu']::text").get(),
+            "gpu": response.css("td[data-spec='gpu']::text").get(),
+            "frontCamera": ' '.join(response.css("td[data-spec='cam1modules']::text").extract()),
+            "backCamera": response.css("td[data-spec='cam2modules']::text").get(),
+            "wlan": response.css("td[data-spec='wlan']::text").get(),
+            "bluetooth": response.css("td[data-spec='bluetooth']::text").get(),
             "sensors": response.css("td[data-spec='sensors']::text").get(),
-            "battery": {
-                "type-and-capacity": response.css("td[data-spec='batdescription1']::text").get()
-            }
-
+            "battery": response.css("td[data-spec='batdescription1']::text").get()
         }

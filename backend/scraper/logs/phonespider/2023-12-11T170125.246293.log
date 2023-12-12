@@ -1,0 +1,52 @@
+2023-12-11 17:01:25 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2023-12-11 17:01:25 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2023-12-11 17:01:26 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2023-12-11 17:01:26 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2023-12-11 17:01:27 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/huawei/?modelType=Telefoane> (referer: None)
+2023-12-11 17:01:27 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei P30 Lite Dual Sim, 128 GB, Peacock Blue ', 'price': '659', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-p30-lite-dual-sim-128gb-peacock-blue/901/?shape=Bun', 'photo': 'https://cdn.flip.ro/device-images/huawei_p30-lite-dual-sim_peacock-blue_sell_mip@_320.jpg'}
+2023-12-11 17:01:27 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei P30 Dual Sim, 128 GB, Aurora Blue ', 'price': '1.049', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-p30-dual-sim-128gb-aurora-blue/858/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/huawei_p30-dual-sim_aurora-blue_sell_mip@_320.jpg'}
+2023-12-11 17:01:27 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei P30 Dual Sim, 128 GB, Amber Sunrise ', 'price': '939', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-p30-dual-sim-128gb-amber-sunrise/859/?shape=Foarte%20bun', 'photo': 'https://cdn.flip.ro/device-images/huawei_p30-dual-sim_amber-sunrise_sell_mip@_320.jpg'}
+2023-12-11 17:01:27 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei P30 Dual Sim, 128 GB, Breathing Crystal ', 'price': '849', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-p30-dual-sim-128gb-breathing-crystal/860/?shape=Bun', 'photo': 'https://cdn.flip.ro/device-images/huawei_p30-dual-sim_breathing-crystal_sell_mip@_320.jpg'}
+2023-12-11 17:01:27 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei P30 Dual Sim, 128 GB, Black ', 'price': '849', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-p30-dual-sim-128gb-black/861/?shape=Bun', 'photo': 'https://cdn.flip.ro/device-images/huawei_p30-dual-sim_black_sell_mip@_320.jpg'}
+2023-12-11 17:01:27 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei P30 Pro Dual Sim, 128 GB, Aurora Blue ', 'price': '1.029', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-p30-pro-dual-sim-128gb-aurora-blue/883/?shape=Foarte%20bun', 'photo': 'https://cdn.flip.ro/device-images/huawei_p30-pro-dual-sim_aurora-blue_sell_mip@_320.jpg'}
+2023-12-11 17:01:27 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2023-12-11 17:01:27 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/> (referer: None)
+2023-12-11 17:01:28 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html> (referer: None)
+2023-12-11 17:01:29 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/> (referer: None)
+2023-12-11 17:01:30 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/> (referer: None)
+2023-12-11 17:01:30 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/>
+{'title': 'Telefon mobil Huawei P30 Lite New Edition, Procesor Kirin 710 Octa-Core 2.2GHz/1.7GHz, IPS LCD Capacitiv touchscreen 6.15", 6GB RAM, 256GB Flash, Camera Tripla 48+8+2MP, 4G, Wi-Fi, Dual SIM, Android, Breathing Crystal', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei-telefon-mobil-huawei-p30-lite-new-edition-procesor-kirin-710-octa-core-2.2ghz-1.7ghz-ips-lcd-capacitiv-touchscreen-6.15-6gb-ram-256gb-flash-camera-tripla-48-8-2mp-4g-wi-fi-dual-sim-android-breathing-crystal-3801405.html', 'price': '1.165', 'photo': 'https://static3.evomag.ro/img?file=products%2F3801%2F3801405%2F16031790496901443359448+1.JPG&height=150&extend=white'}
+2023-12-11 17:01:30 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/>
+{'title': 'Telefon Mobil Huawei P30 Lite, Procesor Octa-Core Kirin 710, 2.2Ghz/1.7GHz, TFT LCD Capacitive touchscreen 6.15", 4GB RAM, 128GB Flash, Camera Tripla, Wi-Fi, 4G, Dual SIM, Android, Alb', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei-telefon-mobil-huawei-p30-lite-procesor-octa-core-kirin-710-2.2ghz-1.7ghz-tft-lcd-capacitive-touchscreen-6.15-4gb-ram-128gb-flash-camera-tripla-wi-fi-4g-dual-sim-android-alb-3684663.html', 'price': '1.043', 'photo': 'https://static3.evomag.ro/img?file=products%2F3684%2F3684663%2F1561362837alb.JPG&height=150&extend=white'}
+2023-12-11 17:01:30 [scrapy] INFO: Closing spider (finished)
+2023-12-11 17:01:30 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2423,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 452573,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'elapsed_time_seconds': 5.011051,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 12, 11, 15, 1, 30, 265344, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 3247349,
+ 'httpcompression/response_count': 9,
+ 'item_scraped_count': 8,
+ 'log_count/DEBUG': 18,
+ 'log_count/INFO': 7,
+ 'response_received_count': 10,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2023, 12, 11, 15, 1, 25, 254293, tzinfo=datetime.timezone.utc)}
+2023-12-11 17:01:30 [scrapy] INFO: Spider closed (finished)

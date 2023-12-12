@@ -1,0 +1,34 @@
+2023-12-11 16:40:33 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/robots.txt> (referer: None)
+2023-12-11 16:40:47 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/huawei-phones-58.php> (referer: None)
+2023-12-11 16:41:01 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/huawei-phones-f-58-0-p2.php> (referer: https://www.gsmarena.com/huawei-phones-58.php)
+2023-12-11 16:41:14 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/huawei-phones-f-58-0-p3.php> (referer: https://www.gsmarena.com/huawei-phones-f-58-0-p2.php)
+2023-12-11 16:41:24 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/huawei_p30_pro_new_edition-10219.php> (referer: https://www.gsmarena.com/huawei-phones-f-58-0-p3.php)
+2023-12-11 16:41:24 [scrapy] DEBUG: Scraped from <200 https://www.gsmarena.com/huawei_p30_pro_new_edition-10219.php>
+{'deviceName': 'Huawei P30 Pro New Edition', 'released': 'Available. Released 2020, June 01', 'displayType': 'OLED, HDR10', 'displaySize': '6.47 inches, 102.8 cm', 'displayResolution': '1080 x 2340 pixels, 19.5:9 ratio (~398 ppi density)', 'operatingSystem': 'Android 10, EMUI 10.1, Google Play Services', 'chipset': 'Kirin 980 (7 nm)', 'cpu': 'Octa-core (2x2.6 GHz Cortex-A76 & 2x1.92 GHz Cortex-A76 & 4x1.8 GHz Cortex-A55)', 'gpu': 'Mali-G76 MP10', 'frontCamera': '40 MP, f/1.6, 27mm (wide), 1/1.7", PDAF, OIS \r\n8 MP, f/3.4, 125mm (periscope telephoto), 1/4.0", PDAF, OIS, 5x optical zoom, 10x hybrid zoom \r\n20 MP, f/2.2, 16mm (ultrawide), 1/2.7", PDAF \r\nTOF 3D, (depth)', 'backCamera': '32 MP, f/2.0, 26mm (wide), 1/2.8", 0.8µm', 'wlan': 'Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct', 'bluetooth': '5.0, A2DP, aptX HD, LE', 'sensors': 'Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, color spectrum', 'battery': 'Li-Po 4200 mAh, non-removable'}
+2023-12-11 16:41:24 [scrapy] INFO: Closing spider (finished)
+2023-12-11 16:41:24 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1450,
+ 'downloader/request_count': 5,
+ 'downloader/request_method_count/GET': 5,
+ 'downloader/response_bytes': 45416,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/200': 5,
+ 'elapsed_time_seconds': 51.264575,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 12, 11, 14, 41, 24, 529504, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 150171,
+ 'httpcompression/response_count': 5,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 6,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 3,
+ 'response_received_count': 5,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2023, 12, 11, 14, 40, 33, 264929, tzinfo=datetime.timezone.utc)}
+2023-12-11 16:41:24 [scrapy] INFO: Spider closed (finished)

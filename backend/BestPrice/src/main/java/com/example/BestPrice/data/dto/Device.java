@@ -3,7 +3,7 @@ package com.example.BestPrice.data.dto;
 import lombok.Data;
 
 @Data
-public class Phone {
+public class Device {
 
     private String name;
     private String title;

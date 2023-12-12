@@ -1,0 +1,204 @@
+2023-12-11 16:19:26 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2023-12-11 16:19:26 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2023-12-11 16:19:26 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2023-12-11 16:19:27 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2023-12-11 16:19:27 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/apple/?modelType=Telefoane> (referer: None)
+2023-12-11 16:19:28 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2023-12-11 16:19:29 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/apple.html> (referer: None)
+2023-12-11 16:19:29 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/> (referer: None)
+2023-12-11 16:19:29 [scrapy] ERROR: Spider error processing <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/apple.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "D:\Facultate\Anul 3\Semestrul 1\TW\BestPrice\backend\scraper\scraper\spiders\phonespider.py", line 83, in parse_flanco
+    "price": re.search("[0-9]*[.,]?[0-9]+",
+  File "C:\Users\szekr\AppData\Local\Programs\Python\Python310\lib\re.py", line 200, in search
+    return _compile(pattern, flags).search(string)
+TypeError: expected string or bytes-like object
+2023-12-11 16:19:29 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 256GB, Natural Titanium', 'price': '7.199', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-max-5g-256gb-natural-titanium/cpd/SMTIP15PM2NT/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_natural_titanium_pdp_image_position_1_wwen_b40a535c.jpg'}
+2023-12-11 16:19:29 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 128GB, Natural Titanium', 'price': '5.949', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-128gb-natural-titanium/cpd/SMTIP15PR1NT/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:29 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 256GB, Natural Titanium', 'price': '6.599', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-256gb-natural-titanium/cpd/SMTIP15PR2NT/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:29 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 256GB, Black Titanium', 'price': '6.599', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-256gb-black-titanium/cpd/SMTIP15PR2BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_black_titanium_pdp_image_position_1_wwen_058de114.jpg'}
+2023-12-11 16:19:29 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 256GB, Blue Titanium', 'price': '6.599', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-256gb-blue-titanium/cpd/SMTIP15PR2BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_blue_titanium_pdp_image_position_1_wwen_87c9bcc9.jpg'}
+2023-12-11 16:19:29 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 512GB, Natural Titanium', 'price': '8.449', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-max-5g-512gb-natural-titanium/cpd/SMTIP15PM5NT/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_natural_titanium_pdp_image_position_1_wwen_b40a535c.jpg'}
+2023-12-11 16:19:29 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 512GB, Blue Titanium', 'price': '8.449', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-max-5g-512gb-blue-titanium/cpd/SMTIP15PM5BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_blue_titanium_pdp_image_position_1_wwen_5c0f07aa.jpg'}
+2023-12-11 16:19:29 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 512GB, Natural Titanium', 'price': '7.849', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-512gb-natural-titanium/cpd/SMTIP15PR5NT/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:29 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 512GB, Black Titanium', 'price': '7.849', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-512gb-black-titanium/cpd/SMTIP15PR5BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_black_titanium_pdp_image_position_1_wwen_058de114.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/> (referer: None)
+2023-12-11 16:19:31 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/> (referer: None)
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone 15 Pro Max, LTPO Super Retina XDR OLED 6.7", 256GB Flash, Camera Tripla 48 + 12 + 12 MP, Wi-Fi, 5G, iOS, Albastru', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-15-pro-max-ltpo-super-retina-xdr-oled-6.7-256gb-flash-camera-tripla-48-12-12-mp-wi-fi-5g-ios-albastru-4117923.html', 'price': '7.199', 'photo': 'https://static3.evomag.ro/img?file=products%2F4117%2F4117923%2Ftelefon-mobil-apple-iphone-15-6502ad0b66f57.JPG&height=150&extend=white'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone 15 Pro Max, LTPO Super Retina XDR OLED 6.7", 256GB Flash, Camera Tripla 48 + 12 + 12 MP, Wi-Fi, 5G, iOS, Gri', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-15-pro-max-ltpo-super-retina-xdr-oled-6.7-256gb-flash-camera-tripla-48-12-12-mp-wi-fi-5g-ios-gri-4117912.html', 'price': '7.299', 'photo': 'https://static3.evomag.ro/img?file=products%2F4117%2F4117912%2Ftelefon-mobil-apple-iphone-15-6502a695eee7d.JPG&height=150&extend=white'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone 15 Pro, LTPO Super Retina XDR OLED 6.1", 1TB Flash, Camera Tripla 48 + 12 + 12 MP, Wi-Fi, 5G, iOS, Gri', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-15-pro-ltpo-super-retina-xdr-oled-6.1-1tb-flash-camera-tripla-48-12-12-mp-wi-fi-5g-ios-gri-4117907.html', 'price': '9.299', 'photo': 'https://static3.evomag.ro/img?file=products%2F4117%2F4117907%2Ftelefon-mobil-apple-iphone-15-65029d12bc049.JPG&height=150&extend=white'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone 15 Pro, LTPO Super Retina XDR OLED 6.1", 1TB Flash, Camera Tripla 48 + 12 + 12 MP, Wi-Fi, 5G, iOS, Alb', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-15-pro-ltpo-super-retina-xdr-oled-6.1-1tb-flash-camera-tripla-48-12-12-mp-wi-fi-5g-ios-alb-4117821.html', 'price': '9.299', 'photo': 'https://static3.evomag.ro/img?file=products%2F4117%2F4117821%2Ftelefon-mobil-apple-iphone-15-6501ac5eb23d2.JPG&height=150&extend=white'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone 15 Pro, LTPO Super Retina XDR OLED 6.1", 1TB Flash, Camera Tripla 48 + 12 + 12 MP, Wi-Fi, 5G, iOS, Albastru', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-15-pro-ltpo-super-retina-xdr-oled-6.1-1tb-flash-camera-tripla-48-12-12-mp-wi-fi-5g-ios-albastru-4117903.html', 'price': '9.299', 'photo': 'https://static3.evomag.ro/img?file=products%2F4117%2F4117903%2Ftelefon-mobil-apple-iphone-15-6502999ba3b1d.JPG&height=150&extend=white'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone 15 Pro, LTPO Super Retina XDR OLED 6.1", 128GB Flash, Camera Tripla 48 + 12 + 12 MP, Wi-Fi, 5G, iOS, Albastru', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-15-pro-ltpo-super-retina-xdr-oled-6.1-128gb-flash-camera-tripla-48-12-12-mp-wi-fi-5g-ios-albastru-4117900.html', 'price': '5.899', 'photo': 'https://static3.evomag.ro/img?file=products%2F4117%2F4117900%2Ftelefon-mobil-apple-iphone-15-650297bccf2e1.JPG&height=150&extend=white'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone 15 Pro Max, LTPO Super Retina XDR OLED 6.7", 256GB Flash, Camera Tripla 48 + 12 + 12 MP, Wi-Fi, 5G, iOS, Negru', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-15-pro-max-ltpo-super-retina-xdr-oled-6.7-256gb-flash-camera-tripla-48-12-12-mp-wi-fi-5g-ios-negru-4117908.html', 'price': '7.249', 'photo': 'https://static3.evomag.ro/img?file=products%2F4117%2F4117908%2Ftelefon-mobil-apple-iphone-15-6502a2d67ed99.JPG&height=150&extend=white'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone 15 Pro, LTPO Super Retina XDR OLED 6.1", 128GB Flash, Camera Tripla 48 + 12 + 12 MP, Wi-Fi, 5G, iOS, Negru', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-15-pro-ltpo-super-retina-xdr-oled-6.1-128gb-flash-camera-tripla-48-12-12-mp-wi-fi-5g-ios-negru-4117801.html', 'price': '6.532', 'photo': 'https://static3.evomag.ro/img?file=products%2F4117%2F4117801%2Ftelefon-mobil-apple-iphone-15-6501a6acb7ee9.JPG&height=150&extend=white'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone 15 Pro, LTPO Super Retina XDR OLED 6.1", 128GB Flash, Camera Tripla 48 + 12 + 12 MP, Wi-Fi, 5G, iOS, Gri', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-15-pro-ltpo-super-retina-xdr-oled-6.1-128gb-flash-camera-tripla-48-12-12-mp-wi-fi-5g-ios-gri-4117904.html', 'price': '5.949', 'photo': 'https://static3.evomag.ro/img?file=products%2F4117%2F4117904%2Ftelefon-mobil-apple-iphone-15-65029ac48d8f7.JPG&height=150&extend=white'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone 15 Pro, LTPO Super Retina XDR OLED 6.1", 256GB Flash, Camera Tripla 48 + 12 + 12 MP, Wi-Fi, 5G, iOS, Negru', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-15-pro-ltpo-super-retina-xdr-oled-6.1-256gb-flash-camera-tripla-48-12-12-mp-wi-fi-5g-ios-negru-4117805.html', 'price': '6.599', 'photo': 'https://static3.evomag.ro/img?file=products%2F4117%2F4117805%2Ftelefon-mobil-apple-iphone-15-6501a8414b853.JPG&height=150&extend=white'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 512GB, Blue Titanium', 'price': '8.449', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-max-5g-512gb-blue-titanium/cpd/SMTIP15PM5BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_blue_titanium_pdp_image_position_1_wwen_5c0f07aa.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 512GB, Blue Titanium', 'price': '7.849', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-512gb-blue-titanium/cpd/SMTIP15PR5BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_blue_titanium_pdp_image_position_1_wwen_87c9bcc9.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 256GB, Natural Titanium', 'price': '7.199', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-max-5g-256gb-natural-titanium/cpd/SMTIP15PM2NT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_natural_titanium_pdp_image_position_1_wwen_b40a535c.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 128GB, Natural Titanium', 'price': '5.949', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-128gb-natural-titanium/cpd/SMTIP15PR1NT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 1TB, Natural Titanium', 'price': '9.689', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-max-5g-1tb-natural-titanium/cpd/SMTIP15PM1TNT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_natural_titanium_pdp_image_position_1_wwen_b40a535c.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, Black Titanium', 'price': '9.099', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-1tb-black-titanium/cpd/SMTIP15PR1TBK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_black_titanium_pdp_image_position_1_wwen_058de114.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, Blue Titanium', 'price': '9.099', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-1tb-blue-titanium/cpd/SMTIP15PR1TBL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_blue_titanium_pdp_image_position_1_wwen_87c9bcc9.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, Natural Titanium', 'price': '9.099', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-1tb-natural-titanium/cpd/SMTIP15PR1TNT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, White Titanium', 'price': '9.059', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-1tb-white-titanium/cpd/SMTIP15PR1TWH/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_white_titanium_pdp_image_position_1_wwen_5c115022.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 512GB, Natural Titanium', 'price': '8.449', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-max-5g-512gb-natural-titanium/cpd/SMTIP15PM5NT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_natural_titanium_pdp_image_position_1_wwen_b40a535c.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 512GB, Black Titanium', 'price': '7.849', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-512gb-black-titanium/cpd/SMTIP15PR5BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_black_titanium_pdp_image_position_1_wwen_058de114.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 512GB, Natural Titanium', 'price': '7.849', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-512gb-natural-titanium/cpd/SMTIP15PR5NT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 256GB, Blue Titanium', 'price': '6.599', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-256gb-blue-titanium/cpd/SMTIP15PR2BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_blue_titanium_pdp_image_position_1_wwen_87c9bcc9.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 256GB, Black Titanium', 'price': '6.599', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-256gb-black-titanium/cpd/SMTIP15PR2BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_black_titanium_pdp_image_position_1_wwen_058de114.jpg'}
+2023-12-11 16:19:31 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 256GB, Natural Titanium', 'price': '6.599', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-256gb-natural-titanium/cpd/SMTIP15PR2NT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:34 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/)
+2023-12-11 16:19:34 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 1TB, Natural Titanium', 'price': '9.689', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-max-5g-1tb-natural-titanium/cpd/SMTIP15PM1TNT/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_natural_titanium_pdp_image_position_1_wwen_b40a535c.jpg'}
+2023-12-11 16:19:34 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, Black Titanium', 'price': '9.099', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-1tb-black-titanium/cpd/SMTIP15PR1TBK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_black_titanium_pdp_image_position_1_wwen_058de114.jpg'}
+2023-12-11 16:19:34 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, Blue Titanium', 'price': '9.099', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-1tb-blue-titanium/cpd/SMTIP15PR1TBL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_blue_titanium_pdp_image_position_1_wwen_87c9bcc9.jpg'}
+2023-12-11 16:19:34 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, Natural Titanium', 'price': '9.099', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-1tb-natural-titanium/cpd/SMTIP15PR1TNT/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:34 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, White Titanium', 'price': '9.059', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-1tb-white-titanium/cpd/SMTIP15PR1TWH/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_white_titanium_pdp_image_position_1_wwen_5c115022.jpg'}
+2023-12-11 16:19:34 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 512GB, Blue Titanium', 'price': '7.849', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-512gb-blue-titanium/cpd/SMTIP15PR5BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_blue_titanium_pdp_image_position_1_wwen_87c9bcc9.jpg'}
+2023-12-11 16:19:34 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/)
+2023-12-11 16:19:35 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/)
+2023-12-11 16:19:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 256GB, Natural Titanium', 'price': '7.199', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-max-5g-256gb-natural-titanium/cpd/SMTIP15PM2NT/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_natural_titanium_pdp_image_position_1_wwen_b40a535c.jpg'}
+2023-12-11 16:19:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 128GB, Natural Titanium', 'price': '5.949', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-128gb-natural-titanium/cpd/SMTIP15PR1NT/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 256GB, Natural Titanium', 'price': '6.599', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-256gb-natural-titanium/cpd/SMTIP15PR2NT/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 256GB, Black Titanium', 'price': '6.599', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-256gb-black-titanium/cpd/SMTIP15PR2BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_black_titanium_pdp_image_position_1_wwen_058de114.jpg'}
+2023-12-11 16:19:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 256GB, Blue Titanium', 'price': '6.599', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-256gb-blue-titanium/cpd/SMTIP15PR2BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_blue_titanium_pdp_image_position_1_wwen_87c9bcc9.jpg'}
+2023-12-11 16:19:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 512GB, Natural Titanium', 'price': '8.449', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-max-5g-512gb-natural-titanium/cpd/SMTIP15PM5NT/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_natural_titanium_pdp_image_position_1_wwen_b40a535c.jpg'}
+2023-12-11 16:19:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 512GB, Blue Titanium', 'price': '8.449', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-max-5g-512gb-blue-titanium/cpd/SMTIP15PM5BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_blue_titanium_pdp_image_position_1_wwen_5c0f07aa.jpg'}
+2023-12-11 16:19:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 512GB, Natural Titanium', 'price': '7.849', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-512gb-natural-titanium/cpd/SMTIP15PR5NT/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 512GB, Black Titanium', 'price': '7.849', 'link': 'https://altex.ro/telefon-apple-iphone-15-pro-5g-512gb-black-titanium/cpd/SMTIP15PR5BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_black_titanium_pdp_image_position_1_wwen_058de114.jpg'}
+2023-12-11 16:19:36 [scrapy] DEBUG: Filtered duplicate request: <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2023-12-11 16:19:38 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/)
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 512GB, Blue Titanium', 'price': '8.449', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-max-5g-512gb-blue-titanium/cpd/SMTIP15PM5BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_blue_titanium_pdp_image_position_1_wwen_5c0f07aa.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 512GB, Blue Titanium', 'price': '7.849', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-512gb-blue-titanium/cpd/SMTIP15PR5BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_blue_titanium_pdp_image_position_1_wwen_87c9bcc9.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 256GB, Natural Titanium', 'price': '7.199', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-max-5g-256gb-natural-titanium/cpd/SMTIP15PM2NT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_natural_titanium_pdp_image_position_1_wwen_b40a535c.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 128GB, Natural Titanium', 'price': '5.949', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-128gb-natural-titanium/cpd/SMTIP15PR1NT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 1TB, Natural Titanium', 'price': '9.689', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-max-5g-1tb-natural-titanium/cpd/SMTIP15PM1TNT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_natural_titanium_pdp_image_position_1_wwen_b40a535c.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, Black Titanium', 'price': '9.099', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-1tb-black-titanium/cpd/SMTIP15PR1TBK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_black_titanium_pdp_image_position_1_wwen_058de114.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, Blue Titanium', 'price': '9.099', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-1tb-blue-titanium/cpd/SMTIP15PR1TBL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_blue_titanium_pdp_image_position_1_wwen_87c9bcc9.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, Natural Titanium', 'price': '9.099', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-1tb-natural-titanium/cpd/SMTIP15PR1TNT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 1TB, White Titanium', 'price': '9.059', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-1tb-white-titanium/cpd/SMTIP15PR1TWH/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_white_titanium_pdp_image_position_1_wwen_5c115022.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro Max 5G, 512GB, Natural Titanium', 'price': '8.449', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-max-5g-512gb-natural-titanium/cpd/SMTIP15PM5NT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_max_natural_titanium_pdp_image_position_1_wwen_b40a535c.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 512GB, Natural Titanium', 'price': '7.849', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-512gb-natural-titanium/cpd/SMTIP15PR5NT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 512GB, Black Titanium', 'price': '7.849', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-512gb-black-titanium/cpd/SMTIP15PR5BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_black_titanium_pdp_image_position_1_wwen_058de114.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 256GB, Blue Titanium', 'price': '6.599', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-256gb-blue-titanium/cpd/SMTIP15PR2BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_blue_titanium_pdp_image_position_1_wwen_87c9bcc9.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 256GB, Black Titanium', 'price': '6.599', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-256gb-black-titanium/cpd/SMTIP15PR2BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_black_titanium_pdp_image_position_1_wwen_058de114.jpg'}
+2023-12-11 16:19:39 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 15 Pro 5G, 256GB, Natural Titanium', 'price': '6.599', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-15-pro-5g-256gb-natural-titanium/cpd/SMTIP15PR2NT/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_15_pro_natural_titanium_pdp_image_position_1_wwen_fc0946e7.jpg'}
+2023-12-11 16:19:39 [scrapy] INFO: Closing spider (finished)
+2023-12-11 16:19:39 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 7078,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 935310,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 14,
+ 'dupefilter/filtered': 2,
+ 'elapsed_time_seconds': 13.411919,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 12, 11, 14, 19, 39, 160340, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 8587579,
+ 'httpcompression/response_count': 13,
+ 'item_scraped_count': 64,
+ 'log_count/DEBUG': 79,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 3,
+ 'response_received_count': 14,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 9,
+ 'scheduler/dequeued/memory': 9,
+ 'scheduler/enqueued': 9,
+ 'scheduler/enqueued/memory': 9,
+ 'spider_exceptions/TypeError': 1,
+ 'start_time': datetime.datetime(2023, 12, 11, 14, 19, 25, 748421, tzinfo=datetime.timezone.utc)}
+2023-12-11 16:19:39 [scrapy] INFO: Spider closed (finished)
