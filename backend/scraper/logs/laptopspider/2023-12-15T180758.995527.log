@@ -1,0 +1,66 @@
+2023-12-15 18:07:59 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2023-12-15 18:07:59 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2023-12-15 18:07:59 [scrapy] DEBUG: Crawled (803) <GET https://www.evomag.ro/portabile-laptopuri-notebook/ASUS/> (referer: None)
+2023-12-15 18:07:59 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2023-12-15 18:07:59 [scrapy] INFO: Ignoring response <803 https://www.evomag.ro/portabile-laptopuri-notebook/ASUS/>: HTTP status code is not handled or not allowed
+2023-12-15 18:07:59 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2023-12-15 18:07:59 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/> (referer: None)
+2023-12-15 18:07:59 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/> (referer: None)
+2023-12-15 18:07:59 [scrapy] DEBUG: Scraped from <200 https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/>
+{'name': 'Laptop ASUS Vivobook 15 R1500EA-BQ4237, Intel Core i5-1135G7 pana la 4.2GHz, 15.6" Full HD, 8GB, SSD 512GB, Intel Iris Xe, Free DOS, negru', 'price': '1.999', 'link': 'https://altex.ro/laptop-asus-vivobook-15-r1500ea-bq4237-intel-core-i5-1135g7-pana-la-4-2ghz-15-6-full-hd-8gb-ssd-512gb-intel-iris-xe-free-dos-negru/cpd/LAPR1500EBQ4237/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/a/s/16fa6a9aef7ffd6209d5fd9338ffa0b1/asus_x1500ea_black_1_11e3ecdd_196e0312.jpg'}
+2023-12-15 18:07:59 [scrapy] DEBUG: Redirecting (301) to <GET https://www.flanco.ro/laptop-it-tablete/laptop/filtre/brand/asus.html> from <GET https://www.flanco.ro/laptop-it-tablete/laptop/filtre/brand/ASUS.html>
+2023-12-15 18:07:59 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/2/> (referer: https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/)
+2023-12-15 18:07:59 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/2/> (referer: https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/)
+2023-12-15 18:07:59 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/2/>
+{'name': 'Laptop ASUS Vivobook 15 R1500EA-BQ4237, Intel Core i5-1135G7 pana la 4.2GHz, 15.6" Full HD, 8GB, SSD 512GB, Intel Iris Xe, Free DOS, negru', 'price': '1.999', 'link': 'https://mediagalaxy.ro/laptop-asus-vivobook-15-r1500ea-bq4237-intel-core-i5-1135g7-pana-la-4-2ghz-15-6-full-hd-8gb-ssd-512gb-intel-iris-xe-free-dos-negru/cpd/LAPR1500EBQ4237/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/a/s/16fa6a9aef7ffd6209d5fd9338ffa0b1/asus_x1500ea_black_1_11e3ecdd_196e0312.jpg'}
+2023-12-15 18:07:59 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/laptop-it-tablete/laptop/filtre/brand/asus.html> (referer: None)
+2023-12-15 18:07:59 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/2/>
+{'name': 'Laptop ASUS Vivobook 15 R1500EA-BQ3463, Intel Core i3-1115G4 pana la 4.1GHz, 15.6" Full HD, 8GB, SSD 256GB, Intel UHD Graphics, Free DOS, negru', 'price': '1.699', 'link': 'https://mediagalaxy.ro/laptop-asus-vivobook-15-r1500ea-bq3463-intel-core-i3-1115g4-pana-la-4-1ghz-15-6-full-hd-8gb-ssd-256gb-intel-uhd-graphics-free-dos-negru/cpd/LAPR1500EBQ3463/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/a/s/16fa6a9aef7ffd6209d5fd9338ffa0b1/asus_x1500ea_black_1_11e3ecdd_196e0312.jpg'}
+2023-12-15 18:07:59 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/3/> (referer: https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/2/)
+2023-12-15 18:08:00 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/3/> (referer: https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/2/)
+2023-12-15 18:08:00 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/4/> (referer: https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/3/)
+2023-12-15 18:08:00 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/4/> (referer: https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/3/)
+2023-12-15 18:08:00 [scrapy] DEBUG: Scraped from <200 https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/4/>
+{'name': 'Laptop ASUS Vivobook 15 R1500EA-BQ3463, Intel Core i3-1115G4 pana la 4.1GHz, 15.6" Full HD, 8GB, SSD 256GB, Intel UHD Graphics, Free DOS, negru', 'price': '1.699', 'link': 'https://altex.ro/laptop-asus-vivobook-15-r1500ea-bq3463-intel-core-i3-1115g4-pana-la-4-1ghz-15-6-full-hd-8gb-ssd-256gb-intel-uhd-graphics-free-dos-negru/cpd/LAPR1500EBQ3463/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/a/s/16fa6a9aef7ffd6209d5fd9338ffa0b1/asus_x1500ea_black_1_11e3ecdd_196e0312.jpg'}
+2023-12-15 18:08:00 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/5/> (referer: https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/4/)
+2023-12-15 18:08:00 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/5/> (referer: https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/4/)
+2023-12-15 18:08:00 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/6/> (referer: https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/5/)
+2023-12-15 18:08:00 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/6/> (referer: https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/5/)
+2023-12-15 18:08:01 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/7/> (referer: https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/6/)
+2023-12-15 18:08:01 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/7/> (referer: https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/6/)
+2023-12-15 18:08:01 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/8/> (referer: https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/7/)
+2023-12-15 18:08:01 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/8/> (referer: https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/7/)
+2023-12-15 18:08:01 [scrapy] DEBUG: Filtered duplicate request: <GET https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/7/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2023-12-15 18:08:01 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/9/> (referer: https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/ASUS/p/8/)
+2023-12-15 18:08:01 [scrapy] INFO: Closing spider (finished)
+2023-12-15 18:08:01 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 19703,
+ 'downloader/request_count': 24,
+ 'downloader/request_method_count/GET': 24,
+ 'downloader/response_bytes': 2200965,
+ 'downloader/response_count': 24,
+ 'downloader/response_status_count/200': 22,
+ 'downloader/response_status_count/301': 1,
+ 'downloader/response_status_count/803': 1,
+ 'dupefilter/filtered': 2,
+ 'elapsed_time_seconds': 2.955268,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 12, 15, 16, 8, 1, 984240, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 21479093,
+ 'httpcompression/response_count': 22,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/803': 1,
+ 'item_scraped_count': 4,
+ 'log_count/DEBUG': 29,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 9,
+ 'response_received_count': 23,
+ 'robotstxt/request_count': 4,
+ 'robotstxt/response_count': 4,
+ 'robotstxt/response_status_count/200': 4,
+ 'scheduler/dequeued': 20,
+ 'scheduler/dequeued/memory': 20,
+ 'scheduler/enqueued': 20,
+ 'scheduler/enqueued/memory': 20,
+ 'start_time': datetime.datetime(2023, 12, 15, 16, 7, 59, 28972, tzinfo=datetime.timezone.utc)}
+2023-12-15 18:08:01 [scrapy] INFO: Spider closed (finished)

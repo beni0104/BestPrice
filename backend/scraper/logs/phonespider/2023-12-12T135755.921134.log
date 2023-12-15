@@ -1,0 +1,127 @@
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (803) <GET https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/Redmi/> (referer: None)
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/> (referer: None)
+2023-12-12 13:57:56 [scrapy] DEBUG: Redirecting (301) to <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/redmi.html> from <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/Redmi.html>
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/> (referer: None)
+2023-12-12 13:57:56 [scrapy] INFO: Ignoring response <803 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/Redmi/>: HTTP status code is not handled or not allowed
+2023-12-12 13:57:56 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/>
+{'name': 'Telefon mobil NOKIA 105 (2023), 32MB RAM, 2G, Dual SIM, Charcoal', 'price': '109', 'link': 'https://altex.ro/telefon-mobil-nokia-105-2023-32mb-ram-2g-dual-sim-charcoal/cpd/GSMNO1052023CH/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_mobil_nokia_105_2023_charcoal_2_ff43e623.jpg'}
+2023-12-12 13:57:56 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/>
+{'name': 'Telefon NOKIA 6310 2021, 16MB RAM, 2G, Dual SIM, Dark Green', 'price': '299', 'link': 'https://altex.ro/telefon-nokia-6310-2021-16mb-ram-2g-dual-sim-dark-green/cpd/GSMNO63102021/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/G/S/16fa6a9aef7ffd6209d5fd9338ffa0b1/GSMNO63102021_1.jpg'}
+2023-12-12 13:57:56 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/>
+{'name': 'Telefon mobil NOKIA 105 (2023), 32MB RAM, 2G, Dual SIM, Charcoal', 'price': '109', 'link': 'https://mediagalaxy.ro/telefon-mobil-nokia-105-2023-32mb-ram-2g-dual-sim-charcoal/cpd/GSMNO1052023CH/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_mobil_nokia_105_2023_charcoal_2_ff43e623.jpg'}
+2023-12-12 13:57:56 [scrapy] DEBUG: Redirecting (301) to <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre.html> from <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/redmi.html>
+2023-12-12 13:57:56 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/>
+{'name': 'Telefon NOKIA 6310 2021, 16MB RAM, 2G, Dual SIM, Dark Green', 'price': '299', 'link': 'https://mediagalaxy.ro/telefon-nokia-6310-2021-16mb-ram-2g-dual-sim-dark-green/cpd/GSMNO63102021/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/G/S/16fa6a9aef7ffd6209d5fd9338ffa0b1/GSMNO63102021_1.jpg'}
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/2/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/)
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/2/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/)
+2023-12-12 13:57:56 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/2/>
+{'name': 'Telefon mobil NOKIA 5310 16MB, 2G, Dual SIM, Black Red', 'price': '249', 'link': 'https://altex.ro/telefon-mobil-nokia-5310-16mb-2g-dual-sim-black-red/cpd/GSMNO5310BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/G/S/16fa6a9aef7ffd6209d5fd9338ffa0b1/GSMNO5310BK.jpg'}
+2023-12-12 13:57:56 [scrapy] DEBUG: Redirecting (301) to <GET https://www.flanco.ro/telefoane-tablete/smartphone.html> from <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre.html>
+2023-12-12 13:57:56 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/2/>
+{'name': 'Telefon OPPO Reno10 5G, 256GB, 8GB RAM, Dual SIM, Ice Blue', 'price': '1.799', 'link': 'https://mediagalaxy.ro/telefon-oppo-reno10-5g-256gb-8gb-ram-dual-sim-ice-blue/cpd/SMTORENO10BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_oppo_reno10_5g_ice_blue_8__5fd25c4f.jpg'}
+2023-12-12 13:57:56 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/2/>
+{'name': 'Telefon OPPO Reno10 Pro 5G, 256GB, 12GB RAM, Dual SIM, Silvery Grey', 'price': '2.599', 'link': 'https://mediagalaxy.ro/telefon-oppo-reno10-pro-5g-256gb-12gb-ram-dual-sim-silvery-grey/cpd/SMTORENO10PGY/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_oppo_reno10_pro_5g_silvery_grey_9__18f38429.jpg'}
+2023-12-12 13:57:56 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/2/>
+{'name': 'Telefon OPPO Reno10 Pro 5G, 256GB, 12GB RAM, Dual SIM, Glossy Purple', 'price': '2.599', 'link': 'https://mediagalaxy.ro/telefon-oppo-reno10-pro-5g-256gb-12gb-ram-dual-sim-glossy-purple/cpd/SMTORENO10PPR/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_oppo_reno10_pro_5g_glossy_purple_9__cbc23ffc.jpg'}
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone.html> (referer: None)
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/Redmi/?modelType=Telefoane> (referer: None)
+2023-12-12 13:57:56 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/3/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/2/)
+2023-12-12 13:57:57 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/3/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/2/)
+2023-12-12 13:57:57 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone.html>
+{'name': 'Telefon mobil Allview V10 Viper, 64GB, 4GB RAM, Dual SIM, Blue Mirror', 'price': '579', 'link': 'https://www.flanco.ro/telefon-mobil-allview-v10-viper-64gb-4gb-ram-dual-sim-blue-mirror.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/t/e/telefon_mobil_allview_v10_viper_ecran_blue_mirror.jpg'}
+2023-12-12 13:57:57 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone.html>
+{'name': 'Telefon mobil Allview Soul X10, Dual SIM, 128GB, 6 GB RAM, Negru', 'price': '699', 'link': 'https://www.flanco.ro/telefon-mobil-allview-soul-x10-dual-sim-128gb-6-gb-ram-negru.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/a/l/allview_soul_x10_black_1_.jpg'}
+2023-12-12 13:57:57 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone.html>
+{'name': 'Telefon mobil Allview Soul X10, Dual SIM, 128GB, 6 GB RAM, Auriu', 'price': '699', 'link': 'https://www.flanco.ro/telefon-mobil-allview-soul-x10-dual-sim-128gb-6-gb-ram-auriu.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/p/r/principala.jpg'}
+2023-12-12 13:57:57 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/3/>
+{'name': 'Telefon OPPO Reno10 5G, 256GB, 8GB RAM, Dual SIM, Silvery Grey', 'price': '1.799', 'link': 'https://altex.ro/telefon-oppo-reno10-5g-256gb-8gb-ram-dual-sim-silvery-grey/cpd/SMTORENO10GY/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_oppo_reno10_5g_silvery_grey_9__acff8aa4.jpg'}
+2023-12-12 13:57:57 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/3/>
+{'name': 'Telefon mobil NOKIA 5310 16MB, 2G, Dual SIM, Black Red', 'price': '249', 'link': 'https://mediagalaxy.ro/telefon-mobil-nokia-5310-16mb-2g-dual-sim-black-red/cpd/GSMNO5310BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/G/S/16fa6a9aef7ffd6209d5fd9338ffa0b1/GSMNO5310BK.jpg'}
+2023-12-12 13:57:57 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/3/>
+{'name': 'Telefon OPPO Reno10 5G, 256GB, 8GB RAM, Dual SIM, Ice Blue', 'price': '1.799', 'link': 'https://altex.ro/telefon-oppo-reno10-5g-256gb-8gb-ram-dual-sim-ice-blue/cpd/SMTORENO10BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_oppo_reno10_5g_ice_blue_8__5fd25c4f.jpg'}
+2023-12-12 13:57:57 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/3/>
+{'name': 'Telefon HUAWEI nova 10 SE, 128GB, 8GB RAM, Dual SIM, Mint Green', 'price': '1.099', 'link': 'https://altex.ro/telefon-huawei-nova-10-se-128gb-8gb-ram-dual-sim-mint-green/cpd/SMTNOVA10SEGR/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_huawei_nova_10_se_mint_green_01_dee2c55d.jpg'}
+2023-12-12 13:57:57 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/3/>
+{'name': 'Telefon OPPO Reno10 5G, 256GB, 8GB RAM, Dual SIM, Silvery Grey', 'price': '1.799', 'link': 'https://mediagalaxy.ro/telefon-oppo-reno10-5g-256gb-8gb-ram-dual-sim-silvery-grey/cpd/SMTORENO10GY/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_oppo_reno10_5g_silvery_grey_9__acff8aa4.jpg'}
+2023-12-12 13:57:57 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/4/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/3/)
+2023-12-12 13:57:57 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/4/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/3/)
+2023-12-12 13:57:57 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/4/>
+{'name': 'Telefon REALME 10, 256GB, 8GB RAM, Dual SIM, Rush Black', 'price': '1.250', 'link': 'https://altex.ro/telefon-realme-10-256gb-8gb-ram-dual-sim-rush-black/cpd/SMTRLM102BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_realme_10_rush_black_1__74c64516.jpg'}
+2023-12-12 13:57:57 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/4/>
+{'name': 'Telefon OPPO Reno10 Pro 5G, 256GB, 12GB RAM, Dual SIM, Silvery Grey', 'price': '2.599', 'link': 'https://altex.ro/telefon-oppo-reno10-pro-5g-256gb-12gb-ram-dual-sim-silvery-grey/cpd/SMTORENO10PGY/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_oppo_reno10_pro_5g_silvery_grey_9__18f38429.jpg'}
+2023-12-12 13:57:57 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/4/>
+{'name': 'Telefon mobil NOKIA 105 (2023), 32MB RAM, 2G, Dual SIM, Cyan', 'price': '129', 'link': 'https://altex.ro/telefon-mobil-nokia-105-2023-32mb-ram-2g-dual-sim-cyan/cpd/GSMNO1052023CY/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_mobil_nokia_105_2023_cyan_1_06f6788c.jpg'}
+2023-12-12 13:57:57 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/5/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/4/)
+2023-12-12 13:57:57 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/5/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/4/)
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/5/>
+{'name': 'Telefon OPPO Reno10 Pro 5G, 256GB, 12GB RAM, Dual SIM, Glossy Purple', 'price': '2.599', 'link': 'https://altex.ro/telefon-oppo-reno10-pro-5g-256gb-12gb-ram-dual-sim-glossy-purple/cpd/SMTORENO10PPR/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_oppo_reno10_pro_5g_glossy_purple_9__cbc23ffc.jpg'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/5/>
+{'name': 'Telefon REALME 10, 128GB, 8GB RAM, Dual SIM, Rush Black', 'price': '1.048', 'link': 'https://altex.ro/telefon-realme-10-128gb-8gb-ram-dual-sim-rush-black/cpd/SMTRLM101BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_realme_10_rush_black_1__74c64516.jpg'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/5/>
+{'name': 'Telefon SONY Xperia 10 V 5G, 128GB, 6GB RAM, Dual SIM, White', 'price': '1.999', 'link': 'https://mediagalaxy.ro/telefon-sony-xperia-10-v-5g-128gb-6gb-ram-dual-sim-white/cpd/SMTXP10M5WH/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_sony_xperia_10_v_5g_white_4__51ac8e61.png'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/5/>
+{'name': 'Telefon SONY Xperia 10 V 5G, 128GB, 6GB RAM, Dual SIM, Sage Green', 'price': '1.999', 'link': 'https://mediagalaxy.ro/telefon-sony-xperia-10-v-5g-128gb-6gb-ram-dual-sim-sage-green/cpd/SMTXP10M5GR/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_sony_xperia_10_v_5g_green_8__c7748352.png'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/5/>
+{'name': 'Telefon SONY Xperia 10 V 5G, 128GB, 6GB RAM, Dual SIM, Black', 'price': '1.999', 'link': 'https://mediagalaxy.ro/telefon-sony-xperia-10-v-5g-128gb-6gb-ram-dual-sim-black/cpd/SMTXP10M5BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_sony_xperia_10_v_5g_black_3__f75121f3.png'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/5/>
+{'name': 'Telefon REALME 10, 256GB, 8GB RAM, Dual SIM, Rush Black', 'price': '1.250', 'link': 'https://mediagalaxy.ro/telefon-realme-10-256gb-8gb-ram-dual-sim-rush-black/cpd/SMTRLM102BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_realme_10_rush_black_1__74c64516.jpg'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/6/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/5/)
+2023-12-12 13:57:58 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/6/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/5/)
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/6/>
+{'name': 'Telefon SONY Xperia 10 V 5G, 128GB, 6GB RAM, Dual SIM, White', 'price': '1.999', 'link': 'https://altex.ro/telefon-sony-xperia-10-v-5g-128gb-6gb-ram-dual-sim-white/cpd/SMTXP10M5WH/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_sony_xperia_10_v_5g_white_4__51ac8e61.png'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/6/>
+{'name': 'Telefon SONY Xperia 10 V 5G, 128GB, 6GB RAM, Dual SIM, Black', 'price': '1.999', 'link': 'https://altex.ro/telefon-sony-xperia-10-v-5g-128gb-6gb-ram-dual-sim-black/cpd/SMTXP10M5BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_sony_xperia_10_v_5g_black_3__f75121f3.png'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/6/>
+{'name': 'Telefon SONY Xperia 10 V 5G, 128GB, 6GB RAM, Dual SIM, Sage Green', 'price': '1.999', 'link': 'https://altex.ro/telefon-sony-xperia-10-v-5g-128gb-6gb-ram-dual-sim-sage-green/cpd/SMTXP10M5GR/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_sony_xperia_10_v_5g_green_8__c7748352.png'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/6/>
+{'name': 'Telefon REALME 10, 256GB, 8GB RAM, Dual SIM, Clash White', 'price': '999', 'link': 'https://altex.ro/telefon-realme-10-256gb-8gb-ram-dual-sim-clash-white/cpd/SMTRLM102WH/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_realme_10_clash_white_2__1cfa547c.jpg'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/6/>
+{'name': 'Telefon mobil NOKIA 105 (2023), 32MB RAM, 2G, Dual SIM, Red', 'price': '129', 'link': 'https://altex.ro/telefon-mobil-nokia-105-2023-32mb-ram-2g-dual-sim-red/cpd/GSMNO1052023RE/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_mobil_nokia_105_2023_red_3_403526ad.jpg'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Filtered duplicate request: <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/5/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/6/>
+{'name': 'Telefon HUAWEI nova 10 SE, 128GB, 8GB RAM, Dual SIM, Mint Green', 'price': '1.099', 'link': 'https://mediagalaxy.ro/telefon-huawei-nova-10-se-128gb-8gb-ram-dual-sim-mint-green/cpd/SMTNOVA10SEGR/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_huawei_nova_10_se_mint_green_01_dee2c55d.jpg'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/6/>
+{'name': 'Telefon REALME 10, 128GB, 8GB RAM, Dual SIM, Rush Black', 'price': '1.048', 'link': 'https://mediagalaxy.ro/telefon-realme-10-128gb-8gb-ram-dual-sim-rush-black/cpd/SMTRLM101BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_realme_10_rush_black_1__74c64516.jpg'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/6/>
+{'name': 'Telefon REALME 10, 256GB, 8GB RAM, Dual SIM, Clash White', 'price': '999', 'link': 'https://mediagalaxy.ro/telefon-realme-10-256gb-8gb-ram-dual-sim-clash-white/cpd/SMTRLM102WH/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_realme_10_clash_white_2__1cfa547c.jpg'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/6/>
+{'name': 'Telefon mobil NOKIA 105 (2023), 32MB RAM, 2G, Dual SIM, Red', 'price': '129', 'link': 'https://mediagalaxy.ro/telefon-mobil-nokia-105-2023-32mb-ram-2g-dual-sim-red/cpd/GSMNO1052023RE/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_mobil_nokia_105_2023_red_3_403526ad.jpg'}
+2023-12-12 13:57:58 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/Redmi/p/6/>
+{'name': 'Telefon mobil NOKIA 105 (2023), 32MB RAM, 2G, Dual SIM, Cyan', 'price': '129', 'link': 'https://mediagalaxy.ro/telefon-mobil-nokia-105-2023-32mb-ram-2g-dual-sim-cyan/cpd/GSMNO1052023CY/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_mobil_nokia_105_2023_cyan_1_06f6788c.jpg'}
+2023-12-12 13:57:58 [scrapy] INFO: Closing spider (finished)
+2023-12-12 13:57:58 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 14991,
+ 'downloader/request_count': 23,
+ 'downloader/request_method_count/GET': 23,
+ 'downloader/response_bytes': 1721543,
+ 'downloader/response_count': 23,
+ 'downloader/response_status_count/200': 19,
+ 'downloader/response_status_count/301': 3,
+ 'downloader/response_status_count/803': 1,
+ 'dupefilter/filtered': 2,
+ 'elapsed_time_seconds': 2.675284,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 12, 12, 11, 57, 58, 608426, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 16566857,
+ 'httpcompression/response_count': 18,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/803': 1,
+ 'item_scraped_count': 35,
+ 'log_count/DEBUG': 59,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 6,
+ 'response_received_count': 20,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 18,
+ 'scheduler/dequeued/memory': 18,
+ 'scheduler/enqueued': 18,
+ 'scheduler/enqueued/memory': 18,
+ 'start_time': datetime.datetime(2023, 12, 12, 11, 57, 55, 933142, tzinfo=datetime.timezone.utc)}
+2023-12-12 13:57:58 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,5 @@
+2023-12-12 14:02:59 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/robots.txt> (referer: None)
+2023-12-12 14:03:09 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-80.php> (referer: None)
+2023-12-12 14:03:22 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-f-80-0-p2.php> (referer: https://www.gsmarena.com/xiaomi-phones-80.php)
+2023-12-12 14:03:36 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-f-80-0-p3.php> (referer: https://www.gsmarena.com/xiaomi-phones-f-80-0-p2.php)
+2023-12-12 14:03:50 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-f-80-0-p4.php> (referer: https://www.gsmarena.com/xiaomi-phones-f-80-0-p3.php)

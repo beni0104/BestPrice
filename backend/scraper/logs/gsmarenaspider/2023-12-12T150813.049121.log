@@ -1,0 +1,42 @@
+2023-12-12 15:08:13 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/robots.txt> (referer: None)
+2023-12-12 15:08:28 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/huawei-phones-58.php> (referer: None)
+2023-12-12 15:08:34 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/huawei-phones-f-58-0-p2.php> (referer: https://www.gsmarena.com/huawei-phones-58.php)
+2023-12-12 15:08:48 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/huawei-phones-f-58-0-p3.php> (referer: https://www.gsmarena.com/huawei-phones-f-58-0-p2.php)
+2023-12-12 15:09:03 [scrapy] DEBUG: Retrying <GET https://www.gsmarena.com/huawei-phones-f-58-0-p4.php> (failed 1 times): 429 Unknown Status
+2023-12-12 15:09:13 [scrapy] DEBUG: Retrying <GET https://www.gsmarena.com/huawei-phones-f-58-0-p4.php> (failed 2 times): 429 Unknown Status
+2023-12-12 15:09:21 [scrapy] ERROR: Gave up retrying <GET https://www.gsmarena.com/huawei-phones-f-58-0-p4.php> (failed 3 times): 429 Unknown Status
+2023-12-12 15:09:21 [scrapy] DEBUG: Crawled (429) <GET https://www.gsmarena.com/huawei-phones-f-58-0-p4.php> (referer: https://www.gsmarena.com/huawei-phones-f-58-0-p3.php)
+2023-12-12 15:09:21 [scrapy] INFO: Ignoring response <429 https://www.gsmarena.com/huawei-phones-f-58-0-p4.php>: HTTP status code is not handled or not allowed
+2023-12-12 15:09:21 [scrapy] INFO: Closing spider (finished)
+2023-12-12 15:09:21 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2097,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 7,
+ 'downloader/response_bytes': 32355,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 4,
+ 'downloader/response_status_count/429': 3,
+ 'elapsed_time_seconds': 68.614359,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 12, 12, 13, 9, 21, 684480, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 106904,
+ 'httpcompression/response_count': 4,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/429': 1,
+ 'log_count/DEBUG': 7,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 3,
+ 'response_received_count': 5,
+ 'retry/count': 2,
+ 'retry/max_reached': 1,
+ 'retry/reason_count/429 Unknown Status': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2023, 12, 12, 13, 8, 13, 70121, tzinfo=datetime.timezone.utc)}
+2023-12-12 15:09:21 [scrapy] INFO: Spider closed (finished)

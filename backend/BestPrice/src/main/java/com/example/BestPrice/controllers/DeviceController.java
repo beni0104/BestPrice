@@ -31,6 +31,9 @@ public class DeviceController {
             else if (Objects.equals(devicetype, "tablet")) {
                 url = new URL(String.format("http://localhost:9081/crawl.json?spider_name=tabletspider&start_requests=true&crawl_args={\"brand\":\"%s\",\"model\":\"%s\"}", brand, model));
             }
+            else if (Objects.equals(devicetype, "laptop")) {
+                url = new URL(String.format("http://localhost:9081/crawl.json?spider_name=laptopspider&start_requests=true&crawl_args={\"brand\":\"%s\",\"model\":\"%s\"}", brand, model));
+            }
 
             assert url != null;
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();

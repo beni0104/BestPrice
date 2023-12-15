@@ -1,0 +1,37 @@
+2023-12-12 15:03:04 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/robots.txt> (referer: None)
+2023-12-12 15:03:16 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-80.php> (referer: None)
+2023-12-12 15:03:27 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-f-80-0-p2.php> (referer: https://www.gsmarena.com/xiaomi-phones-80.php)
+2023-12-12 15:03:37 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-f-80-0-p3.php> (referer: https://www.gsmarena.com/xiaomi-phones-f-80-0-p2.php)
+2023-12-12 15:03:49 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-f-80-0-p4.php> (referer: https://www.gsmarena.com/xiaomi-phones-f-80-0-p3.php)
+2023-12-12 15:04:03 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-f-80-0-p5.php> (referer: https://www.gsmarena.com/xiaomi-phones-f-80-0-p4.php)
+2023-12-12 15:04:18 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-f-80-0-p6.php> (referer: https://www.gsmarena.com/xiaomi-phones-f-80-0-p5.php)
+2023-12-12 15:04:25 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-f-80-0-p7.php> (referer: https://www.gsmarena.com/xiaomi-phones-f-80-0-p6.php)
+2023-12-12 15:04:35 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-f-80-0-p8.php> (referer: https://www.gsmarena.com/xiaomi-phones-f-80-0-p7.php)
+2023-12-12 15:04:48 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-f-80-0-p9.php> (referer: https://www.gsmarena.com/xiaomi-phones-f-80-0-p8.php)
+2023-12-12 15:05:02 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/xiaomi-phones-f-80-0-p10.php> (referer: https://www.gsmarena.com/xiaomi-phones-f-80-0-p9.php)
+2023-12-12 15:05:02 [scrapy] INFO: Closing spider (finished)
+2023-12-12 15:05:02 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3410,
+ 'downloader/request_count': 11,
+ 'downloader/request_method_count/GET': 11,
+ 'downloader/response_bytes': 107002,
+ 'downloader/response_count': 11,
+ 'downloader/response_status_count/200': 11,
+ 'elapsed_time_seconds': 118.527229,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 12, 12, 13, 5, 2, 890863, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 374111,
+ 'httpcompression/response_count': 11,
+ 'log_count/DEBUG': 23,
+ 'log_count/INFO': 20,
+ 'request_depth_max': 9,
+ 'response_received_count': 11,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
+ 'start_time': datetime.datetime(2023, 12, 12, 13, 3, 4, 363634, tzinfo=datetime.timezone.utc)}
+2023-12-12 15:05:02 [scrapy] INFO: Spider closed (finished)
