@@ -36,7 +36,7 @@ class GSMArenaSpider(scrapy.Spider):
     #         }
 
     def parse_find_model(self, response):
-        model = self.model.replace("-", "_").lower()
+        model = self.model.replace("-", " ").lower()
         found = False
 
         for product in response.css("div.makers li"):

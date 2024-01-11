@@ -1,2 +1,0 @@
-2023-12-12 15:13:57 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/robots.txt> (referer: None)
-2023-12-12 15:14:06 [scrapy] DEBUG: Retrying <GET https://www.gsmarena.com/huawei-phones-58.php> (failed 1 times): 429 Unknown Status
