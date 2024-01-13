@@ -20,6 +20,7 @@ public class SecurityConfiguration {
         http
                 .authorizeHttpRequests((authz) -> authz
                         .requestMatchers("/register/user").permitAll()
+                        .requestMatchers("/devices/**").permitAll()
                 ).csrf(csrf -> csrf.disable())
                 .httpBasic(withDefaults());
         return http.build();
