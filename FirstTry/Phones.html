@@ -19,7 +19,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-sm bg-dark p-3 navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-secondary p-3 navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">BestPrice</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -36,21 +36,21 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Categories</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Phones</a></li>
+                <li><a class="dropdown-item" href="Phones.html">Phones</a></li>
                 <li><a class="dropdown-item" href="Laptops.html">Laptops</a></li>
-                <li><a class="dropdown-item" href="PCs.html">PCs</a></li>
+                <li><a class="dropdown-item" href="Tablets.html">Tablets</a></li>
               </ul>
             </li>
           </ul>
         </div>
-        <form class="d-flex ml-auto" id="searchForm">
+        <form class="d-flex">
           <input class="form-control me-2" type="text" id="searchInput" placeholder="What are you looking for?">
-          <button class="btn btn-primary" type="button" onclick="search()">Search</button>
+          <button class="btn btn-primary ml-2" type="button" onclick="search()">Search</button>
       </form>
 
-      <ul class="navbar-nav ml-auto ms-4">
+      <ul class="navbar-nav ml-2 ms-4">
           <li class="nav-item">
-              <a href="login.html"><img src="Pictures\PozaUser.jpg" alt="User" class="navbar-img"></a>
+              <a href="Favorite.html" target="_blank"><img src="images/favorite2.png" alt="Favorites" class="navbar-img"></a>
           </li>
       </ul>
       </div>
@@ -58,41 +58,71 @@
 
     <div class = "row">
       <div class="container mt-3 col-sm-4">
-        <h2 style="padding-left: 10px;">Don't have any ideas?</h2>
-        <p style="padding-left: 10px;">Here are some models that you might be interested.</p>
+        <h2 style="padding-left: 10px; color: #333;">Don't have any ideas?</h2>
+        <p style="padding-left: 10px; color: #555;">Here are some models that you might be interested.</p>
         <div class="list-group">
           <div class="list-group-item disabled bg-light text-dark">
             <strong>Samsung</strong>
           </div>
           <div class="list-group" style="padding-left: 20px;">
-            <a href="#" class="list-group-item list-group-item-action" onclick="searchPhone('samsung galaxy s23 ultra')">Galaxy S23 Ultra</a>
-            <a href="#" class="list-group-item list-group-item-action" onclick="searchPhone('samsung galaxy s23')">Galaxy S23</a>
-            <a href="#" class="list-group-item list-group-item-action" onclick="searchPhone('samsung galaxy a54')">Galaxy A54</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('samsung galaxy s23')">Galaxy S23</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('samsung galaxy s22')">Galaxy S22</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('samsung galaxy a54')">Galaxy A54</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('samsung galaxy a34')">Galaxy A34</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('samsung galaxy a14')">Galaxy A14</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('samsung galaxy z flip5')">Galaxy Z Flip 5</a>
           </div>
           <div class="list-group-item disabled bg-light text-dark">
-            <strong>iPhone</strong>
+            <strong>Apple</strong>
           </div>
           <div class="list-group" style="padding-left: 20px;">
-            <a href="#" class="list-group-item list-group-item-action" onclick="searchPhone('iphone 14')">Iphone 14</a>
-            <a href="#" class="list-group-item list-group-item-action" onclick="searchPhone('iphone 13')">Iphone 13</a>
-            <a href="#" class="list-group-item list-group-item-action" onclick="searchPhone('iphone 12')">Iphone 12</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('iphone 14')">iPhone 15</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('iphone 13')">iPhone 14</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('iphone 13')">iPhone 13</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('iphone 13')">iPhone 12</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('iphone 12')">iPhone 11</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('iphone se')">iPhone SE</a>
+          </div>
+          <div class="list-group-item disabled bg-light text-dark">
+            <strong>Huawei</strong>
+          </div>
+          <div class="list-group" style="padding-left: 20px;">
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('huawei p60 pro')">P60 PRO</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('huawei p50 pro')">P50 PRO</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('huawei nova 10')">Nova 10</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('huawei nova y70')">Nova Y70</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('huawei nova y90')">Nova Y90</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('huawei mate 50 pro')">Mate 50 PRO</a>
+          </div>
+          <div class="list-group-item disabled bg-light text-dark">
+            <strong>Realme</strong>
+          </div>
+          <div class="list-group" style="padding-left: 20px;">
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('realme 9')">Realme 9</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('realme 10')">Realme 10</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('realme 11 pro')">Realme 11 PRO</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('realme c31')">Realme C31</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('realme c35')">Realme C35</a>
+            <a href="#" class="list-group-item list-group-item-action" style="background-color: #f2f2f2;" onclick="searchPhone('realme c55')">Realme C55</a>
           </div>
         </div>
       </div>
-
-      <div id="loading" class="text-center mt-3 col-sm-8" style="display: none;">
-        <div class="spinner-border text-primary" role="status">
-          <span class="sr-only">Loading...</span>
-        </div>
-        <p class="mt-2">Searching...</p>
-      </div>
-
-      <div class = "col-sm-8" id="resultContainer">
-
-      <h2>Upps, you haven't searched for anything yet. Please use the searchbar or the left menu! </h2>
       
 
 
+
+      <div id="loading" class="mt-3 col-sm-8 text-center load-more" style="display: none;">
+        <button class="btn btn-info btn-lg" type="button" disabled>
+        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span> Loading...
+        </button>
+     </div>
+
+      <div class="col-sm-8" id="resultContainer">
+        <h2 class="text-center">Explore the Latest Smartphones</h2>
+        <p class="lead text-center text-muted">Discover a wide range of smartphones from top brands.</p>
+        <div class="text-center mt-4">
+          <img src="images/phonePage.jpg" alt="Phone Image" class="img-fluid" style="max-width: 400px;">
+        </div>
       </div>
       
     </div>
@@ -133,8 +163,8 @@
     
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © 2024 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">BestPrice</a>
       </div>
       <!-- Copyright -->
     </footer>
@@ -154,6 +184,8 @@
     function search() {
     // Get user input from the search bar
     var userInput = document.getElementById('searchInput').value;
+    var brand = "";
+    var model = "";
 
     // Define a default manufacturer
     var defaultManufacturer = 'defaultManufacturer'; // Change this to your actual default manufacturer
@@ -166,14 +198,17 @@
     // Construct the URL for the web scraper
     if ((userInput.toLowerCase().includes('iphone'))) {
         scraperUrl +=  'apple' + '/' + inputParts.join('-');
+        brand = 'apple';
+        model = inputParts.join('-');
     // } else if (userInput.toLowerCase().includes('iphone')) {
     //   scraperUrl +=  'apple' + '/' + inputParts.join('-');
     } else {
       scraperUrl += inputParts[0] + '/' + inputParts.slice(1).join('-');
+      brand = inputParts[0];
+      model = inputParts.slice(1).join('-');
       // document.getElementById('resultContainer').innerHTML = "<h2>We're sorry, Unfortunately we cannot search for the desired item. Please check the list from the left panel</h2>";
       // return;
     }
-    console.log(scraperUrl);
 
     document.getElementById('resultContainer').innerHTML = "";
 
@@ -181,9 +216,6 @@
     var loadingElement = document.getElementById('loading');
     if (loadingElement) {
         loadingElement.style.display = 'block';
-        console.log('Loading screen shown');
-    } else {
-        console.error('Loading element not found');
     }
 
     // Use fetch to simplify asynchronous code
@@ -196,7 +228,6 @@
         })
         .then(data => {
             // Process the data returned by the web scraper
-            console.log('Data received:', data);
 
             //No need for sorting because backend sends it already sorted
             //data.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
@@ -259,6 +290,21 @@
                     link.style.margin = "auto";
                     link.target = "_blank";
 
+                    var localLink = document.createElement('a');
+                    localLink.href = 'ItemDescription.html?brand=' + encodeURIComponent(brand) + '&model=' + encodeURIComponent(model) + '&image=' + encodeURIComponent(item.photo) + '&price=' + encodeURIComponent(item.price);
+                    localLink.classList.add('btn', 'btn-info', "ml-1");
+                    localLink.textContent = 'See details!';
+                    localLink.style.margin = "auto";
+                    localLink.target = "_blank";
+
+                    var favoriteBtn = document.createElement('button');
+                    favoriteBtn.classList.add('btn', 'btn-outline-danger', 'ml-1');
+                    favoriteBtn.textContent = 'Add to Favorites';
+                    favoriteBtn.style.margin = "auto";
+                    favoriteBtn.addEventListener('click', function(event) {
+                    addFavorite(item.name, item.price, item.link); 
+                    });
+
                     var cardImage = document.createElement('img');
                     cardImage.classList.add('img-fluid');
                     cardImage.src = item.photo;
@@ -290,6 +336,8 @@
                     cardBody.appendChild(priceColor);
                     var linkAndStoreImg = document.createElement('div');
                     linkAndStoreImg.appendChild(link);
+                    linkAndStoreImg.appendChild(localLink);
+                    linkAndStoreImg.appendChild(favoriteBtn);
                     linkAndStoreImg.appendChild(cardStoreImage);
                     // cardBody.appendChild(link);
                     // cardBody.appendChild(cardStoreImage);
@@ -317,9 +365,15 @@
             // Hide loading screen regardless of success or failure
             if (loadingElement) {
                 loadingElement.style.display = 'none';
-                console.log('Loading screen hidden');
             }
         });
+
+      
+
+        function addFavorite(name, price, link){
+          console.log(`Name: ${name}, Price: ${price}, Link: ${link}`);
+        }
+
 }
 
 

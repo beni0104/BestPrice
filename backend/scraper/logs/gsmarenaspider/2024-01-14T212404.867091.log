@@ -1,0 +1,32 @@
+2024-01-14 21:24:05 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/robots.txt> (referer: None)
+2024-01-14 21:24:17 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/apple-phones-48.php> (referer: None)
+2024-01-14 21:24:29 [scrapy] DEBUG: Crawled (200) <GET https://www.gsmarena.com/apple_iphone_12-10509.php> (referer: https://www.gsmarena.com/apple-phones-48.php)
+2024-01-14 21:24:29 [scrapy] DEBUG: Scraped from <200 https://www.gsmarena.com/apple_iphone_12-10509.php>
+{'deviceName': 'Apple iPhone 12', 'released': 'Available. Released 2020, October 23', 'displayType': 'Super Retina XDR OLED, HDR10, Dolby Vision, 625 nits (HBM), 1200 nits (peak)', 'displaySize': '6.1 inches, 90.2 cm', 'displayResolution': '1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)', 'operatingSystem': 'iOS 14.1, upgradable to iOS 17.2', 'chipset': 'Apple A14 Bionic (5 nm)', 'cpu': 'Hexa-core (2x3.1 GHz Firestorm + 4x1.8 GHz Icestorm)', 'gpu': 'Apple GPU (4-core graphics)', 'frontCamera': '12 MP, f/1.6, 26mm (wide), 1.4µm, dual pixel PDAF, OIS \r\n12 MP, f/2.4, 13mm, 120˚ (ultrawide), 1/3.6"', 'backCamera': '12 MP, f/2.2, 23mm (wide), 1/3.6"', 'wlan': 'Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot', 'bluetooth': '5.0, A2DP, LE', 'sensors': 'Face ID, accelerometer, gyro, proximity, compass, barometer', 'battery': 'Li-Ion 2815 mAh, non-removable (10.78 Wh)'}
+2024-01-14 21:24:29 [scrapy] INFO: Closing spider (finished)
+2024-01-14 21:24:29 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 780,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 29308,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'elapsed_time_seconds': 24.436447,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 1, 14, 19, 24, 29, 329537, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 98442,
+ 'httpcompression/response_count': 3,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 4,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 3,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2024, 1, 14, 19, 24, 4, 893090, tzinfo=datetime.timezone.utc)}
+2024-01-14 21:24:29 [scrapy] INFO: Spider closed (finished)

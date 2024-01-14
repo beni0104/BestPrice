@@ -1,0 +1,63 @@
+2024-01-12 20:35:33 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2024-01-12 20:35:33 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2024-01-12 20:35:33 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2024-01-12 20:35:33 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2024-01-12 20:35:34 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/> (referer: None)
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/>
+{'title': 'Telefon Mobil Huawei nova 10, Procesor Qualcomm SM7325 Snapdragon 778G 4G, Octa-Core, OLED Capacitive touchscreen 6.67", 8GB RAM, 128GB Flash, Camera Tripla 50 + 8 + 2 MP, 4G, Wi-Fi, Dual SIM, EMUI, Argintiu', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei-telefon-mobil-huawei-nova-10-procesor-qualcomm-sm7325-snapdragon-778g-4g-octa-core-oled-capacitive-touchscreen-6.67-8gb-ram-128gb-flash-camera-tripla-50-8-2-mp-4g-wi-fi-dual-sim-emui-argintiu-4009910.html', 'price': '2.428', 'photo': 'https://static3.evomag.ro/img?file=products%2F4009%2F4009910%2Ftelefon-mobil-huawei-nova-10-63441bcfd4a55.JPG&height=150&extend=white'}
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/>
+{'title': 'Telefon Mobil Huawei nova 10 SE, Procesor Qualcomm Snapdragon 680G 4G, OLED Capacitive touchscreen 6.67", 8GB RAM, 128GB Flash, Camera Tripla 108 + 8 + 2 MP, 4G, Wi-Fi, Dual SIM, EMUI, Argintiu', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei-telefon-mobil-huawei-nova-10-se-procesor-qualcomm-snapdragon-680g-4g-oled-capacitive-touchscreen-6.67-8gb-ram-128gb-flash-camera-tripla-108-8-2-mp-4g-wi-fi-dual-sim-emui-argintiu-4026299.html', 'price': '1.749', 'photo': 'https://static3.evomag.ro/img?file=products%2F4026%2F4026299%2Ftelefon-mobil-huawei-nova-10-s-6347c1ee31051.JPG&height=150&extend=white'}
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/>
+{'title': 'Telefon Mobil Huawei nova 10 SE, Procesor Qualcomm Snapdragon 680G 4G, OLED Capacitive touchscreen 6.67", 8GB RAM, 128GB Flash, Camera Tripla 108 + 8 + 2 MP, 4G, Wi-Fi, Dual SIM, EMUI, Verde', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei-telefon-mobil-huawei-nova-10-se-procesor-qualcomm-snapdragon-680g-4g-oled-capacitive-touchscreen-6.67-8gb-ram-128gb-flash-camera-tripla-108-8-2-mp-4g-wi-fi-dual-sim-emui-verde-4026300.html', 'price': '1.749', 'photo': 'https://static3.evomag.ro/img?file=products%2F4026%2F4026300%2Ftelefon-mobil-huawei-nova-10-s-6347c1b302017.JPG&height=150&extend=white'}
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/>
+{'title': 'Telefon Mobil Huawei nova 10 Pro, Procesor Qualcomm SM7325 Snapdragon 778G 4G, Octa-Core, OLED Capacitive touchscreen 6.78", 8GB RAM, 256GB Flash, Camera Tripla 50 + 8 + 2 MP, 4G, Wi-Fi, Dual SIM, EMUI, Argintiu', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei-telefon-mobil-huawei-nova-10-pro-procesor-qualcomm-sm7325-snapdragon-778g-4g-octa-core-oled-capacitive-touchscreen-6.78-8gb-ram-256gb-flash-camera-tripla-50-8-2-mp-4g-wi-fi-dual-sim-emui-argintiu-4009936.html', 'price': '2.962', 'photo': 'https://static3.evomag.ro/img?file=products%2F4009%2F4009936%2Ftelefon-mobil-huawei-nova-10-p-63441c2fd81e3.JPG&height=150&extend=white'}
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/>
+{'title': 'Telefon Mobil Huawei nova 10 SE, Procesor Qualcomm Snapdragon 680G 4G, OLED Capacitive touchscreen 6.67", 8GB RAM, 128GB Flash, Camera Tripla 108 + 8 + 2 MP, 4G, Wi-Fi, Dual SIM, EMUI, Negru', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei-telefon-mobil-huawei-nova-10-se-procesor-qualcomm-snapdragon-680g-4g-oled-capacitive-touchscreen-6.67-8gb-ram-128gb-flash-camera-tripla-108-8-2-mp-4g-wi-fi-dual-sim-emui-negru-4026298.html', 'price': '1.099', 'photo': 'https://static3.evomag.ro/img?file=products%2F4026%2F4026298%2Ftelefon-mobil-huawei-nova-10-s-6347c11d9876a.JPG&height=150&extend=white'}
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/>
+{'title': 'Telefon Mobil Huawei nova 10, Procesor Qualcomm SM7325 Snapdragon 778G 4G, Octa-Core, OLED Capacitive touchscreen 6.67", 8GB RAM, 128GB Flash, Camera Tripla 50 + 8 + 2 MP, 4G, Wi-Fi, Dual SIM, EMUI, Negru', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei-telefon-mobil-huawei-nova-10-procesor-qualcomm-sm7325-snapdragon-778g-4g-octa-core-oled-capacitive-touchscreen-6.67-8gb-ram-128gb-flash-camera-tripla-50-8-2-mp-4g-wi-fi-dual-sim-emui-negru-4009898.html', 'price': '1.624', 'photo': 'https://static3.evomag.ro/img?file=products%2F4009%2F4009898%2Ftelefon-mobil-huawei-nova-10-63441b96cd820.JPG&height=150&extend=white'}
+2024-01-12 20:35:34 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2024-01-12 20:35:34 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html> (referer: None)
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html>
+{'name': 'Telefon mobil Huawei nova 10, 128 GB, 8 GB RAM, Starry Silver', 'price': '2.299', 'link': 'https://www.flanco.ro/telefon-mobil-huawei-nova-10-128-gb-8-gb-ram-starry-silver.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/h/u/huawei_nova10_51097eul_watermark_1.jpg'}
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html>
+{'name': 'Telefon mobil Huawei nova 10, 128 GB, 8 GB RAM, Starry Black', 'price': '2.299', 'link': 'https://www.flanco.ro/telefon-mobil-huawei-nova-10-128-gb-8-gb-ram-starry-black.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/n/o/nova_10_black_1.jpg'}
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html>
+{'name': 'Telefon mobil Huawei nova 10 SE, 128GB, 8GB RAM, Starry Black', 'price': '1.449', 'link': 'https://www.flanco.ro/telefon-mobil-huawei-nova-10-se-128gb-8gb-ram-starry-black.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/n/o/nova_10_se_starry_black_fata_spate.jpg'}
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html>
+{'name': 'Telefon mobil Huawei nova 10 Pro, 256 GB, 8 GB RAM, Starry Black', 'price': '2.799', 'link': 'https://www.flanco.ro/telefon-mobil-huawei-nova-10-pro-256-gb-8-gb-ram-starry-black.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/n/o/nova_10_pro_black.jpg'}
+2024-01-12 20:35:34 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/huawei/?modelType=Telefoane> (referer: None)
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei Nova 10 SE, 128 GB, Starry Silver ', 'price': '999', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-nova-10-se-128gb-starry-silver/75267985/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/huawei_nova-10-se_starry-silver_sell_mip@_320.jpg'}
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei Nova 10 SE Dual Sim, 128 GB, Starry Silver ', 'price': '979', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-nova-10-se-dual-sim-128gb-starry-silver/75267994/?shape=Excelent', 'photo': 'https://cdn.flip.ro/device-images/huawei_nova-10-se-dual-sim_starry-silver_sell_mip@_320.jpg'}
+2024-01-12 20:35:34 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/huawei/?modelType=Telefoane>
+{'name': 'Huawei Nova 10 SE Dual Sim, 128 GB, Starry Black ', 'price': '999', 'link': 'https://flip.ro/magazin/huawei/telefon-mobil-huawei-nova-10-se-dual-sim-128gb-starry-black/75268000/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/huawei_nova-10-se-dual-sim_starry-black_sell_mip@_320.jpg'}
+2024-01-12 20:35:35 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/> (referer: None)
+2024-01-12 20:35:35 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/> (referer: None)
+2024-01-12 20:35:35 [scrapy] INFO: Closing spider (finished)
+2024-01-12 20:35:35 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2423,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 445256,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'elapsed_time_seconds': 1.494389,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 1, 12, 18, 35, 35, 274800, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 3085184,
+ 'httpcompression/response_count': 9,
+ 'item_scraped_count': 13,
+ 'log_count/DEBUG': 23,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 10,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2024, 1, 12, 18, 35, 33, 780411, tzinfo=datetime.timezone.utc)}
+2024-01-12 20:35:35 [scrapy] INFO: Spider closed (finished)

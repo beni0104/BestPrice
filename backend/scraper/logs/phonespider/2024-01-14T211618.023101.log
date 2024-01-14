@@ -1,0 +1,90 @@
+2024-01-14 21:16:18 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2024-01-14 21:16:18 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2024-01-14 21:16:18 [scrapy] DEBUG: Crawled (803) <GET https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/> (referer: None)
+2024-01-14 21:16:18 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2024-01-14 21:16:18 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2024-01-14 21:16:18 [scrapy] INFO: Ignoring response <803 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>: HTTP status code is not handled or not allowed
+2024-01-14 21:16:18 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2024-01-14 21:16:19 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/apple.html> (referer: None)
+2024-01-14 21:16:19 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/> (referer: None)
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/apple.html>
+{'name': 'Telefon mobil Apple iPhone 12 5G, 64GB, Black', 'price': '2.649', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-12-5g-64gb-black.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/1/4/143512_3.jpg'}
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 12 5G, 128GB, Black', 'price': '2.949', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-12-5g-128gb-black/cpd/SMTIP121BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-Black_2.jpg'}
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 12 5G, 64GB, Black', 'price': '2.649', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-12-5g-64gb-black/cpd/SMTIP126BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-Black_2.jpg'}
+2024-01-14 21:16:19 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/apple/?modelType=Telefoane> (referer: None)
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 12, 64 GB, Blue ', 'price': '1.999', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-12-64gb-blue/1101/?shape=Foarte%20bun', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-12_blue_sell_mip@_320.jpg'}
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 12 Pro Max, 128 GB, Pacific Blue ', 'price': '3.089', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-12-pro-max-128gb-pacific-blue/1129/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-12-pro-max_pacific-blue_sell_mip@_320.jpg'}
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 12 Pro, 128 GB, Graphite ', 'price': '2.599', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-12-pro-128gb-graphite/1115/?shape=Excelent', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-12-pro_graphite_sell_mip@_320.jpg'}
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 12 Pro, 256 GB, Graphite ', 'price': '2.659', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-12-pro-256gb-graphite/1119/?shape=Foarte%20bun', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-12-pro_graphite_sell_mip@_320.jpg'}
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 12, 64 GB, Black ', 'price': '2.089', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-12-64gb-black/1100/?shape=Excelent', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-12_black_sell_mip@_320.jpg'}
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 12 Pro, 128 GB, Pacific Blue ', 'price': '2.749', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-12-pro-128gb-pacific-blue/1117/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-12-pro_pacific-blue_sell_mip@_320.jpg'}
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 12 Pro, 128 GB, Gold ', 'price': '2.749', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-12-pro-128gb-gold/1116/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-12-pro_gold_sell_mip@_320.jpg'}
+2024-01-14 21:16:19 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/> (referer: None)
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 12 5G, 64GB, Black', 'price': '2.649', 'link': 'https://altex.ro/telefon-apple-iphone-12-5g-64gb-black/cpd/SMTIP126BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-Black_2.jpg'}
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 12 5G, 128GB, Black', 'price': '2.949', 'link': 'https://altex.ro/telefon-apple-iphone-12-5g-128gb-black/cpd/SMTIP121BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-Black_2.jpg'}
+2024-01-14 21:16:19 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 12 5G, 128GB, White', 'price': '2.949', 'link': 'https://altex.ro/telefon-apple-iphone-12-5g-128gb-white/cpd/SMTIP121WH/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-White_3.jpg'}
+2024-01-14 21:16:20 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/)
+2024-01-14 21:16:20 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 12 5G, 128GB, White', 'price': '2.949', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-12-5g-128gb-white/cpd/SMTIP121WH/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-White_3.jpg'}
+2024-01-14 21:16:20 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 12 5G, 64GB, White', 'price': '2.649', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-12-5g-64gb-white/cpd/SMTIP126WH/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-White_3.jpg'}
+2024-01-14 21:16:21 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/)
+2024-01-14 21:16:21 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 12 5G, 128GB, Black', 'price': '2.949', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-12-5g-128gb-black/cpd/SMTIP121BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-Black_2.jpg'}
+2024-01-14 21:16:21 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 12 5G, 64GB, Black', 'price': '2.649', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-12-5g-64gb-black/cpd/SMTIP126BK/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-Black_2.jpg'}
+2024-01-14 21:16:21 [scrapy] DEBUG: Filtered duplicate request: <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2024-01-14 21:16:22 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/)
+2024-01-14 21:16:22 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 12 5G, 64GB, White', 'price': '2.649', 'link': 'https://altex.ro/telefon-apple-iphone-12-5g-64gb-white/cpd/SMTIP126WH/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-White_3.jpg'}
+2024-01-14 21:16:24 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/)
+2024-01-14 21:16:25 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 12 5G, 64GB, Black', 'price': '2.649', 'link': 'https://altex.ro/telefon-apple-iphone-12-5g-64gb-black/cpd/SMTIP126BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-Black_2.jpg'}
+2024-01-14 21:16:25 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 12 5G, 128GB, Black', 'price': '2.949', 'link': 'https://altex.ro/telefon-apple-iphone-12-5g-128gb-black/cpd/SMTIP121BK/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-Black_2.jpg'}
+2024-01-14 21:16:25 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 12 5G, 128GB, White', 'price': '2.949', 'link': 'https://altex.ro/telefon-apple-iphone-12-5g-128gb-white/cpd/SMTIP121WH/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/A/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/Apple-iPhone-12-5G-White_3.jpg'}
+2024-01-14 21:16:25 [scrapy] INFO: Closing spider (finished)
+2024-01-14 21:16:25 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 7078,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 881560,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 13,
+ 'downloader/response_status_count/803': 1,
+ 'dupefilter/filtered': 2,
+ 'elapsed_time_seconds': 7.105129,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 1, 14, 19, 16, 25, 143226, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 8274747,
+ 'httpcompression/response_count': 12,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/803': 1,
+ 'item_scraped_count': 21,
+ 'log_count/DEBUG': 36,
+ 'log_count/INFO': 8,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 3,
+ 'response_received_count': 14,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 9,
+ 'scheduler/dequeued/memory': 9,
+ 'scheduler/enqueued': 9,
+ 'scheduler/enqueued/memory': 9,
+ 'start_time': datetime.datetime(2024, 1, 14, 19, 16, 18, 38097, tzinfo=datetime.timezone.utc)}
+2024-01-14 21:16:25 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,58 @@
+2024-01-12 20:29:59 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2024-01-12 20:29:59 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2024-01-12 20:29:59 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2024-01-12 20:29:59 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2024-01-12 20:29:59 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/> (referer: None)
+2024-01-12 20:29:59 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone SE, 2022, Procesor Apple A15 Bionic Hexa-core, Retina IPS LCD Capacitive Touchscreen 4.7", 4GB RAM, 256GB Flash, Camera 12MP, Wi-Fi, iOS, 5G, Rosu', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-se-2022-procesor-apple-a15-bionic-hexa-core-retina-ips-lcd-capacitive-touchscreen-4.7-4gb-ram-256gb-flash-camera-12mp-wi-fi-ios-5g-rosu-3865904.html', 'price': '2.899', 'photo': 'https://static3.evomag.ro/img?file=products%2F3865%2F3865904%2Fapple-iphone-se-5g-2022-64gb-6229bec327d57.JPG&height=150&extend=white'}
+2024-01-12 20:29:59 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone SE, 2022, Procesor Apple A15 Bionic Hexa-core, Retina IPS LCD Capacitive Touchscreen 4.7", 4GB RAM, 64GB Flash, Camera 12MP, Wi-Fi, iOS, 5G, Negru', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-se-2022-procesor-apple-a15-bionic-hexa-core-retina-ips-lcd-capacitive-touchscreen-4.7-4gb-ram-64gb-flash-camera-12mp-wi-fi-ios-5g-negru-3856576.html', 'price': '2.199', 'photo': 'https://static3.evomag.ro/img?file=products%2F3856%2F3856576%2Fapple-iphone-se-5g-2022-64gb-6229be3972c7a.JPG&height=150&extend=white'}
+2024-01-12 20:29:59 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone SE, 2022, Procesor Apple A15 Bionic Hexa-core, Retina IPS LCD Capacitive Touchscreen 4.7", 4GB RAM, 64GB Flash, Camera 12MP, Wi-Fi, iOS, 5G, Alb', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-se-2022-procesor-apple-a15-bionic-hexa-core-retina-ips-lcd-capacitive-touchscreen-4.7-4gb-ram-64gb-flash-camera-12mp-wi-fi-ios-5g-alb-3856578.html', 'price': '2.175', 'photo': 'https://static3.evomag.ro/img?file=products%2F3856%2F3856578%2Fapple-iphone-se-5g-2022-64gb-6229bf5c8935d.JPG&height=150&extend=white'}
+2024-01-12 20:29:59 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>
+{'title': 'Telefon Mobil Apple iPhone SE, 2022, Procesor Apple A15 Bionic Hexa-core, Retina IPS LCD Capacitive Touchscreen 4.7", 4GB RAM, 64GB Flash, Camera 12MP, Wi-Fi, iOS, 5G, Rosu', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple-telefon-mobil-apple-iphone-se-2022-procesor-apple-a15-bionic-hexa-core-retina-ips-lcd-capacitive-touchscreen-4.7-4gb-ram-64gb-flash-camera-12mp-wi-fi-ios-5g-rosu-3856577.html', 'price': '2.499', 'photo': 'https://static3.evomag.ro/img?file=products%2F3856%2F3856577%2Fapple-iphone-se-5g-2022-64gb-6229bec327d57.JPG&height=150&extend=white'}
+2024-01-12 20:29:59 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2024-01-12 20:30:00 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/apple/?modelType=Telefoane> (referer: None)
+2024-01-12 20:30:00 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone SE 2020, 64 GB, Black ', 'price': '1.149', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-se-2020-64gb-black/1000/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-se-2020_black_sell_mip@_320.jpg'}
+2024-01-12 20:30:01 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/> (referer: None)
+2024-01-12 20:30:01 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/apple.html> (referer: None)
+2024-01-12 20:30:02 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/)
+2024-01-12 20:30:02 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone SE 5G, 64GB, Midnight', 'price': '2.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-se-5g-64gb-midnight/cpd/SMTIPSE36MN/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/Telefon_APPLE_iPhone_SE_5G_Midnight_1_.jpg'}
+2024-01-12 20:30:03 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/> (referer: None)
+2024-01-12 20:30:03 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/)
+2024-01-12 20:30:03 [scrapy] DEBUG: Filtered duplicate request: <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2024-01-12 20:30:05 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/)
+2024-01-12 20:30:05 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone SE 5G, 64GB, Midnight', 'price': '2.349', 'link': 'https://altex.ro/telefon-apple-iphone-se-5g-64gb-midnight/cpd/SMTIPSE36MN/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/Telefon_APPLE_iPhone_SE_5G_Midnight_1_.jpg'}
+2024-01-12 20:30:08 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/)
+2024-01-12 20:30:08 [scrapy] INFO: Closing spider (finished)
+2024-01-12 20:30:08 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 7078,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 949266,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 14,
+ 'dupefilter/filtered': 2,
+ 'elapsed_time_seconds': 9.365388,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 1, 12, 18, 30, 8, 530961, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 8820936,
+ 'httpcompression/response_count': 13,
+ 'item_scraped_count': 7,
+ 'log_count/DEBUG': 22,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 3,
+ 'response_received_count': 14,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 9,
+ 'scheduler/dequeued/memory': 9,
+ 'scheduler/enqueued': 9,
+ 'scheduler/enqueued/memory': 9,
+ 'start_time': datetime.datetime(2024, 1, 12, 18, 29, 59, 165573, tzinfo=datetime.timezone.utc)}
+2024-01-12 20:30:08 [scrapy] INFO: Spider closed (finished)

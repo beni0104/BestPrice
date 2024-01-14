@@ -1,0 +1,204 @@
+2024-01-14 22:59:23 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2024-01-14 22:59:23 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2024-01-14 22:59:23 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2024-01-14 22:59:23 [scrapy] DEBUG: Crawled (803) <GET https://www.evomag.ro/telefoane-tablete-accesorii-tablete-si-accesorii-tablete/apple> (referer: None)
+2024-01-14 22:59:23 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2024-01-14 22:59:23 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/> (referer: None)
+2024-01-14 22:59:23 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/> (referer: None)
+2024-01-14 22:59:23 [scrapy] INFO: Ignoring response <803 https://www.evomag.ro/telefoane-tablete-accesorii-tablete-si-accesorii-tablete/apple>: HTTP status code is not handled or not allowed
+2024-01-14 22:59:23 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Space Gray', 'price': '3.489', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-space-gray/cpd/TABMM9C3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Space_Gray_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Starlight', 'price': '5.399', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-starlight/cpd/TABMM743HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Space Gray', 'price': '5.199', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-space-gray/cpd/TABMM713HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Space_Gray_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Blue', 'price': '5.048', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-blue/cpd/TABMM733HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Purple', 'price': '4.999', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-purple/cpd/TABMMED3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Purple_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Pink', 'price': '4.599', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-pink/cpd/TABMM9M3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Pink_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Starlight', 'price': '4.559', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-starlight/cpd/TABMM9P3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Blue', 'price': '4.449', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-blue/cpd/TABMM9N3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi + 5G, Starlight', 'price': '4.399', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-5g-starlight/cpd/TABMM6V3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Space Gray', 'price': '4.399', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-space-gray/cpd/TABMM9L3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Space_Gray_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi + 5G, Blue', 'price': '4.399', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-5g-blue/cpd/TABMM6U3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi + 5G, Space Gray', 'price': '4.399', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-5g-space-gray/cpd/TABMM6R3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Space_Gray_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Pink', 'price': '4.599', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-pink/cpd/TABMM9M3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Pink_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Space Gray', 'price': '4.399', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-space-gray/cpd/TABMM9L3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Space_Gray_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Purple', 'price': '3.549', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-purple/cpd/TABMME23HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Purple_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Blue', 'price': '3.519', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-blue/cpd/TABMM9E3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Starlight', 'price': '5.399', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-starlight/cpd/TABMM743HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Space Gray', 'price': '5.199', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-space-gray/cpd/TABMM713HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Space_Gray_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Blue', 'price': '5.048', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-blue/cpd/TABMM733HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Purple', 'price': '4.999', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-purple/cpd/TABMMED3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Purple_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Starlight', 'price': '4.559', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-starlight/cpd/TABMM9P3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Blue', 'price': '4.449', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-blue/cpd/TABMM9N3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi + 5G, Blue', 'price': '4.399', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-5g-blue/cpd/TABMM6U3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi + 5G, Starlight', 'price': '4.399', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-5g-starlight/cpd/TABMM6V3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi + 5G, Space Gray', 'price': '4.399', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-5g-space-gray/cpd/TABMM6R3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Space_Gray_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> (referer: https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/)
+2024-01-14 22:59:24 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> (referer: https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/)
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Purple', 'price': '3.549', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-purple/cpd/TABMME23HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Purple_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Pink', 'price': '3.529', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-pink/cpd/TABMM9D3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Pink_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Blue', 'price': '3.519', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-blue/cpd/TABMM9E3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Starlight', 'price': '3.499', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-starlight/cpd/TABMM9F3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/apple/?modelType=Tablete> (referer: None)
+2024-01-14 22:59:24 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/tablete-si-accesorii/tablete-ios.html> (referer: None)
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Pink', 'price': '3.529', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-pink/cpd/TABMM9D3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Pink_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Starlight', 'price': '3.499', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-starlight/cpd/TABMM9F3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Space Gray', 'price': '3.489', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-space-gray/cpd/TABMM9C3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Space_Gray_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/> (referer: https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/)
+2024-01-14 22:59:24 [scrapy] ERROR: Spider error processing <GET https://www.flanco.ro/telefoane-tablete/tablete-si-accesorii/tablete-ios.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+          ^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\Desktop\ProiectTW-latest\BestPrice\backend\scraper\scraper\spiders\tabletspider.py", line 129, in parse_flanco
+    "price": re.search("[0-9]*[.,]?[0-9]+",
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\re\__init__.py", line 177, in search
+    return _compile(pattern, flags).search(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Space Gray', 'price': '3.489', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-space-gray/cpd/TABMM9C3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Space_Gray_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/> (referer: https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/)
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Starlight', 'price': '5.399', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-starlight/cpd/TABMM743HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Space Gray', 'price': '5.199', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-space-gray/cpd/TABMM713HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Space_Gray_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Blue', 'price': '5.048', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-blue/cpd/TABMM733HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Purple', 'price': '4.999', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-purple/cpd/TABMMED3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Purple_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Pink', 'price': '4.599', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-pink/cpd/TABMM9M3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Pink_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Starlight', 'price': '4.559', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-starlight/cpd/TABMM9P3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Blue', 'price': '4.449', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-blue/cpd/TABMM9N3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi + 5G, Starlight', 'price': '4.399', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-5g-starlight/cpd/TABMM6V3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Space Gray', 'price': '4.399', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-space-gray/cpd/TABMM9L3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Space_Gray_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi + 5G, Blue', 'price': '4.399', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-5g-blue/cpd/TABMM6U3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi + 5G, Space Gray', 'price': '4.399', 'link': 'https://mediagalaxy.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-5g-space-gray/cpd/TABMM6R3HCA/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Space_Gray_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Filtered duplicate request: <GET https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Pink', 'price': '4.599', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-pink/cpd/TABMM9M3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Pink_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Space Gray', 'price': '4.399', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-space-gray/cpd/TABMM9L3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Space_Gray_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Purple', 'price': '3.549', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-purple/cpd/TABMME23HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Purple_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi, Blue', 'price': '3.519', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-blue/cpd/TABMM9E3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Starlight', 'price': '5.399', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-starlight/cpd/TABMM743HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Space Gray', 'price': '5.199', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-space-gray/cpd/TABMM713HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Space_Gray_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Blue', 'price': '5.048', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-blue/cpd/TABMM733HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi + 5G, Purple', 'price': '4.999', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-5g-purple/cpd/TABMMED3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Purple_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Starlight', 'price': '4.559', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-starlight/cpd/TABMM9P3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 256GB, Wi-Fi, Blue', 'price': '4.449', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-256gb-wi-fi-blue/cpd/TABMM9N3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi + 5G, Blue', 'price': '4.399', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-5g-blue/cpd/TABMM6U3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Blue_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi + 5G, Starlight', 'price': '4.399', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-5g-starlight/cpd/TABMM6V3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Starlight_2_.jpg'}
+2024-01-14 22:59:24 [scrapy] DEBUG: Scraped from <200 https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Tableta APPLE iPad Air 5, 10.9", 64GB, Wi-Fi + 5G, Space Gray', 'price': '4.399', 'link': 'https://altex.ro/tableta-apple-ipad-air-5-10-9-64gb-wi-fi-5g-space-gray/cpd/TABMM6R3HCA/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/T/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/Tableta_APPLE_iPad_Air_5_Wi-Fi_5G_Space_Gray_3_.jpg'}
+2024-01-14 22:59:24 [scrapy] INFO: Closing spider (finished)
+2024-01-14 22:59:24 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 7077,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 801311,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 13,
+ 'downloader/response_status_count/803': 1,
+ 'dupefilter/filtered': 2,
+ 'elapsed_time_seconds': 1.254737,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 1, 14, 20, 59, 24, 806394, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 7000340,
+ 'httpcompression/response_count': 12,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/803': 1,
+ 'item_scraped_count': 57,
+ 'log_count/DEBUG': 72,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 3,
+ 'response_received_count': 14,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 9,
+ 'scheduler/dequeued/memory': 9,
+ 'scheduler/enqueued': 9,
+ 'scheduler/enqueued/memory': 9,
+ 'spider_exceptions/TypeError': 1,
+ 'start_time': datetime.datetime(2024, 1, 14, 20, 59, 23, 551657, tzinfo=datetime.timezone.utc)}
+2024-01-14 22:59:24 [scrapy] INFO: Spider closed (finished)

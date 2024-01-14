@@ -1,0 +1,188 @@
+2024-01-11 19:05:29 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2024-01-11 19:05:29 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2024-01-11 19:05:29 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2024-01-11 19:05:29 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2024-01-11 19:05:29 [scrapy] DEBUG: Crawled (803) <GET https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/> (referer: None)
+2024-01-11 19:05:29 [scrapy] INFO: Ignoring response <803 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/apple/>: HTTP status code is not handled or not allowed
+2024-01-11 19:05:29 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2024-01-11 19:05:30 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/> (referer: None)
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Midnight', 'price': '3.899', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-midnight/cpd/SMTIP141MN/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Purple', 'price': '3.799', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-purple/cpd/SMTIP141PP/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_purple-1_3df48088.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Blue', 'price': '3.861', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-blue/cpd/SMTIP141BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Midnight', 'price': '4.399', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-midnight/cpd/SMTIP142MN/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Blue', 'price': '4.349', 'link': 'https://altex.ro/telefon-apple-iphone-14-plus-5g-128gb-blue/cpd/SMTIP14P1BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Blue', 'price': '4.449', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-blue/cpd/SMTIP142BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Starlight', 'price': '4.449', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-starlight/cpd/SMTIP142ST/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_starlight-1_ffd4454e.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Starlight', 'price': '4.349', 'link': 'https://altex.ro/telefon-apple-iphone-14-plus-5g-128gb-starlight/cpd/SMTIP14P1ST/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_starlight-1_ffd4454e.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Midnight', 'price': '4.349', 'link': 'https://altex.ro/telefon-apple-iphone-14-plus-5g-128gb-midnight/cpd/SMTIP14P1MN/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/> (referer: None)
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Midnight', 'price': '3.899', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-midnight/cpd/SMTIP141MN/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Purple', 'price': '3.799', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-purple/cpd/SMTIP141PP/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_purple-1_3df48088.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Starlight', 'price': '4.449', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-256gb-starlight/cpd/SMTIP142ST/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_starlight-1_ffd4454e.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Purple', 'price': '4.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-128gb-purple/cpd/SMTIP14P1PP/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_purple-1_3df48088.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Blue', 'price': '4.449', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-256gb-blue/cpd/SMTIP142BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Starlight', 'price': '3.899', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-starlight/cpd/SMTIP141ST/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_starlight-1_ffd4454e.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, (PRODUCT) Red', 'price': '5.499', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-256gb-product-red/cpd/SMTIP14P2RD/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_red-1_73d71159.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Midnight', 'price': '4.399', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-256gb-midnight/cpd/SMTIP142MN/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Midnight', 'price': '4.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-128gb-midnight/cpd/SMTIP14P1MN/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Blue', 'price': '4.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-128gb-blue/cpd/SMTIP14P1BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB (PRODUCT) Red', 'price': '3.899', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-product-red/cpd/SMTIP141RD/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_red-1_73d71159.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Blue', 'price': '3.861', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-blue/cpd/SMTIP141BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:30 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/apple/?modelType=Telefoane> (referer: None)
+2024-01-11 19:05:31 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 14 Pro Max, 128 GB, Deep Purple ', 'price': '5.399', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-14-pro-max-128gb-deep-purple/14685869/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-14-pro-max_deep-purple_sell_mip@_320.jpg'}
+2024-01-11 19:05:31 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 14 Pro, 128 GB, Space Black ', 'price': '4.779', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-14-pro-128gb-space-black/14685850/?shape=Excelent', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-14-pro_space-black_sell_mip@_320.jpg'}
+2024-01-11 19:05:31 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 14 Pro Max, 256 GB, Space Black ', 'price': '5.899', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-14-pro-max-256gb-space-black/14685870/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-14-pro-max_space-black_sell_mip@_320.jpg'}
+2024-01-11 19:05:31 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 14 Pro, 128 GB, Deep Purple ', 'price': '4.849', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-14-pro-128gb-deep-purple/14685853/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-14-pro_deep-purple_sell_mip@_320.jpg'}
+2024-01-11 19:05:31 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 14 Pro, 256 GB, Deep Purple ', 'price': '5.159', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-14-pro-256gb-deep-purple/14685857/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-14-pro_deep-purple_sell_mip@_320.jpg'}
+2024-01-11 19:05:31 [scrapy] DEBUG: Scraped from <200 https://flip.ro/magazin/apple/?modelType=Telefoane>
+{'name': 'Apple iPhone 14, 128 GB, Midnight ', 'price': '3.499', 'link': 'https://flip.ro/magazin/apple/telefon-mobil-apple-iphone-14-128gb-midnight/14685825/?shape=Ca%20nou', 'photo': 'https://cdn.flip.ro/device-images/apple_iphone-14_midnight_sell_mip@_320.jpg'}
+2024-01-11 19:05:31 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/apple.html> (referer: None)
+2024-01-11 19:05:31 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/apple.html>
+{'name': 'Telefon mobil Apple iPhone 14 5G, 128GB, Midnight', 'price': '3.899', 'link': 'https://www.flanco.ro/telefon-mobil-apple-iphone-14-5g-128gb-midnight.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/i/p/iphone_14_midnight_2_2.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/)
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB, Purple', 'price': '6.599', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-512gb-purple/cpd/SMTIP145PP/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_purple-1_3df48088.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB (PRODUCT) Red', 'price': '6.399', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-512gb-product-red/cpd/SMTIP145RD/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_red-1_73d71159.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB, Blue', 'price': '6.250', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-512gb-blue/cpd/SMTIP145BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 512GB, Starlight', 'price': '5.999', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-512gb-starlight/cpd/SMTIP14P5ST/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_starlight-1_ffd4454e.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, Midnight', 'price': '4.899', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-256gb-midnight/cpd/SMTIP14P2MN/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, Yellow', 'price': '4.899', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-256gb-yellow/cpd/SMTIP14P2YL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_apple_iphone_14_plus_5g_yellow_01_29b78407.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Yellow', 'price': '4.709', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-128gb-yellow/cpd/SMTIP14P1YL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_apple_iphone_14_plus_5g_yellow_01_29b78407.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Yellow', 'price': '4.449', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-256gb-yellow/cpd/SMTIP142YL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_apple_iphone_14_5g_yellow_01_429136b6.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Starlight', 'price': '4.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-128gb-starlight/cpd/SMTIP14P1ST/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_starlight-1_ffd4454e.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/)
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB (PRODUCT) Red', 'price': '3.899', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-product-red/cpd/SMTIP141RD/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_red-1_73d71159.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB, Purple', 'price': '6.599', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-512gb-purple/cpd/SMTIP145PP/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_purple-1_3df48088.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB (PRODUCT) Red', 'price': '6.399', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-512gb-product-red/cpd/SMTIP145RD/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_red-1_73d71159.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 512GB, Blue', 'price': '6.250', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-512gb-blue/cpd/SMTIP145BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 512GB, Starlight', 'price': '5.999', 'link': 'https://altex.ro/telefon-apple-iphone-14-plus-5g-512gb-starlight/cpd/SMTIP14P5ST/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_starlight-1_ffd4454e.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, (PRODUCT) Red', 'price': '5.499', 'link': 'https://altex.ro/telefon-apple-iphone-14-plus-5g-256gb-product-red/cpd/SMTIP14P2RD/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_red-1_73d71159.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, Yellow', 'price': '4.899', 'link': 'https://altex.ro/telefon-apple-iphone-14-plus-5g-256gb-yellow/cpd/SMTIP14P2YL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_apple_iphone_14_plus_5g_yellow_01_29b78407.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, Midnight', 'price': '4.899', 'link': 'https://altex.ro/telefon-apple-iphone-14-plus-5g-256gb-midnight/cpd/SMTIP14P2MN/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Yellow', 'price': '4.709', 'link': 'https://altex.ro/telefon-apple-iphone-14-plus-5g-128gb-yellow/cpd/SMTIP14P1YL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_apple_iphone_14_plus_5g_yellow_01_29b78407.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Yellow', 'price': '4.449', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-yellow/cpd/SMTIP142YL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_apple_iphone_14_5g_yellow_01_429136b6.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Purple', 'price': '4.349', 'link': 'https://altex.ro/telefon-apple-iphone-14-plus-5g-128gb-purple/cpd/SMTIP14P1PP/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_purple-1_3df48088.jpg'}
+2024-01-11 19:05:32 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Starlight', 'price': '3.899', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-starlight/cpd/SMTIP141ST/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_starlight-1_ffd4454e.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/> (referer: https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/)
+2024-01-11 19:05:33 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Midnight', 'price': '3.899', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-midnight/cpd/SMTIP141MN/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Purple', 'price': '3.799', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-purple/cpd/SMTIP141PP/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_purple-1_3df48088.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Starlight', 'price': '4.449', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-256gb-starlight/cpd/SMTIP142ST/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_starlight-1_ffd4454e.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Purple', 'price': '4.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-128gb-purple/cpd/SMTIP14P1PP/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_purple-1_3df48088.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Blue', 'price': '4.449', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-256gb-blue/cpd/SMTIP142BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Starlight', 'price': '3.899', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-starlight/cpd/SMTIP141ST/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_starlight-1_ffd4454e.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 256GB, (PRODUCT) Red', 'price': '5.499', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-256gb-product-red/cpd/SMTIP14P2RD/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_red-1_73d71159.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Midnight', 'price': '4.399', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-256gb-midnight/cpd/SMTIP142MN/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Midnight', 'price': '4.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-128gb-midnight/cpd/SMTIP14P1MN/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Blue', 'price': '4.349', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-plus-5g-128gb-blue/cpd/SMTIP14P1BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB (PRODUCT) Red', 'price': '3.899', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-product-red/cpd/SMTIP141RD/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_red-1_73d71159.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Blue', 'price': '3.861', 'link': 'https://mediagalaxy.ro/telefon-apple-iphone-14-5g-128gb-blue/cpd/SMTIP141BL/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:33 [scrapy] DEBUG: Filtered duplicate request: <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2024-01-11 19:05:36 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/> (referer: https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/2/)
+2024-01-11 19:05:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Midnight', 'price': '3.899', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-midnight/cpd/SMTIP141MN/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Purple', 'price': '3.799', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-purple/cpd/SMTIP141PP/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_purple-1_3df48088.jpg'}
+2024-01-11 19:05:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 128GB, Blue', 'price': '3.861', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-128gb-blue/cpd/SMTIP141BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Midnight', 'price': '4.399', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-midnight/cpd/SMTIP142MN/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Blue', 'price': '4.349', 'link': 'https://altex.ro/telefon-apple-iphone-14-plus-5g-128gb-blue/cpd/SMTIP14P1BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Blue', 'price': '4.449', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-blue/cpd/SMTIP142BL/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_blue-1_d611427e.jpg'}
+2024-01-11 19:05:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 5G, 256GB, Starlight', 'price': '4.449', 'link': 'https://altex.ro/telefon-apple-iphone-14-5g-256gb-starlight/cpd/SMTIP142ST/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_starlight-1_ffd4454e.jpg'}
+2024-01-11 19:05:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Starlight', 'price': '4.349', 'link': 'https://altex.ro/telefon-apple-iphone-14-plus-5g-128gb-starlight/cpd/SMTIP14P1ST/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_starlight-1_ffd4454e.jpg'}
+2024-01-11 19:05:36 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/apple/p/1/>
+{'name': 'Telefon APPLE iPhone 14 Plus 5G, 128GB, Midnight', 'price': '4.349', 'link': 'https://altex.ro/telefon-apple-iphone-14-plus-5g-128gb-midnight/cpd/SMTIP14P1MN/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/i/p/16fa6a9aef7ffd6209d5fd9338ffa0b1/iphone_14_midnight-1_2d04711a.jpg'}
+2024-01-11 19:05:36 [scrapy] INFO: Closing spider (finished)
+2024-01-11 19:05:36 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 7078,
+ 'downloader/request_count': 14,
+ 'downloader/request_method_count/GET': 14,
+ 'downloader/response_bytes': 887884,
+ 'downloader/response_count': 14,
+ 'downloader/response_status_count/200': 13,
+ 'downloader/response_status_count/803': 1,
+ 'dupefilter/filtered': 2,
+ 'elapsed_time_seconds': 7.197273,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 1, 11, 17, 5, 36, 306808, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 8293886,
+ 'httpcompression/response_count': 12,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/803': 1,
+ 'item_scraped_count': 70,
+ 'log_count/DEBUG': 86,
+ 'log_count/INFO': 8,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 3,
+ 'response_received_count': 14,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 9,
+ 'scheduler/dequeued/memory': 9,
+ 'scheduler/enqueued': 9,
+ 'scheduler/enqueued/memory': 9,
+ 'start_time': datetime.datetime(2024, 1, 11, 17, 5, 29, 109535, tzinfo=datetime.timezone.utc)}
+2024-01-11 19:05:36 [scrapy] INFO: Spider closed (finished)

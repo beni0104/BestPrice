@@ -1,0 +1,45 @@
+2024-01-12 20:35:47 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2024-01-12 20:35:47 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2024-01-12 20:35:47 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2024-01-12 20:35:47 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2024-01-12 20:35:47 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/> (referer: None)
+2024-01-12 20:35:47 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/> (referer: None)
+2024-01-12 20:35:47 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/> (referer: None)
+2024-01-12 20:35:47 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2024-01-12 20:35:47 [scrapy] DEBUG: Scraped from <200 https://altex.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/>
+{'name': 'Telefon HUAWEI P60 Pro, 256GB, 8GB RAM, Dual SIM, Rococo Pearl', 'price': '5.099', 'link': 'https://altex.ro/telefon-huawei-p60-pro-256gb-8gb-ram-dual-sim-rococo-pearl/cpd/SMTP60PRORO/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_huawei_p60_pro_rococo_pearl_01_a0369f0b.jpg'}
+2024-01-12 20:35:47 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/>
+{'title': 'Telefon Mobil Huawei P60 Pro, Procesor Qualcomm SM8475 Snapdragon 8+ Gen 1 4G, Octa-Core, LTPO OLED Capacitive touchscreen 6.67", 8GB RAM, 256GB Flash, Camera Tripla 48 + 48 + 13MP, 4G, Wi-Fi, Dual SIM, EMUI 13.1, Alb', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei-telefon-mobil-huawei-p60-pro-procesor-qualcomm-sm8475-snapdragon-8-gen-1-4g-octa-core-ltpo-oled-capacitive-touchscreen-6.67-8gb-ram-256gb-flash-camera-tripla-48-48-13mp-4g-wi-fi-dual-sim-emui-13.1-alb-4091753.html', 'price': '5.499', 'photo': 'https://static3.evomag.ro/img?file=products%2F4091%2F4091753%2Ftelefon-mobil-huawei-p60-pro-6458e08a9899d.JPG&height=150&extend=white'}
+2024-01-12 20:35:47 [scrapy] DEBUG: Scraped from <200 https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei/>
+{'title': 'Telefon Mobil Huawei P60 Pro, Procesor Qualcomm SM8475 Snapdragon 8+ Gen 1 4G, Octa-Core, LTPO OLED Capacitive touchscreen 6.67", 8GB RAM, 256GB Flash, Camera Tripla 48 + 48 + 13MP, 4G, Wi-Fi, Dual SIM, EMUI 13.1, Negru', 'link': 'https://www.evomag.ro/telefoane-tablete-accesorii-telefoane/huawei-telefon-mobil-huawei-p60-pro-procesor-qualcomm-sm8475-snapdragon-8-gen-1-4g-octa-core-ltpo-oled-capacitive-touchscreen-6.67-8gb-ram-256gb-flash-camera-tripla-48-48-13mp-4g-wi-fi-dual-sim-emui-13.1-negru-4091751.html', 'price': '5.499', 'photo': 'https://static3.evomag.ro/img?file=products%2F4091%2F4091751%2Ftelefon-mobil-huawei-p60-pro-6458dc9a12107.JPG&height=150&extend=white'}
+2024-01-12 20:35:47 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/telefoane/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/huawei/>
+{'name': 'Telefon HUAWEI P60 Pro, 256GB, 8GB RAM, Dual SIM, Rococo Pearl', 'price': '5.099', 'link': 'https://mediagalaxy.ro/telefon-huawei-p60-pro-256gb-8gb-ram-dual-sim-rococo-pearl/cpd/SMTP60PRORO/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/t/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/telefon_huawei_p60_pro_rococo_pearl_01_a0369f0b.jpg'}
+2024-01-12 20:35:47 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/smartphone/filtre/brand/huawei.html> (referer: None)
+2024-01-12 20:35:48 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/huawei/?modelType=Telefoane> (referer: None)
+2024-01-12 20:35:48 [scrapy] INFO: Closing spider (finished)
+2024-01-12 20:35:48 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2423,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 445199,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'elapsed_time_seconds': 1.090395,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 1, 12, 18, 35, 48, 580725, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 3085184,
+ 'httpcompression/response_count': 9,
+ 'item_scraped_count': 4,
+ 'log_count/DEBUG': 14,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 10,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2024, 1, 12, 18, 35, 47, 490330, tzinfo=datetime.timezone.utc)}
+2024-01-12 20:35:48 [scrapy] INFO: Spider closed (finished)

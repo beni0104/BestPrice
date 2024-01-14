@@ -1,0 +1,115 @@
+2024-01-14 21:38:28 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2024-01-14 21:38:28 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2024-01-14 21:38:28 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2024-01-14 21:38:28 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/portabile-laptopuri-notebook/lenovo/> (referer: None)
+2024-01-14 21:38:28 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2024-01-14 21:38:28 [scrapy] ERROR: Spider error processing <GET https://www.evomag.ro/portabile-laptopuri-notebook/lenovo/> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\utils\defer.py", line 279, in iter_errback
+    yield next(it)
+          ^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\rober\Desktop\ProiectTW-latest\BestPrice\backend\scraper\scraper\spiders\laptopspider.py", line 105, in parse_evomag
+    photo = product.css(f"img[alt='{title}']::attr(src)").get()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\parsel\selector.py", line 683, in css
+    return self.xpath(self._css2xpath(query))
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\parsel\selector.py", line 687, in _css2xpath
+    return _ctgroup[type]["_csstranslator"].css_to_xpath(query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\parsel\csstranslator.py", line 152, in css_to_xpath
+    return super().css_to_xpath(css, prefix)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\cssselect\xpath.py", line 224, in css_to_xpath
+    for selector in parse(css)
+                    ^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\cssselect\parser.py", line 543, in parse
+    return list(parse_selector_group(stream))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\cssselect\parser.py", line 558, in parse_selector_group
+    yield Selector(*parse_selector(stream))
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\cssselect\parser.py", line 567, in parse_selector
+    result, pseudo_element = parse_simple_selector(stream)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\cssselect\parser.py", line 634, in parse_simple_selector
+    result = parse_attrib(result, stream)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\cssselect\parser.py", line 795, in parse_attrib
+    stream.skip_whitespace()
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\cssselect\parser.py", line 1060, in skip_whitespace
+    peek = self.peek()
+           ^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\cssselect\parser.py", line 1040, in peek
+    self.peeked = self.next_token()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python312\Lib\site-packages\cssselect\parser.py", line 987, in tokenize
+    raise SelectorSyntaxError("Invalid string at %s" % pos)
+cssselect.parser.SelectorSyntaxError: Invalid string at 8
+2024-01-14 21:38:29 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/lenovo/> (referer: None)
+2024-01-14 21:38:29 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/lenovo/>
+{'name': 'Laptop Gaming LENOVO LOQ 15APH8, AMD Ryzen 5 7640HS pana la 5GHz, 15.6" FHD, 16GB, SSD 512GB, NVIDIA GeForce RTX 4060 8GB, Free DOS, Storm Grey', 'price': '5.099', 'link': 'https://mediagalaxy.ro/laptop-gaming-lenovo-loq-15aph8-amd-ryzen-5-7640hs-pana-la-5ghz-15-6-fhd-16gb-ssd-512gb-nvidia-geforce-rtx-4060-8gb-free-dos-storm-grey/cpd/LAP82XT0088RM/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/l/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/lenovo_loq_15aph8_1_7e3d0580.jpg'}
+2024-01-14 21:38:29 [scrapy] DEBUG: Scraped from <200 https://mediagalaxy.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/lenovo/>
+{'name': 'Laptop gaming LENOVO LOQ 15APH8, AMD Ryzen 5 7640HS pana la 5Ghz, 15.6" Full HD, 16GB, SSD 512GB, NVIDIA GeForce RTX 4060 8GB, Free DOS, gri', 'price': '5.199', 'link': 'https://mediagalaxy.ro/laptop-gaming-lenovo-loq-15aph8-amd-ryzen-5-7640hs-pana-la-5ghz-15-6-full-hd-16gb-ssd-512gb-nvidia-geforce-rtx-4060-8gb-free-dos-gri/cpd/LAP82XT00APRM/', 'photo': 'https://lcdn.mediagalaxy.ro/resize/media/catalog/product/l/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/lap82xt00aprm_1_67f56f4b.jpg'}
+2024-01-14 21:38:29 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/lenovo/> (referer: None)
+2024-01-14 21:38:29 [scrapy] DEBUG: Scraped from <200 https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/lenovo/>
+{'name': 'Laptop Gaming LENOVO LOQ 15APH8, AMD Ryzen 5 7640HS pana la 5GHz, 15.6" FHD, 16GB, SSD 512GB, NVIDIA GeForce RTX 4060 8GB, Free DOS, Storm Grey', 'price': '5.099', 'link': 'https://altex.ro/laptop-gaming-lenovo-loq-15aph8-amd-ryzen-5-7640hs-pana-la-5ghz-15-6-fhd-16gb-ssd-512gb-nvidia-geforce-rtx-4060-8gb-free-dos-storm-grey/cpd/LAP82XT0088RM/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/l/e/16fa6a9aef7ffd6209d5fd9338ffa0b1/lenovo_loq_15aph8_1_7e3d0580.jpg'}
+2024-01-14 21:38:29 [scrapy] DEBUG: Scraped from <200 https://altex.ro/laptopuri/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/lenovo/>
+{'name': 'Laptop gaming LENOVO LOQ 15APH8, AMD Ryzen 5 7640HS pana la 5Ghz, 15.6" Full HD, 16GB, SSD 512GB, NVIDIA GeForce RTX 4060 8GB, Free DOS, gri', 'price': '5.199', 'link': 'https://altex.ro/laptop-gaming-lenovo-loq-15aph8-amd-ryzen-5-7640hs-pana-la-5ghz-15-6-full-hd-16gb-ssd-512gb-nvidia-geforce-rtx-4060-8gb-free-dos-gri/cpd/LAP82XT00APRM/', 'photo': 'https://lcdn.altex.ro/resize/media/catalog/product/l/a/16fa6a9aef7ffd6209d5fd9338ffa0b1/lap82xt00aprm_1_67f56f4b.jpg'}
+2024-01-14 21:38:30 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/laptop-it-tablete/laptop/filtre/brand/lenovo.html> (referer: None)
+2024-01-14 21:38:30 [scrapy] INFO: Closing spider (finished)
+2024-01-14 21:38:30 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1949,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 388637,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 8,
+ 'elapsed_time_seconds': 2.434419,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 1, 14, 19, 38, 30, 584106, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 3686341,
+ 'httpcompression/response_count': 8,
+ 'item_scraped_count': 4,
+ 'log_count/DEBUG': 12,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 8,
+ 'robotstxt/request_count': 4,
+ 'robotstxt/response_count': 4,
+ 'robotstxt/response_status_count/200': 4,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'spider_exceptions/SelectorSyntaxError': 1,
+ 'start_time': datetime.datetime(2024, 1, 14, 19, 38, 28, 149687, tzinfo=datetime.timezone.utc)}
+2024-01-14 21:38:30 [scrapy] INFO: Spider closed (finished)

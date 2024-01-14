@@ -1,0 +1,50 @@
+2024-01-14 21:52:24 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/robots.txt> (referer: None)
+2024-01-14 21:52:24 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/robots.txt> (referer: None)
+2024-01-14 21:52:24 [scrapy] DEBUG: Crawled (200) <GET https://www.evomag.ro/robots.txt> (referer: None)
+2024-01-14 21:52:24 [scrapy] DEBUG: Crawled (803) <GET https://www.evomag.ro/telefoane-tablete-accesorii-tablete-si-accesorii-tablete/galaxy> (referer: None)
+2024-01-14 21:52:24 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/robots.txt> (referer: None)
+2024-01-14 21:52:24 [scrapy] INFO: Ignoring response <803 https://www.evomag.ro/telefoane-tablete-accesorii-tablete-si-accesorii-tablete/galaxy>: HTTP status code is not handled or not allowed
+2024-01-14 21:52:24 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/robots.txt> (referer: None)
+2024-01-14 21:52:24 [scrapy] DEBUG: Crawled (200) <GET https://mediagalaxy.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/galaxy/> (referer: None)
+2024-01-14 21:52:24 [scrapy] DEBUG: Crawled (200) <GET https://altex.ro/tablete/cpl/filtru/in-stoc-5182/in-stoc/brand-3334/galaxy/> (referer: None)
+2024-01-14 21:52:24 [scrapy] DEBUG: Redirecting (301) to <GET https://www.flanco.ro/telefoane-tablete/tablete-si-accesorii/tablete-android/filtre.html> from <GET https://www.flanco.ro/telefoane-tablete/tablete-si-accesorii/tablete-android/filtre/brand/galaxy.html>
+2024-01-14 21:52:24 [scrapy] DEBUG: Redirecting (301) to <GET https://www.flanco.ro/telefoane-tablete/tablete-si-accesorii/tablete-android.html> from <GET https://www.flanco.ro/telefoane-tablete/tablete-si-accesorii/tablete-android/filtre.html>
+2024-01-14 21:52:25 [scrapy] DEBUG: Crawled (200) <GET https://www.flanco.ro/telefoane-tablete/tablete-si-accesorii/tablete-android.html> (referer: None)
+2024-01-14 21:52:25 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/tablete-si-accesorii/tablete-android.html>
+{'name': 'Tableta Samsung Galaxy Tab A7 Lite, 8.7", Octa-Core, 3GB RAM, 32GB, 4G, Gray', 'price': '899', 'link': 'https://www.flanco.ro/tableta-samsung-galaxy-tab-a7-lite-8-7-octa-core-3gb-ram-32gb-4g-gray.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/1/4/147743-1_1.jpg'}
+2024-01-14 21:52:25 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/tablete-si-accesorii/tablete-android.html>
+{'name': 'Tableta Samsung Galaxy Tab A7 Lite, 8.7", Octa-Core, 3GB RAM, 32GB, Wi-Fi, Gray', 'price': '749', 'link': 'https://www.flanco.ro/tableta-samsung-galaxy-tab-a7-lite-8-7-octa-core-3gb-ram-32gb-wi-fi-gray.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/1/4/147743-1.jpg'}
+2024-01-14 21:52:25 [scrapy] DEBUG: Scraped from <200 https://www.flanco.ro/telefoane-tablete/tablete-si-accesorii/tablete-android.html>
+{'name': 'Tableta Samsung Galaxy Tab A7 Lite, 8.7", Octa-Core, 3GB RAM, 32GB, Wi-Fi, Silver', 'price': '749', 'link': 'https://www.flanco.ro/tableta-samsung-galaxy-tab-a7-lite-8-7-octa-core-3gb-ram-32gb-wi-fi-silver.html', 'photo': 'https://www.flanco.ro/media/catalog/product/cache/3869290ebce25e2f88fbb249726321d7/1/4/147745-1.jpg'}
+2024-01-14 21:52:25 [scrapy] DEBUG: Crawled (200) <GET https://flip.ro/magazin/galaxy/?modelType=Tablete> (referer: None)
+2024-01-14 21:52:25 [scrapy] INFO: Closing spider (finished)
+2024-01-14 21:52:25 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3110,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 374499,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 9,
+ 'downloader/response_status_count/301': 2,
+ 'downloader/response_status_count/803': 1,
+ 'elapsed_time_seconds': 1.903737,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 1, 14, 19, 52, 25, 888087, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 2443407,
+ 'httpcompression/response_count': 8,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/803': 1,
+ 'item_scraped_count': 3,
+ 'log_count/DEBUG': 15,
+ 'log_count/INFO': 8,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 10,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 5,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2024, 1, 14, 19, 52, 23, 984350, tzinfo=datetime.timezone.utc)}
+2024-01-14 21:52:25 [scrapy] INFO: Spider closed (finished)
