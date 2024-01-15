@@ -19,4 +19,6 @@ public class RegistrationController {
         registrationService.register(request);
         return ResponseEntity.ok("User registered successfully!");
     }
+
+
 }

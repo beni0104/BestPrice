@@ -27,4 +27,16 @@ public class LoginController {
         }
         return ResponseEntity.ok(response);
     }
+
+    @GetMapping("/logout")
+    public String logout(){
+        signedInUser.setUsername("");
+        return signedInUser.getUsername();
+    }
+
+    @GetMapping("/signedInUserEmail")
+    public String getAuthenticatedUsername(){
+        String username = signedInUser.getUsername();
+        return username;
+    }
 }

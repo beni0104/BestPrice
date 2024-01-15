@@ -23,18 +23,10 @@ import java.util.*;
 @RequestMapping("/devices")
 public class DeviceController {
 
-    private final SignedInUser signedInUser = SignedInUser.getInstance();
-    @GetMapping("/auth")
-    public String getAuthenticatedUsername(){
-        String username = signedInUser.getUsername();
-        return username;
-    }
 
-    @GetMapping("/logout")
-    public String logout(){
-        signedInUser.setUsername("");
-        return signedInUser.getUsername();
-    }
+
+
+
 
     @GetMapping("/{devicetype}/{brand}/{model}")
     public List<Device> getPhones(@PathVariable String devicetype, @PathVariable String brand, @PathVariable String model) {

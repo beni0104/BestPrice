@@ -4,6 +4,7 @@ package com.example.BestPrice.controllers;
 import com.example.BestPrice.data.dto.FavouriteDTO;
 import com.example.BestPrice.data.entities.Favourites;
 import com.example.BestPrice.data.services.FavouritesService;
+import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -34,5 +35,14 @@ public class FavouritesController {
         favouritesService.saveFavourite(favourites);
 
         return ResponseEntity.ok("Saved");
+    }
+
+    @Transactional
+    @DeleteMapping ("/delete")
+    public ResponseEntity<?> deleteFavourite(@RequestBody FavouriteDTO favouriteDTO){
+
+        favouritesService.deleteFavouriteByLink(favouriteDTO.getLink());
+
+        return ResponseEntity.ok("Deleted");
     }
 }

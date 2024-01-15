@@ -31,7 +31,8 @@ public class FavouritesService {
     }
 
     public void deleteFavouriteByLink(String link){
-        favouritesRepository.deleteByLink(link);
+        Optional<AppUser> user = appUserRepository.findByEmail(signedInUser.getUsername());
+        user.ifPresent(appUser -> favouritesRepository.deleteByLinkAndAppUserId(link, appUser.getId()));
     }
 
     public List<Favourites> getAllFavourites(){
