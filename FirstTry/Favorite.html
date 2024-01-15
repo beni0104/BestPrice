@@ -131,7 +131,6 @@
       </style>
    </head>
    <body>
-      <link rel="stylesheet" href="https://allyoucan.cloud/cdn/icofont/1.0.1/icofont.css" integrity="sha384-jbCTJB16Q17718YM9U22iJkhuGbS0Gd2LjaWb4YJEZToOPmnKDjySVa323U+W7Fv" crossorigin="anonymous">
       <div class="container">
          <div class="row">
             <div class="col-md-3">
@@ -176,9 +175,7 @@
             </div>
          </div>
       </div>
-      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.bundle.min.js"></script>
-      <script type="text/javascript"></script>
+     <script type="text/javascript"></script>
       <script>
          function checkUserLoginStatus() {
             fetch('http://localhost:8080/api/v1/signedInUserEmail', {
@@ -187,7 +184,6 @@
                   'Content-Type': 'application/json',
                   // Include any additional headers if required, e.g., authentication headers
                },
-               credentials: 'include',
             })
                .then(response => {
                   if (!response.ok) {
