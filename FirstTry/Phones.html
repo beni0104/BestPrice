@@ -372,9 +372,31 @@
 
         function addFavorite(name, price, link){
           console.log(`Name: ${name}, Price: ${price}, Link: ${link}`);
+          fetch('http://localhost:8080/favourites/save', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    // Include any additional headers if required, e.g., authentication headers
+                },
+                credentials: 'include',
+                body: JSON.stringify({
+                    name: name,
+                    price : price,
+                    link : link
+                }),
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                // Handle success (you may want to update the UI, add a new card, etc.)
+                console.log('Successfully saved new favorite item');
+            })
+            .catch(error => console.error('Error saving new favorite item:', error));
         }
-
 }
+
+
 
 
   </script>
