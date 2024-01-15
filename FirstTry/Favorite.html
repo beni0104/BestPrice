@@ -210,7 +210,9 @@
                      }
                      getAllFavorites(data.email);
                      loadingElement.style.display = 'none';
-               } else if (typeof data === 'string') {
+               } else if (typeof data === 'string' && data.trim() === '') {
+                  window.location.href = 'login.html';
+               }else if (typeof data === 'string') {
                      document.getElementById('userEmail').innerHTML = `User email: ${data}!`;
                      var loadingElement = document.getElementById('loading');
                      if (loadingElement) {
