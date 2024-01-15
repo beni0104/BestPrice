@@ -159,7 +159,11 @@
                         <h4 class="font-weight-bold mt-0 mb-4">Favorites</h4>
                         <div class="row">
                            <div id = "content">
-                              
+                              <div id="loading" class="mt-3 col-sm-8 text-center load-more" style="display: none;">
+                                 <button class="btn btn-info btn-lg" type="button" disabled>
+                                 <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span> Loading...
+                                 </button>
+                           </div>
                          </div>
                            <div class = "space"></div>
                            <div class="col-md-12 text-center load-more">
@@ -229,7 +233,6 @@
                      'Content-Type': 'application/json',
                      // Include any additional headers if required, e.g., authentication headers
                   },
-                  credentials: 'include',
             })
                   .then(response => {
                      if (!response.ok) {
@@ -240,8 +243,7 @@
                   .then(data => {
                      // Display user favorites dynamically
                      const favoritesContainer = document.getElementById('content');
-
-                     data.items.forEach(item => {
+                     data.forEach(item => {
                         const card = createCard(item);
                         favoritesContainer.appendChild(card);
                      });
@@ -252,25 +254,20 @@
 
          function createCard(item) {
             const cardDiv = document.createElement('div');
-            cardDiv.className = 'col-md-4 col-sm-6 mb-4 pb-2';
+            cardDiv.className = 'col-sm';
+            const name = item.name.replace("\"","\\'");
 
             cardDiv.innerHTML = `
                   <div class="list-card bg-white h-100 rounded overflow-hidden position-relative shadow-sm">
                      <div class="list-card-image">
                         <div class="favourite-heart text-danger position-absolute"><a href="#"><i class="icofont-heart"></i></a></div>
-                        <a href="#">
-                              <img src="img/list/4.png" class="img-fluid item-img">
-                        </a>
                      </div>
                      <div class="p-3 position-relative">
                         <div class="list-card-body">
-                              <h6 class="mb-1"><a href="#" class="text-black" id="name">${item.name}</a></h6>
-                              <p class="text-gray mb-3" id="link">Product link: ${item.link}</p>
-                              <p class="text-gray mb-3 time"><span class="float-right text-black-50" id="price">Item Price: ${item.price}</span></p>
-                              <button class = "btn btn-danger btn-sm" onclick ="deleteFavorite('${item}')">Delete</button>
-                        </div>
-                        <div class="list-card-badge">
-                              <span class="badge badge-danger">Price</span> <small>Your Favorite</small>
+                              <h6 class="mb-1"><a class="text-black" id="name">${item.name}</a></h6>
+                              <a href="${item.link}" target="_blank" class="text-gray mb-3" id="link">${item.link}</a>
+                              <p class="text-gray mb-3 time"><span href="${item.price}" class="float-right text-black-50" id="price">Item Price: ${item.price}</span></p>
+                              <button class = "btn btn-danger btn-sm" onclick ="deleteFavorite('${name}','${item.price}','${item.link}')">Delete</button>
                         </div>
                      </div>
                   </div>
@@ -279,16 +276,25 @@
             return cardDiv;
          }
 
-         function deleteFavorite(item) {
-            // Send a POST request to delete the favorite item
+
+         function deleteFavorite(name, price, link) {
+            name = name.replace("\'", "\"")
+            console.log(name)
+            console.log(price)
+            console.log(link)
+            const data = {
+               "name": name,
+               "price": price,
+               "link": link
+               }
+            // Send a DELETE request to delete the favorite item
             fetch('http://localhost:8080/favourites/delete', {
-                  method: 'POST',
+                  method: 'DELETE',
                   headers: {
                      'Content-Type': 'application/json',
                      // Include any additional headers if required, e.g., authentication headers
                   },
-                  credentials: 'include',
-                  body: JSON.stringify({ item : item}),
+                  body: JSON.stringify(data),
             })
             .then(response => {
                   if (!response.ok) {
@@ -298,6 +304,7 @@
                   console.log(`Successfully deleted favorite with ID: ${itemId}`);
             })
             .catch(error => console.error('Error deleting favorite:', error));
+            window.location.reload();
          }
 
          // Call the checkUserLoginStatus function when the page loads
