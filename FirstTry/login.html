@@ -114,6 +114,7 @@
         .then(response => {
           if (response.ok) {
             alert('Successfully logged in!');
+            window.location.href = 'Favorite.html';
           } else {
             throw new Error("Failed to login");
           }
