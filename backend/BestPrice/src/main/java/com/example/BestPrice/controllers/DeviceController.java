@@ -1,5 +1,6 @@
 package com.example.BestPrice.controllers;
 
+import com.example.BestPrice.data.SignedInUser;
 import com.example.BestPrice.data.dto.Device;
 import com.example.BestPrice.data.dto.DeviceSpecs;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -7,6 +8,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,6 +23,18 @@ import java.util.*;
 @RequestMapping("/devices")
 public class DeviceController {
 
+    private final SignedInUser signedInUser = SignedInUser.getInstance();
+    @GetMapping("/auth")
+    public String getAuthenticatedUsername(){
+        String username = signedInUser.getUsername();
+        return username;
+    }
+
+    @GetMapping("/logout")
+    public String logout(){
+        signedInUser.setUsername("");
+        return signedInUser.getUsername();
+    }
 
     @GetMapping("/{devicetype}/{brand}/{model}")
     public List<Device> getPhones(@PathVariable String devicetype, @PathVariable String brand, @PathVariable String model) {

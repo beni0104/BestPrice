@@ -25,17 +25,17 @@
                   <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
       
                   <div class="form-outline mb-4">
-                    <input type="email" id="form2Example18" class="form-control form-control-lg" />
-                    <label class="form-label" for="form2Example18">Email address</label>
+                    <input type="email" id="Email" class="form-control form-control-lg" />
+                    <label class="form-label" for="Email">Email address</label>
                   </div>
       
                   <div class="form-outline mb-4">
-                    <input type="password" id="form2Example28" class="form-control form-control-lg" />
-                    <label class="form-label" for="form2Example28">Password</label>
+                    <input type="password" id="Password" class="form-control form-control-lg" />
+                    <label class="form-label" for="Password">Password</label>
                   </div>
       
                   <div class="pt-1 mb-4">
-                    <button class="btn btn-info btn-lg btn-block" type="button">Login</button>
+                    <button class="btn btn-info btn-lg btn-block" type="button" onclick="login()">Login</button>
                   </div>
       
                   <p>
@@ -92,6 +92,39 @@
           </div>
         </div>
       </section>
+      <script>
+        function login (){
+
+        var email = document.getElementById('Email').value;
+        var password = document.getElementById('Password').value;
+
+
+        const formData = {
+          email: email,
+          password: password
+        }
+        // Make a POST request to the server
+        fetch('http://localhost:8080/api/v1/login', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(formData)
+        })
+        .then(response => {
+          if (response.ok) {
+            alert('Successfully logged in!');
+          } else {
+            throw new Error("Failed to login");
+          }
+        })
+        .catch(error => {
+          // Handle any errors that occurred during the request
+          console.error(error);
+          alert("Something went wrong!");
+        });
+        }
+      </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>

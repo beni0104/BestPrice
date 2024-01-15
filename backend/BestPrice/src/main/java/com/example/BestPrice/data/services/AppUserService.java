@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 
 @Service
 @AllArgsConstructor
@@ -28,6 +30,19 @@ public class AppUserService{
         appUser.setPassword(encodedPassword);
 
         appUserRepository.save(appUser);
+    }
+
+    public String verifyUser(AppUser appUser){
+        Optional<AppUser> user = appUserRepository.findByEmail(appUser.getEmail());
+        if (user.isPresent()) {
+            BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+
+            if (encoder.matches(appUser.getPassword(), user.get().getPassword())){
+                return "Credentials are correct!";
+            }
+            else return "Incorrect password!";
+        }
+        else return "User with given email does not exist!";
     }
 
 }

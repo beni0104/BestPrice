@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin(origins = "http://192.168.0.147:5500/")
-@RequestMapping(path = "/register")
+@RequestMapping(path = "/api/v1")
 @AllArgsConstructor
 public class RegistrationController {
 
     private final RegistrationService registrationService;
 
-    @PostMapping("/user")
+    @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody RegistrationRequest request) {
         registrationService.register(request);
         return ResponseEntity.ok("User registered successfully!");

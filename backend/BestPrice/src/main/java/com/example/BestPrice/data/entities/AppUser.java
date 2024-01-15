@@ -7,6 +7,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 @EqualsAndHashCode
@@ -23,6 +25,9 @@ public class AppUser{
     private String password;
     @Enumerated(EnumType.STRING)
     private AppUserRole appUserRole;
+
+    @OneToMany(mappedBy = "appUser")
+    private List<Favourites> favourites;
 
     public AppUser(String email, String password, AppUserRole appUserRole) {
         this.email = email;
