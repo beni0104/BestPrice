@@ -181,34 +181,46 @@
             fetch('http://localhost:8080/api/v1/signedInUserEmail', {
                method: 'GET',
                headers: {
-                  'Content-Type': 'application/json',
-                  // Include any additional headers if required, e.g., authentication headers
-               },
+                     'Content-Type': 'application/json',
+                     
+               }
             })
-               .then(response => {
-                  if (!response.ok) {
-                        throw new Error(`HTTP error! Status: ${response.status}`);
-                  }
-                  return response.json();
-               })
-               .then(data => {
-                  // Check if the user is not logged in
-                  if (!data.loggedIn) {
-                        // Redirect to the login page
-                        window.location.href = 'login.html';
-                  } else {
-                        // Display the result in the HTML element
-                        document.getElementById('userEmail').innerHTML = `User email: ${data.email}!`;
-                        var loadingElement = document.getElementById('loading');
-                        if (loadingElement) {
-                           loadingElement.style.display = 'block';
-                        }
-                        getAllFavorites(data.email);
-                        loadingElement.style.display = 'none';
-                  }
-               })
-               .catch(error => console.error('Error checking user login status:', error));
+            .then(response => {
+               if (!response.ok) {
+                     throw new Error(`HTTP error! Status: ${response.status}`);
+               }
+               const contentType = response.headers.get('content-type');
+               if (contentType && contentType.includes('application/json')) {
+                     return response.json();
+               } else {
+
+                     return response.text();
+               }
+            })
+            .then(data => {
+               if (typeof data === 'object' && data.loggedIn) {
+                     document.getElementById('userEmail').innerHTML = `User email: ${data.email}!`;
+                     var loadingElement = document.getElementById('loading');
+                     if (loadingElement) {
+                        loadingElement.style.display = 'block';
+                     }
+                     getAllFavorites(data.email);
+                     loadingElement.style.display = 'none';
+               } else if (typeof data === 'string') {
+                     document.getElementById('userEmail').innerHTML = `User email: ${data}!`;
+                     var loadingElement = document.getElementById('loading');
+                     if (loadingElement) {
+                        loadingElement.style.display = 'block';
+                     }
+                     getAllFavorites(data.email);
+                     loadingElement.style.display = 'none';
+               } else {
+                     throw new Error('Invalid response format');
+               }
+            })
+            .catch(error => console.error('Error checking user login status:', error));
          }
+
 
          function getAllFavorites(email){
             fetch('http://localhost:8080/favourites/getall', {
