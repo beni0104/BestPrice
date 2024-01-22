@@ -6,7 +6,7 @@ class GSMArenaSpider(scrapy.Spider):
     # allowed_domains = ['gsmarena.com']
 
     custom_settings = {
-        'DOWNLOAD_DELAY': 10
+        'DOWNLOAD_DELAY': 5
     }
 
     def start_requests(self):

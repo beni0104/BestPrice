@@ -1,8 +1,0 @@
-2024-01-15 19:32:36 [scrapy] INFO: Closing spider (finished)
-2024-01-15 19:32:36 [scrapy] INFO: Dumping Scrapy stats:
-{'elapsed_time_seconds': 0.001004,
- 'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2024, 1, 15, 17, 32, 36, 784484, tzinfo=datetime.timezone.utc),
- 'log_count/INFO': 7,
- 'start_time': datetime.datetime(2024, 1, 15, 17, 32, 36, 783480, tzinfo=datetime.timezone.utc)}
-2024-01-15 19:32:36 [scrapy] INFO: Spider closed (finished)
