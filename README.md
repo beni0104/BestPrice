@@ -6,6 +6,6 @@ KEYWORDS: Spring, web scraper, Rest API, Web Application.
 This project was inspired by other price comparison web applications like https://www.compari.ro/.
 
 
-Technologies used for this project:
--Frontend: Bootstrap, HTML, CSS, JavaScript
+Technologies used for this project: \n
+-Frontend: Bootstrap, HTML, CSS, JavaScript \n
 -Backend: Java, Spring, Postgres, Docker, Python, scrapy.
