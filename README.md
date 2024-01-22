@@ -1,6 +1,6 @@
 # BestPrice
 
-Web Application for finding the best price of phones, tablets and laptops.
+Web Application for finding the best price of phones, tablets and laptops.  
 KEYWORDS: Spring, web scraper, Rest API, Web Application.
 
 This project was inspired by other price comparison web applications like https://www.compari.ro/.
